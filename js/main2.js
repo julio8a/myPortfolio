@@ -103,7 +103,7 @@ $(document).ready(function(){
 	}
 		
 	$(".block").click(function(){
-		if ($(this).hasClass("block1")) { $("#projet").load("../projects/test/test.html", function(){ currentProject = 1; openprojet() } ); } ;
+		if ($(this).hasClass("block1")) { $("#projet").load("projects/marilu/marilu.html", function(){ currentProject = 1; openprojet() } ); } ;
 		if ($(this).hasClass("block2")) { $("#projet").load("../projects/artspire/artspire.html", function(){ currentProject = 2; openprojet() } ); } ;
 		if ($(this).hasClass("block3")) { $("#projet").load("../projects/lecoqsportif/lecoqsportif.html", function(){ currentProject = 3; openprojet() } ); } ;
 		if ($(this).hasClass("block4")) { $("#projet").load("../projects/culturebox/culturebox.html", function(){ currentProject = 4; openprojet() } ); } ;
@@ -136,6 +136,7 @@ $(document).ready(function(){
 	});
 	
 	function openprojet() {
+		$('#blocks-container').css('marginTop', '50px');
 		$(".icone").removeClass("current");
 		$(".icone"+currentProject).addClass("current");
 		if (fromicon == true) {
@@ -178,6 +179,7 @@ $(document).ready(function(){
 	});
 	
 	$(".back").click(function(){
+		$('#blocks-container').css('marginTop', '520px');
 		$("#projet").removeClass("visible");
 		$("#project-menu").removeClass("visible");
 		$("#fond_projet").removeClass("actif");

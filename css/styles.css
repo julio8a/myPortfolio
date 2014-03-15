@@ -111,11 +111,6 @@ nav .current {
 	font-size:30px;
 	line-height:40px;
 	letter-spacing:1px;
-	-webkit-transition: top 0.3s ease-out;
-    -moz-transition: top 0.3s ease-out;
-    -o-transition: top 0.3 s ease-out;
-    -ms-transition: top 0.3s ease-out;
-    transition: top 0.3s ease-out;
 }
 
 #intro span {
@@ -138,6 +133,11 @@ nav .current {
 	/*padding-top:50px;*/
 	position: absolute;
 	z-index: 11;
+	-webkit-transition: all .8s ease-out;
+    -moz-transition: all .8s ease-out;
+    -o-transition: all .8s ease-out;
+    -ms-transition: all .8s ease-out;
+    transition: all .8s ease-out;
 }
 
 .block {
@@ -816,7 +816,7 @@ nav .current {
 }
 
 
-.loupe {
+.zoom {
 	width: 240px; 
 	height: 240px;
 	position: absolute;
@@ -840,7 +840,7 @@ nav .current {
 	overflow:hidden;
 }
 
-.loupe:hover {
+.zoom:hover {
 	width: 340px; 
 	height: 340px; 
 }
@@ -900,7 +900,7 @@ nav .current {
 .louvre04 { top:170px; left:655px; } .louvre04:hover { top:120px; left:605px; }
 .louvre05 { top:170px; left:655px; } .louvre05:hover { top:120px; left:605px; }
 
-.loupe div {
+.zoom div {
 	width: 220px; 
 	height: 220px;
 	border-radius: 100%;
@@ -922,14 +922,14 @@ nav .current {
 	background-position:-50px -50px;
 }
 
-.loupe:hover div {
+.zoom:hover div {
 	width: 320px;
 	height: 320px;
 	overflow:hidden;
 	background-position:0 0;
 }
 
-.loupe div img {
+.zoom div img {
 	display:block;
 	margin-left:-50px;
 	margin-top:-50px;
@@ -940,7 +940,7 @@ nav .current {
     transition: all 0.2s ease-out;
 }
 
-.loupe:hover div img {
+.zoom:hover div img {
 	margin-left:0px;
 	margin-top:0px;
 }
