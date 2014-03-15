@@ -7,7 +7,7 @@ $(document).ready(function(){
 	
 	function preloader() {
 		preload([
-			 'projects/artspire/ban.jpg','projects/artspire/imac.png','projects/artspire/iphone.png',
+			 'projects/marilu/images/banner.jpg','projects/marilu/images/imac.png','projects/marilu/images/iphone.png',
 		]);
 	}
 	

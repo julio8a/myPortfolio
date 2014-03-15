@@ -218,12 +218,12 @@ $(document).ready(function(){
 		
 	function gestionResize(){	
 		if( $(window).width() > 1920) {
-			$(".ban img").css("width", windowW);
-			$(".ban img").css("marginLeft", windowW2);
+			$(".banner img").css("width", windowW);
+			$(".banner img").css("marginLeft", windowW2);
 		}
 		else {
-			$(".ban img").css("width", "1920px");
-			$(".ban img").css("marginLeft", "-960px");
+			$(".banner img").css("width", "1920px");
+			$(".banner img").css("marginLeft", "-960px");
 		}
 	}
 	
