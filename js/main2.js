@@ -66,10 +66,11 @@ $(document).ready(function(){
 		return false;
 	});
 	
-	$(".works").click(function(){
+	$(".work").click(function(){
 		if (rubOpen == true) {
 			menuferme();
 		}
+		return false;
 	});
 	
 	function menuderoule() {
@@ -91,7 +92,7 @@ $(document).ready(function(){
 		$("#about").css("marginTop", "-470px");
 		$("#contact").css("marginTop", "-470px");
 		$("#header a").removeClass("current");
-		$(".works").addClass("current");
+		$(".work").addClass("current");
 		$("#header").css("top", "0");
 		// $(".block").css("top", "-=470px");
 		// $("#footer").css("top", "2140px");
@@ -102,7 +103,7 @@ $(document).ready(function(){
 	}
 		
 	$(".block").click(function(){
-		if ($(this).hasClass("block1")) { $("#projet").load("../projects/chevalblanc/chevalblanc.html", function(){ currentProject = 1; openprojet() } ); } ;
+		if ($(this).hasClass("block1")) { $("#projet").load("../projects/test/test.html", function(){ currentProject = 1; openprojet() } ); } ;
 		if ($(this).hasClass("block2")) { $("#projet").load("../projects/artspire/artspire.html", function(){ currentProject = 2; openprojet() } ); } ;
 		if ($(this).hasClass("block3")) { $("#projet").load("../projects/lecoqsportif/lecoqsportif.html", function(){ currentProject = 3; openprojet() } ); } ;
 		if ($(this).hasClass("block4")) { $("#projet").load("../projects/culturebox/culturebox.html", function(){ currentProject = 4; openprojet() } ); } ;
@@ -146,7 +147,7 @@ $(document).ready(function(){
 		if (fromicon == false) {
 			$("#fond_projet").addClass("actif");
 			$("#projet").addClass("visible");
-			$("#menuprojet").addClass("visible");
+			$("#project-menu").addClass("visible");
 			$("#fond_projet.actif").css("top", 0);
 			$("#fond_projet.actif").css("left", 0);
 			$("#fond_projet.actif").css("marginLeft", 0);
@@ -178,7 +179,7 @@ $(document).ready(function(){
 	
 	$(".back").click(function(){
 		$("#projet").removeClass("visible");
-		$("#menuprojet").removeClass("visible");
+		$("#project-menu").removeClass("visible");
 		$("#fond_projet").removeClass("actif");
 		$("#fond_projet").css("top", vTop2);
 		$("#fond_projet").css("left", "50%");
