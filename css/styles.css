@@ -1,31 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@import url("http://fast.fonts.com/t/1.css?apiType=css&projectid=254595e2-bbd9-43e4-8934-f94f24248a5f");
-@font-face{
-font-family:"DIN Next W01 Bold";
-src:url("Fonts/b32ab78b-6c51-4bd3-bc37-4edcec0331f8.eot?#iefix");
-src:url("Fonts/b32ab78b-6c51-4bd3-bc37-4edcec0331f8.eot?#iefix") format("eot"),url("Fonts/9949035f-6226-4080-a14a-bf7d94ffb1e1.woff") format("woff"),url("Fonts/6241bd09-15c2-485e-9796-9db8d0aa6974.ttf") format("truetype"),url("Fonts/af94da3e-4232-416a-b6bc-f39f85dd5db6.svg#af94da3e-4232-416a-b6bc-f39f85dd5db6") format("svg");
-}
-@font-face{
-font-family:"DIN Next W01 Light";
-src:url("Fonts/3e0b2cd7-9657-438b-b4af-e04122e8f1f7.eot?#iefix");
-src:url("Fonts/3e0b2cd7-9657-438b-b4af-e04122e8f1f7.eot?#iefix") format("eot"),url("Fonts/bc176270-17fa-4c78-a343-9fe52824e501.woff") format("woff"),url("Fonts/3516f91d-ac48-42cd-acfe-1be691152cc4.ttf") format("truetype"),url("Fonts/d1b1e866-a411-42ba-8f75-72bf28e23694.svg#d1b1e866-a411-42ba-8f75-72bf28e23694") format("svg");
-}
-@font-face{
-font-family:"DIN Next W01 Medium";
-src:url("Fonts/324dee78-6585-4c13-8ca3-5817cc600d84.eot?#iefix");
-src:url("Fonts/324dee78-6585-4c13-8ca3-5817cc600d84.eot?#iefix") format("eot"),url("Fonts/4bf0ead4-e61b-4992-832b-6ff05828d99f.woff") format("woff"),url("Fonts/73713a0b-8f6a-4c4e-b8a8-7cf238e632f6.ttf") format("truetype"),url("Fonts/b90b6bdf-15e2-4544-9fe0-92c79fff0ecd.svg#b90b6bdf-15e2-4544-9fe0-92c79fff0ecd") format("svg");
-}
-@font-face{
-font-family:"DIN Next W01 Regular";
-src:url("Fonts/da088ecc-a53c-4831-a95b-6fd81b5b338a.eot?#iefix");
-src:url("Fonts/da088ecc-a53c-4831-a95b-6fd81b5b338a.eot?#iefix") format("eot"),url("Fonts/c5a7f89e-15b6-49a9-8259-5ea665e72191.woff") format("woff"),url("Fonts/868c94b5-ca49-46b7-b62b-297f8d861125.ttf") format("truetype"),url("Fonts/e3145f65-29b5-4f7f-8c6e-2dc135021b6a.svg#e3145f65-29b5-4f7f-8c6e-2dc135021b6a") format("svg");
-}
-
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
 
 body {
-	font-family:'DIN Next W01 Light', Arial, sans-serif;
+	font-family:'Roboto', Arial, sans-serif;
+	font-weight: 400;
 	padding-bottom:100px;
 	margin:0;
 	overflow-x:hidden;
@@ -54,7 +34,7 @@ a {
 	height:50px;
 	z-index:100;
 	position:fixed;
-    background: rgba(255, 255, 255, .95);
+    background: rgba(0, 0, 0, 1);
     box-shadow: 0 2px 3px 1px rgba(0, 0, 0, .2);
 	-webkit-transition: top .5s ease-out;
     -moz-transition: top .5s ease-out;
@@ -67,7 +47,7 @@ a {
 #logo {
 	width: 200px;
 	float: left;
-	color: #000;
+	color: #fff;
 }
 
 #logo h1 {
@@ -86,12 +66,16 @@ nav li {
 }
 
 nav a {
-	color: #000;
-	padding: 10px 15px;
+	color: #fff;
+	padding: 5px 15px;
+}
+
+nav a:hover {
+	color: #eee;
 }
 
 nav .current {
-	background: rgba(0, 0, 0, .1);
+	background: rgba(255, 255, 255, .3);
 	border-radius: 5px;
 }
 
@@ -136,7 +120,8 @@ nav .current {
 	width: 100%;
 	background: #fff;
 	height: 2000px;
-	top: 500px;
+	margin-top: 500px;
+	/*padding-top:50px;*/
 	position: absolute;
 	z-index: 11;
 }
@@ -146,9 +131,9 @@ nav .current {
 	z-index: 100;
 	display: block;
 	overflow: hidden;
-	width: 33.333%;
+	min-width: 28%;
+	margin: 2%;
 	height: 380px;
-	margin: 0;
 	cursor: pointer;
 	color: #777;
 	position: relative;
@@ -159,7 +144,7 @@ nav .current {
 	width:100%;
 	top:0;
 	font-size:14px;
-	font-family:'DIN Next W01 Regular', Arial, sans-serif;
+	font-family:'Roboto', Arial, sans-serif;
 	-webkit-font-smoothing:antialiased;
 	color:#999;
 	text-align:center;
@@ -239,8 +224,8 @@ nav .current {
 	display:block;
 	position:relative;
 	z-index:4;
-	font-family:'DIN Next W01 Light', Arial, sans-serif;
-	color:#ddd;
+	font-family:'Roboto', Arial, sans-serif;
+	color:#eee;
 	opacity: 0;
 }
 
@@ -548,7 +533,7 @@ nav .current {
 
 #projet h1 {
 	opacity:0;
-	font-family:'DIN Next W01 Medium', Arial, sans-serif;
+	font-family:'Roboto', Arial, sans-serif;
 	font-weight:normal;	
 	-webkit-font-smoothing:antialiased;
 	text-align:center;
@@ -579,7 +564,7 @@ nav .current {
 
 #projet p {
 	opacity:0;
-	font-family:'DIN Next W01 Regular', Arial, sans-serif;
+	font-family:'Roboto', Arial, sans-serif;
 	font-weight:normal;	
 	-webkit-font-smoothing:antialiased;
 	text-align:center;
@@ -600,7 +585,7 @@ nav .current {
 
 #projet p.lien {
 	opacity:0;
-	font-family:'DIN Next W01 Regular', Arial, sans-serif;
+	font-family:'Roboto', Arial, sans-serif;
 	margin:-20px auto 40px auto;
 }
 
@@ -695,7 +680,7 @@ nav .current {
 }
 
 #projet .infos p {
-	font-family:'DIN Next W01 Regular', Arial, sans-serif;
+	font-family:'Roboto', Arial, sans-serif;
 	font-weight:normal;	
 	-webkit-font-smoothing:antialiased;
 	text-transform:uppercase;
@@ -746,7 +731,7 @@ nav .current {
 }
 
 #projet #captures h2 {
-	font-family:'DIN Next W01 Medium', Arial, sans-serif;
+	font-family:'Roboto', Arial, sans-serif;
 	font-weight:normal;	
 	-webkit-font-smoothing:antialiased;
 	text-align:center;
@@ -988,7 +973,7 @@ nav .current {
 	color:#FFF;
 	font-size:14px;
 	text-transform:uppercase;
-	font-family:'DIN Next W01 Medium', Arial, sans-serif;
+	font-family:'Roboto', Arial, sans-serif;
 	font-weight:normal;	
 	-webkit-font-smoothing:antialiased;
 	line-height:14px;
@@ -1193,7 +1178,7 @@ nav .current {
 #presentation {
 	float:left;
 	width:425px;
-	font-family:'DIN Next W01 Regular', Arial, sans-serif;
+	font-family:'Roboto', Arial, sans-serif;
 	font-weight:normal;	
 	-webkit-font-smoothing:antialiased;
 	color:#666;
@@ -1206,7 +1191,7 @@ nav .current {
 	float:left;
 	width:140px;
 	margin-left:80px;
-	font-family:'DIN Next W01 Regular', Arial, sans-serif;
+	font-family:'Roboto', Arial, sans-serif;
 	font-weight:normal;	
 	-webkit-font-smoothing:antialiased;
 	color:#666;
@@ -1219,7 +1204,7 @@ nav .current {
 	float:left;
 	width:215px;
 	margin-left:80px;
-	font-family:'DIN Next W01 Regular', Arial, sans-serif;
+	font-family:'Roboto', Arial, sans-serif;
 	font-weight:normal;	
 	-webkit-font-smoothing:antialiased;
 	color:#666;
@@ -1253,7 +1238,7 @@ h3 {
 	color:#FFF;
 	margin:60px 0 40px 0;
 	letter-spacing:1px;
-	font-family:'DIN Next W01 Regular', Arial, sans-serif;
+	font-family:'Roboto', Arial, sans-serif;
 	font-weight:normal;	
 }
 
@@ -1261,7 +1246,7 @@ h3 {
 #contactleft, #contactright {
 	float:left;
 	width:315px;
-	font-family:'DIN Next W01 Regular', Arial, sans-serif;
+	font-family:'Roboto', Arial, sans-serif;
 	font-weight:normal;	
 	-webkit-font-smoothing:antialiased;
 	color:#aaa;
@@ -1303,7 +1288,7 @@ input.envoyer {
 	top:40px;
 	background:#F8F8F8;
 	border:0;
-	font-family:'DIN Next W01 Regular', Arial, sans-serif;
+	font-family:'Roboto', Arial, sans-serif;
 	color:#444;
 	text-transform:uppercase;
 	left:50%;
@@ -1322,7 +1307,7 @@ input.envoyer:hover {
 	position:absolute;
 	top:54px;
 	width:400px;
-	font-family:'DIN Next W01 Regular', Arial, sans-serif;
+	font-family:'Roboto', Arial, sans-serif;
 	font-weight:normal;	
 	-webkit-font-smoothing:antialiased;
 	text-align:right;
@@ -1354,7 +1339,7 @@ footer .center {
 	width:1000px;
 	border-left:1px solid #242424;
 	border-right:1px solid #242424;
-	font-family:'DIN Next W01 Regular', Arial, sans-serif;
+	font-family:'Roboto', Arial, sans-serif;
 	font-weight:normal;	
 	-webkit-font-smoothing:antialiased;
 	font-size:14px;
@@ -1480,7 +1465,7 @@ footer .center {
 }
 
 .copyright {
-	font-family:'DIN Next W01 Regular', Arial, sans-serif;
+	font-family:'Roboto', Arial, sans-serif;
 	text-align:center;
 	font-size:14px;
 	color:#494949;

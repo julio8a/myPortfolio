@@ -38,6 +38,7 @@ $(document).ready(function(){
 				aboutOpen = false;
 			}
 		}
+		return false;
 	});
 		
 	$(".contact").click(function(){
@@ -62,6 +63,7 @@ $(document).ready(function(){
 				contactOpen = false;	
 			}
 		}
+		return false;
 	});
 	
 	$(".works").click(function(){
