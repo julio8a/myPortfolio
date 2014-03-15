@@ -141,34 +141,23 @@ nav .current {
 	z-index: 11;
 }
 
-.bloc {
-	float:left;
-	position:absolute;
-	z-index:100;
-	display:block;
-	overflow:hidden;
-	width:300px;
-	height:380px;
-	left:50%;
-	margin:0;
-	border-left:1px solid #e3e3e3;
-	border-right:1px solid #e3e3e3;
-	border-top:1px solid #e3e3e3;
-	cursor:pointer;
-	color:#777;
-	-webkit-transition: top 0.3s ease-out;
-    -moz-transition: top  0.3s ease-out;
-    -o-transition: top  0.3 s ease-out;
-    -ms-transition: top  0.3s ease-out;
-    transition: top 0.3s ease-out;
+.block {
+	float: left;
+	z-index: 100;
+	display: block;
+	overflow: hidden;
+	width: 33.333%;
+	height: 380px;
+	margin: 0;
+	cursor: pointer;
+	color: #777;
+	position: relative;
 }
 
-.bloc .content {
+.block .content {
 	display:block;
-	width:300px;
-	height:380px;
+	width:100%;
 	top:0;
-	position:absolute;
 	font-size:14px;
 	font-family:'DIN Next W01 Regular', Arial, sans-serif;
 	-webkit-font-smoothing:antialiased;
@@ -176,72 +165,95 @@ nav .current {
 	text-align:center;
 }
 
-.bloc .cercle {
+.block .content .img-container{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+.img-container img {
+	width: 100%;
+	height: auto;
+}
+
+.block .circle {
 	display:block;
 	position:absolute;
 	z-index:4;
 	width:74px;
 	height:74px;
-	top:-74px;
+	top:-24px;
 	left:50%;
 	margin-left:-37px;
 	-moz-border-radius:50%;
   	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	background:url(design/fleche_cercle.png) no-repeat 34px center;
+	background:url(../images/arrow.png) no-repeat 34px center;
 	border:3px solid #FFF;
 	opacity:0;
-	-webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
-    -ms-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
-.bloc:hover .cercle {
-	top:100px;
+.block:hover .circle {
+	top:90px;
 	opacity:1;
 }
 
-.bloc h2 {
+.project-title {
+	height: 95px;
+	position: relative;
+	z-index: 1;
+}
+
+.block h2 {
 	display:block;
-	margin:35px auto 8px auto;
+	margin:320px auto 5px auto;
 	letter-spacing:1px;
 	font-size:24px;
-	color:#141414;
+	color:#fff;
 	font-weight:normal;
 	text-transform:uppercase;
 	position:relative;
 	z-index:4;
-	-webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
-    -ms-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
-.bloc:hover h2 {
-	color:#FFF;
-	margin-top:-40px;
+.block:hover h2 {
+	margin-top:200px;
+	opacity: 1;
 }
 
-.bloc .role {
+.block .role {
 	display:block;
 	position:relative;
 	z-index:4;
 	font-family:'DIN Next W01 Light', Arial, sans-serif;
+	color:#ddd;
+	opacity: 0;
 }
 
 
-.bloc:hover .role {
-	color:#CCC;
+.block:hover .role {
+	opacity: 1;
 }
 
 
-.bloc .fond {
-	width:300px;
+.block .fond {
+	width:100%;
 	height:380px;
-	top:375px;
+	top:370px;
 	position:absolute;
 	-webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
@@ -250,119 +262,123 @@ nav .current {
     transition: all 0.3s ease-out;
 }
 
-.bloc.actif .role, .bloc.actif h2, .bloc.actif .cercle {
+.block.actif .role, .block.actif h2, .block.actif .circle {
 	display:none;
 }
 
-.bloc:hover .fond {
+.block:hover .fond {
 	top:0px;
 }
-
-.bloc.bloc1 {
-	margin-left:-500px;
-	top:50px;
+.block.block1 {
 }
 
-.bloc.bloc2 {
-	margin-left:-150px;
-	top:50px;
+.block.block2 {
+
 }
 
-.bloc.bloc3 {
-	margin-left:200px;
-	top:50px;
+.block.block3 {
 }
 
-.bloc.bloc4 {
-	margin-left:-500px;
-	top:500px;
+.block.block4 {
+	background: url(../projects/test/home-photography.jpg) no-repeat;
+	background-size: 100%;
+
 }
 
-.bloc.bloc5 {
-	margin-left:-150px;
-	top:500px;
+.block.block5 {
+	background: url(../projects/test/home-photography.jpg) no-repeat;
+	background-size: 100%;
+
 }
 
-.bloc.bloc6 {
-	margin-left:200px;
-	top:500px;
+.block.block6 {
+	background: url(../projects/test/home-photography.jpg) no-repeat;
+	background-size: 100%;
+
 }
 
-.bloc.bloc7 {
-	margin-left:-500px;
-	top:950px;
+.block.block7 {
+	background: url(../projects/test/home-photography.jpg) no-repeat;
+	background-size: 100%;
+
 }
 
-.bloc.bloc8 {
-	margin-left:-150px;
-	top:950px;
+.block.block8 {
+	background: url(../projects/test/home-photography.jpg) no-repeat;
+	background-size: 100%;
+
 }
 
-.bloc.bloc9 {
-	margin-left:200px;
-	top:950px;
+.block.block9 {
+	background: url(../projects/test/home-photography.jpg) no-repeat;
+	background-size: 100%;
+
 }
 
-.bloc.bloc10 {
-	margin-left:-500px;
-	top:1400px;
+.block.block10 {
+	background: url(../projects/test/home-photography.jpg) no-repeat;
+	background-size: 100%;
+
 }
 
-.bloc.bloc11 {
-	margin-left:-150px;
-	top:1400px;
+.block.block11 {
+	background: url(../projects/test/home-photography.jpg) no-repeat;
+	background-size: 100%;
+
 }
 
-.bloc.bloc12 {
-	margin-left:200px;
-	top:1400px;
+.block.block12 {
+	background: url(../projects/test/home-photography.jpg) no-repeat;
+	background-size: 100%;
+
 }
 
-.bloc1 .fond {
-	background:#463f3d;
+
+.block1 .fond {
+	background:#e5008d;
 }
 
-.bloc2 .fond {
-	background:#d03786;
+.block2 .fond {
+	background:#5cbe54;
 }
 
-.bloc3 .fond {
-	background:#1b396e;
+.block3 .fond {
+	background:#1a1a1a;
 }
 
-.bloc4 .fond {
+.block4 .fond {
 	background:#292929;
 }
 
-.bloc5 .fond {
+.block5 .fond {
 	background:#323232;
 }
 
-.bloc6 .fond {
+.block6 .fond {
 	background:#343434;
 }
 
-.bloc7 .fond {
+.block7 .fond {
 	background:#e9672b;
 }
 
-.bloc8 .fond {
+.block8 .fond {
 	background:#222222;
 }
 
-.bloc9 .fond {
+.block9 .fond {
 	background:#3f3f3f;
 }
 
-.bloc10 .fond {
+.block10 .fond {
 	background:#4d5a6a;
 }
 
-.bloc11 .fond {
+.block11 .fond {
 	background:#ac0917;
 }
 
-.bloc12 .fond {
+.block12 .fond {
 	background:#48751b;
 }
 
@@ -371,7 +387,7 @@ nav .current {
 /***************************** PROJET ***************************/
 
 #fond_projet {
-	width:302px;
+	width:0px;
 	height:0px;
 	position:absolute;
 	top:0;
@@ -1083,15 +1099,15 @@ nav .current {
 }
 
 .icone1 .fond {
-	background:#463f3d;
+	background:#e5008d;
 }
 
 .icone2 .fond {
-	background:#d03786;
+	background:#5cbe54;
 }
 
 .icone3 .fond {
-	background:#1b396e;
+	background:#1a1a1a;
 }
 
 .icone4 .fond {

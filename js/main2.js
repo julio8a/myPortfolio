@@ -75,7 +75,7 @@ $(document).ready(function(){
 		$("#contact").css("marginTop", 0);
 		$("#header a").removeClass("current");
 		$("#header").css("top", "470px");
-		// $(".bloc").css("top", "+=470px");
+		// $(".block").css("top", "+=470px");
 		// $("#footer").css("top", "2610px");
 		// $("#intro").css("top", "430px");
 		setTimeout(function() { 
@@ -91,7 +91,7 @@ $(document).ready(function(){
 		$("#header a").removeClass("current");
 		$(".works").addClass("current");
 		$("#header").css("top", "0");
-		// $(".bloc").css("top", "-=470px");
+		// $(".block").css("top", "-=470px");
 		// $("#footer").css("top", "2140px");
 		// $("#intro").css("top", "100px");
 		$("#about").removeClass("visible");
@@ -99,19 +99,19 @@ $(document).ready(function(){
 		rubOpen = false;
 	}
 		
-	$(".bloc").click(function(){
-		if ($(this).hasClass("bloc1")) { $("#projet").load("../projects/chevalblanc/chevalblanc.html", function(){ currentProject = 1; openprojet() } ); } ;
-		if ($(this).hasClass("bloc2")) { $("#projet").load("../projects/artspire/artspire.html", function(){ currentProject = 2; openprojet() } ); } ;
-		if ($(this).hasClass("bloc3")) { $("#projet").load("../projects/lecoqsportif/lecoqsportif.html", function(){ currentProject = 3; openprojet() } ); } ;
-		if ($(this).hasClass("bloc4")) { $("#projet").load("../projects/culturebox/culturebox.html", function(){ currentProject = 4; openprojet() } ); } ;
-		if ($(this).hasClass("bloc5")) { $("#projet").load("../projects/nicolastarierphotography/nicolastarierphotography.html", function(){ currentProject = 5;openprojet() } ); } ;
-		if ($(this).hasClass("bloc6")) { $("#projet").load("../projects/louvre/louvre.html", function(){ currentProject = 6; openprojet() } ); } ;
-		if ($(this).hasClass("bloc7")) { $("#projet").load("../projects/orangenfc/orangenfc.html", function(){ currentProject = 7; openprojet() } ); } ;
-		if ($(this).hasClass("bloc8")) { $("#projet").load("../projects/eliesaab/eliesaab.html", function(){ currentProject = 8; openprojet() } ); } ;
-		if ($(this).hasClass("bloc9")) { $("#projet").load("../projects/citelum/citelum.html", function(){ currentProject = 9; openprojet() } ); } ;
-		if ($(this).hasClass("bloc10")) { $("#projet").load("../projects/diorsnow/diorsnow.html", function(){ currentProject = 10; openprojet() } ); } ;
-		if ($(this).hasClass("bloc11")) { $("#projet").load("../projects/mixtaroute/mixtaroute.html", function(){ currentProject = 11; openprojet() } ); } ;
-		if ($(this).hasClass("bloc12")) { $("#projet").load("../projects/xboxgamer/xboxgamer.html", function(){ currentProject = 12; openprojet() } ); } ;
+	$(".block").click(function(){
+		if ($(this).hasClass("block1")) { $("#projet").load("../projects/chevalblanc/chevalblanc.html", function(){ currentProject = 1; openprojet() } ); } ;
+		if ($(this).hasClass("block2")) { $("#projet").load("../projects/artspire/artspire.html", function(){ currentProject = 2; openprojet() } ); } ;
+		if ($(this).hasClass("block3")) { $("#projet").load("../projects/lecoqsportif/lecoqsportif.html", function(){ currentProject = 3; openprojet() } ); } ;
+		if ($(this).hasClass("block4")) { $("#projet").load("../projects/culturebox/culturebox.html", function(){ currentProject = 4; openprojet() } ); } ;
+		if ($(this).hasClass("block5")) { $("#projet").load("../projects/nicolastarierphotography/nicolastarierphotography.html", function(){ currentProject = 5;openprojet() } ); } ;
+		if ($(this).hasClass("block6")) { $("#projet").load("../projects/louvre/louvre.html", function(){ currentProject = 6; openprojet() } ); } ;
+		if ($(this).hasClass("block7")) { $("#projet").load("../projects/orangenfc/orangenfc.html", function(){ currentProject = 7; openprojet() } ); } ;
+		if ($(this).hasClass("block8")) { $("#projet").load("../projects/eliesaab/eliesaab.html", function(){ currentProject = 8; openprojet() } ); } ;
+		if ($(this).hasClass("block9")) { $("#projet").load("../projects/citelum/citelum.html", function(){ currentProject = 9; openprojet() } ); } ;
+		if ($(this).hasClass("block10")) { $("#projet").load("../projects/diorsnow/diorsnow.html", function(){ currentProject = 10; openprojet() } ); } ;
+		if ($(this).hasClass("block11")) { $("#projet").load("../projects/mixtaroute/mixtaroute.html", function(){ currentProject = 11; openprojet() } ); } ;
+		if ($(this).hasClass("block12")) { $("#projet").load("../projects/xboxgamer/xboxgamer.html", function(){ currentProject = 12; openprojet() } ); } ;
 	});
 	
 	$(".icone").click(function(){
@@ -161,7 +161,7 @@ $(document).ready(function(){
 		fromicon = false;
 	}
 	
-	$(".bloc").mouseover(function(){
+	$(".block").mouseover(function(){
 		vTop = $(this).css("Top");
 		vTop2 = vTop;
 		vTop = parseInt(vTop) - windowScroll;
