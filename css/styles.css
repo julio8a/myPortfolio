@@ -54,13 +54,13 @@ a {
 	height:50px;
 	z-index:100;
 	position:fixed;
-    background: rgba(255, 255, 255, .9);
+    background: rgba(255, 255, 255, .95);
     box-shadow: 0 2px 3px 1px rgba(0, 0, 0, .2);
-	-webkit-transition: top 0.3s ease-out;
-    -moz-transition: top 0.3s ease-out;
-    -o-transition: top 0.3 s ease-out;
-    -ms-transition: top 0.3s ease-out;
-    transition: top 0.3s ease-out;
+	-webkit-transition: top .5s ease-out;
+    -moz-transition: top .5s ease-out;
+    -o-transition: top .5s ease-out;
+    -ms-transition: top .5s ease-out;
+    transition: top .5s ease-out;
 }
 
 
@@ -98,11 +98,11 @@ nav .current {
 
 #intro-container {
 	width: 100%;
-	height: 300px;
+	height: 500px;
 	background: url('../images/banner.jpg') #555;
-	position:absolute;
+	position:fixed;
 	top:0;
-	z-index:1;
+	z-index:10;
 	-webkit-transition: top 0.3s ease-out;
     -moz-transition: top 0.3s ease-out;
     -o-transition: top 0.3 s ease-out;
@@ -132,10 +132,19 @@ nav .current {
 
 /************************************************** GRID ********************************************/
 
+#blocks-container {
+	width: 100%;
+	background: #fff;
+	height: 2000px;
+	top: 500px;
+	position: absolute;
+	z-index: 11;
+}
+
 .bloc {
 	float:left;
 	position:absolute;
-	z-index:1;
+	z-index:100;
 	display:block;
 	overflow:hidden;
 	width:300px;
@@ -182,11 +191,11 @@ nav .current {
 	background:url(design/fleche_cercle.png) no-repeat 34px center;
 	border:3px solid #FFF;
 	opacity:0;
-	-webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -o-transition: all 0.3 s ease-out;
-    -ms-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
 }
 
 .bloc:hover .cercle {
@@ -204,11 +213,11 @@ nav .current {
 	text-transform:uppercase;
 	position:relative;
 	z-index:4;
-	-webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -o-transition: all 0.3 s ease-out;
-    -ms-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
 }
 
 .bloc:hover h2 {
@@ -232,13 +241,13 @@ nav .current {
 .bloc .fond {
 	width:300px;
 	height:380px;
-	top:378px;
+	top:375px;
 	position:absolute;
-	-webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -o-transition: all 0.2 s ease-out;
-    -ms-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3 s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 .bloc.actif .role, .bloc.actif h2, .bloc.actif .cercle {
@@ -251,62 +260,62 @@ nav .current {
 
 .bloc.bloc1 {
 	margin-left:-500px;
-	top:400px;
+	top:50px;
 }
 
 .bloc.bloc2 {
 	margin-left:-150px;
-	top:400px;
+	top:50px;
 }
 
 .bloc.bloc3 {
 	margin-left:200px;
-	top:400px;
+	top:50px;
 }
 
 .bloc.bloc4 {
 	margin-left:-500px;
-	top:830px;
+	top:500px;
 }
 
 .bloc.bloc5 {
 	margin-left:-150px;
-	top:830px;
+	top:500px;
 }
 
 .bloc.bloc6 {
 	margin-left:200px;
-	top:830px;
+	top:500px;
 }
 
 .bloc.bloc7 {
 	margin-left:-500px;
-	top:1260px;
+	top:950px;
 }
 
 .bloc.bloc8 {
 	margin-left:-150px;
-	top:1260px;
+	top:950px;
 }
 
 .bloc.bloc9 {
 	margin-left:200px;
-	top:1260px;
+	top:950px;
 }
 
 .bloc.bloc10 {
 	margin-left:-500px;
-	top:1690px;
+	top:1400px;
 }
 
 .bloc.bloc11 {
 	margin-left:-150px;
-	top:1690px;
+	top:1400px;
 }
 
 .bloc.bloc12 {
 	margin-left:200px;
-	top:1690px;
+	top:1400px;
 }
 
 .bloc1 .fond {
@@ -943,7 +952,7 @@ nav .current {
 
 #menuprojet .center {
 	border-right:1px solid #222;
-	width:970px;
+	width:973px;
 }
 
 #menuprojet.visible {
@@ -1130,14 +1139,14 @@ nav .current {
 	width:100%;
 	height:470px;
 	margin-top:-470px;
-	background:#141414;
+	background: rgba(0, 0, 0, .93);
 	/*background:#141414;*/
-	z-index:10;
-	-webkit-transition: left 0s ease-out, margin-top 0.3s ease-out;
-    -moz-transition: left 0s ease-out, margin-top 0.3s ease-out;
-    -o-transition: left 0s ease-out, margin-top 0.3s ease-out;
-    -ms-transition: left 0s ease-out, margin-top 0.3s ease-out;
-    transition: left 0s ease-out, margin-top 0.3s ease-out;
+	z-index:15;
+	-webkit-transition: left 0s ease-out, margin-top .5s ease-out;
+    -moz-transition: left 0s ease-out, margin-top .5s ease-out;
+    -o-transition: left 0s ease-out, margin-top .5s ease-out;
+    -ms-transition: left 0s ease-out, margin-top .5s ease-out;
+    transition: left 0s ease-out, margin-top .5s ease-out;
 }
 
 #about.debut, #contact.debut {
@@ -1311,10 +1320,11 @@ input.envoyer:hover {
 
 footer {
 	position:absolute;
-	top:2140px;
+	top:2340px;
 	width:100%;
 	height:270px;
 	background:#141414;	
+	z-index: 12;
 }
 
 .ligne {
