@@ -117,28 +117,28 @@ $(document).ready(function(){
 		if ($(this).hasClass("block12")) { $("#projet").load("../projects/xboxgamer/xboxgamer.html", function(){ currentProject = 12; openprojet() } ); } ;
 	});
 	
-	$(".icone").click(function(){
+	$(".icon").click(function(){
 		fromicon = true;
 		bgColor = $(this).find(".fond").css("background-color");
 		$("#projet").removeClass("visible");
-		if ($(this).hasClass("icone1")) { $("#projet").load("../projects/chevalblanc/chevalblanc.html", function(){ currentProject = 1; vTop2 = "400px"; openprojet() } ); } ;
-		if ($(this).hasClass("icone2")) { $("#projet").load("../projects/artspire/artspire.html", function(){ currentProject = 2; vTop2 = "400px"; openprojet() } ); } ;
-		if ($(this).hasClass("icone3")) { $("#projet").load("../projects/lecoqsportif/lecoqsportif.html", function(){ currentProject = 3; vTop2 = "400px"; openprojet() } ); } ;
-		if ($(this).hasClass("icone4")) { $("#projet").load("../projects/culturebox/culturebox.html", function(){ currentProject = 4; vTop2 = "830px"; openprojet() } ); } ;
-		if ($(this).hasClass("icone5")) { $("#projet").load("../projects/nicolastarierphotography/nicolastarierphotography.html", function(){ currentProject = 5; vtop2 = "830px"; openprojet() } ); } ;
-		if ($(this).hasClass("icone6")) { $("#projet").load("../projects/louvre/louvre.html", function(){ currentProject = 6; vtop2 = "830px"; openprojet() } ); } ;
-		if ($(this).hasClass("icone7")) { $("#projet").load("../projects/orangenfc/orangenfc.html", function(){ currentProject = 7; vTop2 = "1260px"; openprojet() } ); } ;
-		if ($(this).hasClass("icone8")) { $("#projet").load("../projects/eliesaab/eliesaab.html", function(){ currentProject = 8; vTop2 = "1260px"; openprojet() } ); } ;
-		if ($(this).hasClass("icone9")) { $("#projet").load("../projects/citelum/citelum.html", function(){ currentProject = 9; vTop2 = "1260px"; openprojet() } ); } ;
-		if ($(this).hasClass("icone10")) { $("#projet").load("../projects/diorsnow/diorsnow.html", function(){ currentProject = 10; vTop2 = "1590px"; openprojet() } ); } ;
-		if ($(this).hasClass("icone11")) { $("#projet").load("../projects/mixtaroute/mixtaroute.html", function(){ currentProject = 11;  vTop2 = "1590px"; openprojet() } ); } ;
-		if ($(this).hasClass("icone12")) { $("#projet").load("../projects/xboxgamer/xboxgamer.html", function(){ currentProject = 12;  vTop2 = "1590px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon1")) { $("#projet").load("../projects/chevalblanc/chevalblanc.html", function(){ currentProject = 1; vTop2 = "400px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon2")) { $("#projet").load("../projects/artspire/artspire.html", function(){ currentProject = 2; vTop2 = "400px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon3")) { $("#projet").load("../projects/lecoqsportif/lecoqsportif.html", function(){ currentProject = 3; vTop2 = "400px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon4")) { $("#projet").load("../projects/culturebox/culturebox.html", function(){ currentProject = 4; vTop2 = "830px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon5")) { $("#projet").load("../projects/nicolastarierphotography/nicolastarierphotography.html", function(){ currentProject = 5; vtop2 = "830px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon6")) { $("#projet").load("../projects/louvre/louvre.html", function(){ currentProject = 6; vtop2 = "830px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon7")) { $("#projet").load("../projects/orangenfc/orangenfc.html", function(){ currentProject = 7; vTop2 = "1260px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon8")) { $("#projet").load("../projects/eliesaab/eliesaab.html", function(){ currentProject = 8; vTop2 = "1260px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon9")) { $("#projet").load("../projects/citelum/citelum.html", function(){ currentProject = 9; vTop2 = "1260px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon10")) { $("#projet").load("../projects/diorsnow/diorsnow.html", function(){ currentProject = 10; vTop2 = "1590px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon11")) { $("#projet").load("../projects/mixtaroute/mixtaroute.html", function(){ currentProject = 11;  vTop2 = "1590px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon12")) { $("#projet").load("../projects/xboxgamer/xboxgamer.html", function(){ currentProject = 12;  vTop2 = "1590px"; openprojet() } ); } ;
 	});
 	
 	function openprojet() {
 		$('#blocks-container').css('marginTop', '50px');
-		$(".icone").removeClass("current");
-		$(".icone"+currentProject).addClass("current");
+		$(".icon").removeClass("current");
+		$(".icon"+currentProject).addClass("current");
 		if (fromicon == true) {
 			$("#projet").addClass("visible");
 			$('#fond_projet.actif').animate({backgroundColor: bgColor},'600')

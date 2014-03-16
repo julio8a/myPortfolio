@@ -879,9 +879,9 @@ nav .current {
 .artspire02 { top:175px; left:-20px; } .artspire02:hover { top:125px; left:-70px; }
 .artspire03 { top:65px; left:600px; } .artspire03:hover { top:15px; left:550px; }
 
-.chevalblanc01 { top:165px; left:655px; } .chevalblanc01:hover { top:115px; left:605px; }
-.chevalblanc02 { top:200px; left:-20px; } .chevalblanc02:hover { top:150px; left:-70px; }
-.chevalblanc03 { top:220px; left:600px; } .chevalblanc03:hover { top:170px; left:550px; }
+.marilu01 { top:65px; left:655px; } .marilu01:hover { top:15px; left:605px; }
+.marilu02 { top:100px; left:-20px; } .marilu02:hover { top:50px; left:-70px; }
+.marilu03 { top:200px; left:600px; } .marilu03:hover { top:70px; left:450px; }
 
 .culturebox01 { top:70px; left:655px; } .culturebox01:hover { top:20px; left:605px; }
 .culturebox02 { top:510px; left:655px; } .culturebox02:hover { top:460px; left:605px; }
@@ -982,6 +982,14 @@ nav .current {
 	transition-delay: 1.5s;
 }
 
+.closeProject {
+	position: fixed;
+	left: 50;
+	top: 60;
+	z-index: 15;
+	width: 30px;
+	height: 30px;
+}
 
 .back {
 	opacity:0.3;
@@ -1025,7 +1033,7 @@ nav .current {
 	margin-left:15px;
 }
 
-.icone {
+.icon {
 	display:block;
 	float:left;
 	width:71px;
@@ -1036,20 +1044,20 @@ nav .current {
 	cursor:pointer;
 }
 
-.icone11 {
+.icon11 {
 	padding-top:20px;
 }
 
-.icone.current {
+.icon.current {
 	width:72px;
 	border-left:0;
 }
 
-.icone.current img {
+.icon.current img {
 	opacity:1;
 }
 
-.icone img {
+.icon img {
 	opacity:0.3;
 	position:relative;
 	z-index:10000001;
@@ -1060,7 +1068,7 @@ nav .current {
     transition: all 0.4s ease-out;
 }
 
-.icone .fond {
+.icon .fond {
 	width:72px;
 	height:70px;
 	top:70px;
@@ -1073,12 +1081,12 @@ nav .current {
 }
 
 
-.icone:hover .fond, .icone.current .fond  {
+.icon:hover .fond, .icon.current .fond  {
 	top:0px;
 	z-index:10000000;
 }
 
-.icone:hover img, .back:hover img {
+.icon:hover img, .back:hover img {
 		opacity:1;
 	    filter: FlipH;
         -ms-filter: "FlipH";
@@ -1088,7 +1096,7 @@ nav .current {
         transform: scaleX(-1);
 }
 
-.icone.current:hover img {
+.icon.current:hover img {
 		opacity:1;
 	    filter: none;
         -ms-filter: none;
@@ -1098,51 +1106,51 @@ nav .current {
         transform: none;
 }
 
-.icone1 .fond {
+.icon1 .fond {
 	background:#e5008d;
 }
 
-.icone2 .fond {
+.icon2 .fond {
 	background:#5cbe54;
 }
 
-.icone3 .fond {
+.icon3 .fond {
 	background:#1a1a1a;
 }
 
-.icone4 .fond {
+.icon4 .fond {
 	background:#292929;
 }
 
-.icone5 .fond {
+.icon5 .fond {
 	background:#323232;
 }
 
-.icone6 .fond {
+.icon6 .fond {
 	background:#343434;
 }
 
-.icone7 .fond {
+.icon7 .fond {
 	background:#e9672b;
 }
 
-.icone8 .fond {
+.icon8 .fond {
 	background:#222;
 }
 
-.icone9 .fond {
+.icon9 .fond {
 	background:#3f3f3f;
 }
 
-.icone10 .fond {
+.icon10 .fond {
 	background:#4d5a6a;
 }
 
-.icone11 .fond {
+.icon11 .fond {
 	background:#ac0917;
 }
 
-.icone12 .fond {
+.icon12 .fond {
 	background:#48751b;
 }
 
