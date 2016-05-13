@@ -34,8 +34,8 @@ a {
 	height:50px;
 	z-index:100;
 	position:fixed;
-	border-top: 1px solid #333;
-    background: #222;
+	border-top: 1px solid #eee;
+    background: #fff;
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, .2);
 	-webkit-transition: top .5s ease-out;
     -moz-transition: top .5s ease-out;
@@ -47,7 +47,7 @@ a {
 
 #logo {
 	float: left;
-	color: #fff;
+	color: #333;
 }
 
 #logo h1 {
@@ -75,17 +75,18 @@ nav li {
 }
 
 nav a {
-	color: #fff;
+	color: #333;
 	padding: 5px 15px;
 }
 
 nav a:hover {
-	color: #eee;
+	color: #007ac2;
 }
 
 nav .current {
-	background: rgba(255, 255, 255, .3);
+	background: rgba(0, 0, 0, .05);
 	border-radius: 5px;
+	color: #007ac2;
 }
 
 
@@ -432,7 +433,7 @@ nav .current {
 #projet.visible {
 	height:auto;
 	opacity:1;
-	top:0;	
+	top:0;
 	z-index:1000;
 	-webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
@@ -481,7 +482,7 @@ nav .current {
 	position:absolute;
 	left:50%;
 	margin-left:-960px;
-	
+
 }
 
 #projet .affiche {
@@ -489,7 +490,7 @@ nav .current {
 	opacity:0;
 	margin:-500px auto 0 auto;
 	z-index:3;
-	position:relative;	
+	position:relative;
 	-webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -511,7 +512,7 @@ nav .current {
 	opacity:0;
 	margin:-986px auto 0 640px;
 	z-index:3;
-	position:relative;	
+	position:relative;
 	-webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -549,7 +550,7 @@ nav .current {
 #projet h1 {
 	opacity:0;
 	font-family:'Roboto', Arial, sans-serif;
-	font-weight:normal;	
+	font-weight:normal;
 	-webkit-font-smoothing:antialiased;
 	text-align:center;
 	font-size:60px;
@@ -580,7 +581,7 @@ nav .current {
 #projet p {
 	opacity:0;
 	font-family:'Roboto', Arial, sans-serif;
-	font-weight:normal;	
+	font-weight:normal;
 	-webkit-font-smoothing:antialiased;
 	text-align:center;
 	font-size:14px;
@@ -696,7 +697,7 @@ nav .current {
 
 #projet .infos p {
 	font-family:'Roboto', Arial, sans-serif;
-	font-weight:normal;	
+	font-weight:normal;
 	-webkit-font-smoothing:antialiased;
 	text-transform:uppercase;
 	text-align:center;
@@ -747,7 +748,7 @@ nav .current {
 
 #projet #captures h2 {
 	font-family:'Roboto', Arial, sans-serif;
-	font-weight:normal;	
+	font-weight:normal;
 	-webkit-font-smoothing:antialiased;
 	text-align:center;
 	font-size:30px;
@@ -818,7 +819,7 @@ nav .current {
 
 
 .zoom {
-	width: 240px; 
+	width: 240px;
 	height: 240px;
 	position: absolute;
 	display:block;
@@ -831,7 +832,7 @@ nav .current {
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(10%,#d3d3d3), color-stop(30%,#FFFFFF,) color-stop(50%,#e2e2e2), color-stop(70%,#ffffff), color-stop(80%,#d3d3d3)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top,  #d3d3d3 10%,#ffffff 30%, #e2e2e2 50%, #ffffff 70%, #d3d3d3 80%); /* Chrome10+,Safari5.1+ */
 	background: -o-linear-gradient(top,  #d3d3d3 10%,#ffffff 30%, #e2e2e2 50%, #ffffff 70%, #d3d3d3 80%); /* Opera 11.10+ */
-	box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25); 
+	box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
 	-webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     -o-transition: all 0.2 s ease-out;
@@ -842,8 +843,8 @@ nav .current {
 }
 
 .zoom:hover {
-	width: 340px; 
-	height: 340px; 
+	width: 340px;
+	height: 340px;
 }
 
 .diorsnow01 { top:115px; left:655px; } .diorsnow01:hover { top:65px; left:605px; }
@@ -902,7 +903,7 @@ nav .current {
 .louvre05 { top:170px; left:655px; } .louvre05:hover { top:120px; left:605px; }
 
 .zoom div {
-	width: 220px; 
+	width: 220px;
 	height: 220px;
 	border-radius: 100%;
 	-webkit-border-radius: 100%;
@@ -947,7 +948,7 @@ nav .current {
 }
 
 .op50 {
-	opacity:0.5;	
+	opacity:0.5;
 }
 
 #project-menu {
@@ -997,7 +998,7 @@ nav .current {
 	font-size:14px;
 	text-transform:uppercase;
 	font-family:'Roboto', Arial, sans-serif;
-	font-weight:normal;	
+	font-weight:normal;
 	-webkit-font-smoothing:antialiased;
 	line-height:14px;
 	margin-right:20px;
@@ -1163,7 +1164,7 @@ nav .current {
 	width:100%;
 	height:470px;
 	margin-top:-470px;
-	background: rgba(0, 0, 0, 1);
+	background: rgba(255, 255, 255, 1);
 	/*background:#141414;*/
 	z-index:15;
 	-webkit-transition: left 0s ease-out, margin-top .5s ease-out;
@@ -1186,7 +1187,7 @@ nav .current {
 	left : 0;
 }
 
-#contact { 
+#contact {
 	left : 100%;
 }
 
@@ -1202,7 +1203,7 @@ nav .current {
 	float:left;
 	width:425px;
 	font-family:'Roboto', Arial, sans-serif;
-	font-weight:normal;	
+	font-weight:normal;
 	-webkit-font-smoothing:antialiased;
 	color:#666;
 	font-size:14px;
@@ -1215,7 +1216,7 @@ nav .current {
 	width:215px;
 	margin-left:80px;
 	font-family:'Roboto', Arial, sans-serif;
-	font-weight:normal;	
+	font-weight:normal;
 	-webkit-font-smoothing:antialiased;
 	color:#666;
 	font-size:14px;
@@ -1232,7 +1233,7 @@ nav .current {
 	width:180px;
 	margin-left:20px;
 	font-family:'Roboto', Arial, sans-serif;
-	font-weight:normal;	
+	font-weight:normal;
 	-webkit-font-smoothing:antialiased;
 	color:#666;
 	font-size:14px;
@@ -1262,11 +1263,11 @@ p a:hover {
 
 h3 {
 	font-size:28px;
-	color:#FFF;
+	color:#333;
 	margin:50px 0 20px 0;
 	letter-spacing:1px;
 	font-family:'Roboto', Arial, sans-serif;
-	font-weight:normal;	
+	font-weight:normal;
 }
 
 
@@ -1274,9 +1275,9 @@ h3 {
 	float:left;
 	width:315px;
 	font-family:'Roboto', Arial, sans-serif;
-	font-weight:normal;	
+	font-weight:normal;
 	-webkit-font-smoothing:antialiased;
-	color:#aaa;
+	color:#777;
 	font-size:14px;
 	line-height:20px;
 	letter-spacing:1px;
@@ -1289,45 +1290,43 @@ h3 {
 
 
 input, textarea {
-	border:1px solid #333;
+	border:1px solid #aaa;
 	padding:15px 20px;
 	margin-top:10px;
 	margin-bottom:25px;
-	background:#141414;
+	background:#fff;
 	color:#666;
 }
 
 #contactleft input {
 	width:273px;
 }
-	
+
 #contactright textarea {
 	width:573px;
-	height:223px;
+	height:214px;
 }
 
 #contactright legend {
-	margin-top:120px;
+	margin-top:89px;
 }
-	
+
 input.envoyer {
-	position:absolute;
-	top:40px;
-	background:#F8F8F8;
-	border:0;
+	background:#fff;
+	border:1px solid #aaa;
 	font-family:'Roboto', Arial, sans-serif;
 	color:#444;
 	text-transform:uppercase;
 	left:50%;
 	width:180px;
-	margin-left:315px;
+	margin: -50px 0 0 435px;
 	cursor:pointer;
 	font-weight:bold;
 }
 
 input.envoyer:hover {
-	color:#000;
-	background:#FFF;
+	color:#fff;
+	background:#007ac2;
 }
 
 .envoimess {
@@ -1335,7 +1334,7 @@ input.envoyer:hover {
 	top:54px;
 	width:400px;
 	font-family:'Roboto', Arial, sans-serif;
-	font-weight:normal;	
+	font-weight:normal;
 	-webkit-font-smoothing:antialiased;
 	text-align:right;
 	color:#aaa;
@@ -1351,7 +1350,7 @@ footer {
 	top:2340px;
 	width:100%;
 	height:270px;
-	background:#141414;	
+	background:#141414;
 	z-index: 12;
 }
 
@@ -1362,12 +1361,12 @@ footer {
 }
 
 footer .center {
-	height:90px;	
+	height:90px;
 	width:1000px;
 	border-left:1px solid #242424;
 	border-right:1px solid #242424;
 	font-family:'Roboto', Arial, sans-serif;
-	font-weight:normal;	
+	font-weight:normal;
 	-webkit-font-smoothing:antialiased;
 	font-size:14px;
 	line-height:20px;
@@ -1377,7 +1376,7 @@ footer .center {
 
 .caseA, #contactCanada {
 	display:block;
-	width:652px;	
+	width:652px;
 	height:90px;
 	float:left;
 	overflow:hidden;
@@ -1387,7 +1386,7 @@ footer .center {
 
 .caseB {
 	display:block;
-	width:115px;	
+	width:115px;
 	height:90px;
 	float:left;
 	border-left:1px solid #242424;
@@ -1401,7 +1400,7 @@ footer .center {
 .caseA a{
 	position:absolute;
 	z-index:3;
-	color:#FFF;	
+	color:#FFF;
 	margin-left:80px;
 	margin-top:25px;
 }
@@ -1409,7 +1408,7 @@ footer .center {
 #contactCanada .texte {
 	position:absolute;
 	z-index:3;
-	color:#FFF;	
+	color:#FFF;
 	margin-left:80px;
 	margin-top:25px;
 }
@@ -1417,7 +1416,7 @@ footer .center {
 .caseB a {
 	position:relative;
 	z-index:3;
-	color:#CCC;	
+	color:#CCC;
 }
 
 .caseA .fond, #contactCanada .fond, .caseB .fond {
