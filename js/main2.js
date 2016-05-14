@@ -104,35 +104,35 @@ $(document).ready(function(){
 
 	$(".block").click(function(){
 		if ($(this).hasClass("block1")) { $("#projet").load("projects/zip-tapestry/index.html", function(){ currentProject = 1; openprojet() } ); } ;
-		if ($(this).hasClass("block2")) { $("#projet").load("../projects/urb-ob-site/index.html", function(){ currentProject = 2; openprojet() } ); } ;
-		if ($(this).hasClass("block3")) { $("#projet").load("../projects/lecoqsportif/index.html", function(){ currentProject = 3; openprojet() } ); } ;
-		if ($(this).hasClass("block4")) { $("#projet").load("../projects/culturebox/index.html", function(){ currentProject = 4; openprojet() } ); } ;
-		if ($(this).hasClass("block5")) { $("#projet").load("../projects/nicolastarierphotography/index.html", function(){ currentProject = 5;openprojet() } ); } ;
-		if ($(this).hasClass("block6")) { $("#projet").load("../projects/louvre/index.html", function(){ currentProject = 6; openprojet() } ); } ;
-		if ($(this).hasClass("block7")) { $("#projet").load("../projects/orangenfc/orangenfc.html", function(){ currentProject = 7; openprojet() } ); } ;
-		if ($(this).hasClass("block8")) { $("#projet").load("../projects/eliesaab/eliesaab.html", function(){ currentProject = 8; openprojet() } ); } ;
-		if ($(this).hasClass("block9")) { $("#projet").load("../projects/citelum/citelum.html", function(){ currentProject = 9; openprojet() } ); } ;
-		if ($(this).hasClass("block10")) { $("#projet").load("../projects/diorsnow/diorsnow.html", function(){ currentProject = 10; openprojet() } ); } ;
-		if ($(this).hasClass("block11")) { $("#projet").load("../projects/mixtaroute/mixtaroute.html", function(){ currentProject = 11; openprojet() } ); } ;
-		if ($(this).hasClass("block12")) { $("#projet").load("../projects/xboxgamer/xboxgamer.html", function(){ currentProject = 12; openprojet() } ); } ;
+		if ($(this).hasClass("block2")) { $("#projet").load("projects/urb-ob-site/index.html", function(){ currentProject = 2; openprojet() } ); } ;
+		if ($(this).hasClass("block3")) { $("#projet").load("projects/urb-ob-ui/index.html", function(){ currentProject = 3; openprojet() } ); } ;
+		if ($(this).hasClass("block4")) { $("#projet").load("projects/public-health/index.html", function(){ currentProject = 4; openprojet() } ); } ;
+		if ($(this).hasClass("block5")) { $("#projet").load("projects/inca/index.html", function(){ currentProject = 5;openprojet() } ); } ;
+		if ($(this).hasClass("block6")) { $("#projet").load("projects/save-me/index.html", function(){ currentProject = 6; openprojet() } ); } ;
+		if ($(this).hasClass("block7")) { $("#projet").load("projects/industries/index.html", function(){ currentProject = 7; openprojet() } ); } ;
+		if ($(this).hasClass("block8")) { $("#projet").load("projects/workforce/index.html", function(){ currentProject = 8; openprojet() } ); } ;
+		if ($(this).hasClass("block9")) { $("#projet").load("projects/dashboard/index.html", function(){ currentProject = 9; openprojet() } ); } ;
+		if ($(this).hasClass("block10")) { $("#projet").load("projects/diorsnow/index.html", function(){ currentProject = 10; openprojet() } ); } ;
+		if ($(this).hasClass("block11")) { $("#projet").load("projects/mixtaroute/index.html", function(){ currentProject = 11; openprojet() } ); } ;
+		if ($(this).hasClass("block12")) { $("#projet").load("projects/xboxgamer/index.html", function(){ currentProject = 12; openprojet() } ); } ;
 	});
 
 	$(".icon").click(function(){
 		fromicon = true;
 		bgColor = $(this).find(".fond").css("background-color");
 		$("#projet").removeClass("visible");
-		if ($(this).hasClass("icon1")) { $("#projet").load("..//projects/zip-tapestry/index.html", function(){ currentProject = 1; vTop2 = "400px"; openprojet() } ); } ;
-		if ($(this).hasClass("icon2")) { $("#projet").load("..//projects/urb-ob-site/index.html", function(){ currentProject = 2; vTop2 = "400px"; openprojet() } ); } ;
-		if ($(this).hasClass("icon3")) { $("#projet").load("../projects/lecoqsportif/lecoqsportif.html", function(){ currentProject = 3; vTop2 = "400px"; openprojet() } ); } ;
-		if ($(this).hasClass("icon4")) { $("#projet").load("../projects/culturebox/culturebox.html", function(){ currentProject = 4; vTop2 = "830px"; openprojet() } ); } ;
-		if ($(this).hasClass("icon5")) { $("#projet").load("../projects/nicolastarierphotography/nicolastarierphotography.html", function(){ currentProject = 5; vtop2 = "830px"; openprojet() } ); } ;
-		if ($(this).hasClass("icon6")) { $("#projet").load("../projects/louvre/louvre.html", function(){ currentProject = 6; vtop2 = "830px"; openprojet() } ); } ;
-		if ($(this).hasClass("icon7")) { $("#projet").load("../projects/orangenfc/orangenfc.html", function(){ currentProject = 7; vTop2 = "1260px"; openprojet() } ); } ;
-		if ($(this).hasClass("icon8")) { $("#projet").load("../projects/eliesaab/eliesaab.html", function(){ currentProject = 8; vTop2 = "1260px"; openprojet() } ); } ;
-		if ($(this).hasClass("icon9")) { $("#projet").load("../projects/citelum/citelum.html", function(){ currentProject = 9; vTop2 = "1260px"; openprojet() } ); } ;
-		if ($(this).hasClass("icon10")) { $("#projet").load("../projects/diorsnow/diorsnow.html", function(){ currentProject = 10; vTop2 = "1590px"; openprojet() } ); } ;
-		if ($(this).hasClass("icon11")) { $("#projet").load("../projects/mixtaroute/mixtaroute.html", function(){ currentProject = 11;  vTop2 = "1590px"; openprojet() } ); } ;
-		if ($(this).hasClass("icon12")) { $("#projet").load("../projects/xboxgamer/xboxgamer.html", function(){ currentProject = 12;  vTop2 = "1590px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon1")) { $("#projet").load("../projects/zip-tapestry/index.html", function(){ currentProject = 1; vTop2 = "400px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon2")) { $("#projet").load("../projects/urb-ob-site/index.html", function(){ currentProject = 2; vTop2 = "400px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon3")) { $("#projet").load("../projects/urb-ob-ui/index.html", function(){ currentProject = 3; vTop2 = "400px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon4")) { $("#projet").load("../projects/public-health/index.html", function(){ currentProject = 4; vTop2 = "830px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon5")) { $("#projet").load("../projects/inca/index.html", function(){ currentProject = 5; vtop2 = "830px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon6")) { $("#projet").load("../projects/save-me/index.html", function(){ currentProject = 6; vtop2 = "830px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon7")) { $("#projet").load("../projects/industries/index.html", function(){ currentProject = 7; vTop2 = "1260px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon8")) { $("#projet").load("../projects/workforce/index.html", function(){ currentProject = 8; vTop2 = "1260px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon9")) { $("#projet").load("../projects/dashboard/index.html", function(){ currentProject = 9; vTop2 = "1260px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon10")) { $("#projet").load("../projects/diorsnow/index.html", function(){ currentProject = 10; vTop2 = "1590px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon11")) { $("#projet").load("../projects/mixtaroute/index.html", function(){ currentProject = 11;  vTop2 = "1590px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon12")) { $("#projet").load("../projects/xboxgamer/index.html", function(){ currentProject = 12;  vTop2 = "1590px"; openprojet() } ); } ;
 	});
 
 	function openprojet() {
