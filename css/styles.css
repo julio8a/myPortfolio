@@ -1,6 +1,3 @@
-@charset "UTF-8";
-/* CSS Document */
-
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,100);
 
 body {
@@ -154,8 +151,8 @@ nav .current {
 	z-index: 100;
 	display: block;
 	overflow: hidden;
-	width: 22%;
-	margin: 20px;
+	width: 25%;
+	margin: 0px;
 	height: 380px;
 	cursor: pointer;
 	color: #777;
@@ -344,7 +341,7 @@ nav .current {
 
 
 .block1 .fond {
-	background:#e5008d;
+	background:#323232;
 }
 
 .block2 .fond {
@@ -721,9 +718,8 @@ nav .current {
 
 #projet .capture {
 	padding-top:24px;
-	background:url(design/barnav.png) top center no-repeat;
 	padding-bottom:50px;
-	width:800px;
+	width:960px;
 	margin:0 auto;
 	text-align:center;
 	position:relative;
@@ -826,35 +822,6 @@ nav .current {
 }
 
 
-.zoom {
-	width: 240px;
-	height: 240px;
-	position: absolute;
-	display:block;
-	border-radius: 100%;
-	-webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -o-border-radius: 100%;
-	background: #d3d3d3; /* Old browsers */
-	background: -moz-linear-gradient(top,  #d3d3d3 10%,#ffffff 30%, #e2e2e2 50%, #ffffff 70%, #d3d3d3 80%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(10%,#d3d3d3), color-stop(30%,#FFFFFF,) color-stop(50%,#e2e2e2), color-stop(70%,#ffffff), color-stop(80%,#d3d3d3)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #d3d3d3 10%,#ffffff 30%, #e2e2e2 50%, #ffffff 70%, #d3d3d3 80%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #d3d3d3 10%,#ffffff 30%, #e2e2e2 50%, #ffffff 70%, #d3d3d3 80%); /* Opera 11.10+ */
-	box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
-	-webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -o-transition: all 0.2 s ease-out;
-    -ms-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-	z-index:99999;
-	overflow:hidden;
-}
-
-.zoom:hover {
-	width: 340px;
-	height: 340px;
-}
-
 .diorsnow01 { top:115px; left:655px; } .diorsnow01:hover { top:65px; left:605px; }
 .diorsnow02 { top:80px; left:-90px; } .diorsnow02:hover { top:30px; left:-140px; }
 .diorsnow03 { top:200px; left:-90px; } .diorsnow03:hover { top:150px; left:-140px; }
@@ -910,53 +877,8 @@ nav .current {
 .louvre04 { top:170px; left:655px; } .louvre04:hover { top:120px; left:605px; }
 .louvre05 { top:170px; left:655px; } .louvre05:hover { top:120px; left:605px; }
 
-.zoom div {
-	width: 220px;
-	height: 220px;
-	border-radius: 100%;
-	-webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -o-border-radius: 100%;
-	position: relative;
-	display:block;
-	margin:10px 10px;
-	box-shadow: inset 0 0 10px 0px rgba(0, 0, 0, 0.15);
-	-webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
-    -ms-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-	z-index:100000;
-	overflow:hidden;
-	background-repeat:no-repeat;
-	background-position:-50px -50px;
-}
-
-.zoom:hover div {
-	width: 320px;
-	height: 320px;
-	overflow:hidden;
-	background-position:0 0;
-}
-
-.zoom div img {
-	display:block;
-	margin-left:-50px;
-	margin-top:-50px;
-	-webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
-    -ms-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-}
-
-.zoom:hover div img {
-	margin-left:0px;
-	margin-top:0px;
-}
-
 .op50 {
-	opacity:0.5;
+	opacity:0.7;
 }
 
 #project-menu {
@@ -1265,8 +1187,12 @@ p {
 	padding:0;
 }
 
+#presentation p a {
+  color: #007ac2;
+}
+
 p a {
-	color:#007ac2;
+	color:#fff;
 }
 
 p a:hover {
