@@ -104,11 +104,11 @@ $(document).ready(function(){
 
 	$(".block").click(function(){
 		if ($(this).hasClass("block1")) { $("#projet").load("projects/zip-tapestry/index.html", function(){ currentProject = 1; openprojet() } ); } ;
-		if ($(this).hasClass("block2")) { $("#projet").load("../projects/artspire/artspire.html", function(){ currentProject = 2; openprojet() } ); } ;
-		if ($(this).hasClass("block3")) { $("#projet").load("../projects/lecoqsportif/lecoqsportif.html", function(){ currentProject = 3; openprojet() } ); } ;
-		if ($(this).hasClass("block4")) { $("#projet").load("../projects/culturebox/culturebox.html", function(){ currentProject = 4; openprojet() } ); } ;
-		if ($(this).hasClass("block5")) { $("#projet").load("../projects/nicolastarierphotography/nicolastarierphotography.html", function(){ currentProject = 5;openprojet() } ); } ;
-		if ($(this).hasClass("block6")) { $("#projet").load("../projects/louvre/louvre.html", function(){ currentProject = 6; openprojet() } ); } ;
+		if ($(this).hasClass("block2")) { $("#projet").load("../projects/urb-ob-site/index.html", function(){ currentProject = 2; openprojet() } ); } ;
+		if ($(this).hasClass("block3")) { $("#projet").load("../projects/lecoqsportif/index.html", function(){ currentProject = 3; openprojet() } ); } ;
+		if ($(this).hasClass("block4")) { $("#projet").load("../projects/culturebox/index.html", function(){ currentProject = 4; openprojet() } ); } ;
+		if ($(this).hasClass("block5")) { $("#projet").load("../projects/nicolastarierphotography/index.html", function(){ currentProject = 5;openprojet() } ); } ;
+		if ($(this).hasClass("block6")) { $("#projet").load("../projects/louvre/index.html", function(){ currentProject = 6; openprojet() } ); } ;
 		if ($(this).hasClass("block7")) { $("#projet").load("../projects/orangenfc/orangenfc.html", function(){ currentProject = 7; openprojet() } ); } ;
 		if ($(this).hasClass("block8")) { $("#projet").load("../projects/eliesaab/eliesaab.html", function(){ currentProject = 8; openprojet() } ); } ;
 		if ($(this).hasClass("block9")) { $("#projet").load("../projects/citelum/citelum.html", function(){ currentProject = 9; openprojet() } ); } ;
@@ -121,8 +121,8 @@ $(document).ready(function(){
 		fromicon = true;
 		bgColor = $(this).find(".fond").css("background-color");
 		$("#projet").removeClass("visible");
-		if ($(this).hasClass("icon1")) { $("#projet").load("../projects/chevalblanc/chevalblanc.html", function(){ currentProject = 1; vTop2 = "400px"; openprojet() } ); } ;
-		if ($(this).hasClass("icon2")) { $("#projet").load("../projects/artspire/artspire.html", function(){ currentProject = 2; vTop2 = "400px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon1")) { $("#projet").load("..//projects/zip-tapestry/index.html", function(){ currentProject = 1; vTop2 = "400px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon2")) { $("#projet").load("..//projects/urb-ob-site/index.html", function(){ currentProject = 2; vTop2 = "400px"; openprojet() } ); } ;
 		if ($(this).hasClass("icon3")) { $("#projet").load("../projects/lecoqsportif/lecoqsportif.html", function(){ currentProject = 3; vTop2 = "400px"; openprojet() } ); } ;
 		if ($(this).hasClass("icon4")) { $("#projet").load("../projects/culturebox/culturebox.html", function(){ currentProject = 4; vTop2 = "830px"; openprojet() } ); } ;
 		if ($(this).hasClass("icon5")) { $("#projet").load("../projects/nicolastarierphotography/nicolastarierphotography.html", function(){ currentProject = 5; vtop2 = "830px"; openprojet() } ); } ;
@@ -179,7 +179,7 @@ $(document).ready(function(){
 	});
 
 	$(".back").click(function(){
-		$('#blocks-container').css('marginTop', '300px');
+		$('#blocks-container').css('marginTop', '282px');
 		$("#projet").removeClass("visible");
 		$("#project-menu").removeClass("visible");
 		$("#fond_projet").removeClass("actif");

@@ -135,7 +135,7 @@ nav .current {
 	width: 100%;
 	background: #fff;
 	height: 2000px;
-	margin-top: 300px;
+	margin-top: 282px;
 	/*padding-top:50px;*/
 	position: absolute;
 	z-index: 11;
@@ -345,7 +345,7 @@ nav .current {
 }
 
 .block2 .fond {
-	background:#5cbe54;
+	background:#68237d;
 }
 
 .block3 .fond {
@@ -1038,11 +1038,11 @@ nav .current {
 }
 
 .icon1 .fond {
-	background:#e5008d;
+	background:#323232;
 }
 
 .icon2 .fond {
-	background:#5cbe54;
+	background:#68237d;
 }
 
 .icon3 .fond {
