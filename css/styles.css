@@ -90,7 +90,7 @@ nav .current {
 #intro-container {
 	width: 100%;
 	height: 280px;
-	background: url('../aimages/banner.jpg') #f4f4f4;
+	background: #f4f4f4;
 	border-bottom: 1px solid #eee;
 	position:fixed;
 	top:0;
@@ -134,7 +134,7 @@ nav .current {
 #blocks-container {
 	width: 100%;
 	background: #fff;
-	height: 2000px;
+	height: 1000px;
 	margin-top: 282px;
 	/*padding-top:50px;*/
 	position: absolute;
@@ -275,71 +275,6 @@ nav .current {
 .block:hover .fond {
 	top:0px;
 }
-.block.block1 {
-}
-
-.block.block2 {
-
-}
-
-.block.block3 {
-}
-
-.block.block4 {
-	background: url(../projects/test/home-photography.jpg) no-repeat;
-	background-size: 100%;
-
-}
-
-.block.block5 {
-	background: url(../projects/test/home-photography.jpg) no-repeat;
-	background-size: 100%;
-
-}
-
-.block.block6 {
-	background: url(../projects/test/home-photography.jpg) no-repeat;
-	background-size: 100%;
-
-}
-
-.block.block7 {
-	background: url(../projects/test/home-photography.jpg) no-repeat;
-	background-size: 100%;
-
-}
-
-.block.block8 {
-	background: url(../projects/test/home-photography.jpg) no-repeat;
-	background-size: 100%;
-
-}
-
-.block.block9 {
-	background: url(../projects/test/home-photography.jpg) no-repeat;
-	background-size: 100%;
-
-}
-
-.block.block10 {
-	background: url(../projects/test/home-photography.jpg) no-repeat;
-	background-size: 100%;
-
-}
-
-.block.block11 {
-	background: url(../projects/test/home-photography.jpg) no-repeat;
-	background-size: 100%;
-
-}
-
-.block.block12 {
-	background: url(../projects/test/home-photography.jpg) no-repeat;
-	background-size: 100%;
-
-}
-
-
 .block1 .fond {
 	background:#323232;
 }
@@ -373,7 +308,7 @@ nav .current {
 }
 
 .block9 .fond {
-	background:#d06000;
+	background:#fec600;
 }
 
 .block10 .fond {
@@ -1097,7 +1032,7 @@ nav .current {
 }
 
 .icon9 .fond {
-	background:#d06000;
+	background:#fec600;
 }
 
 .icon10 .fond {
@@ -1312,9 +1247,9 @@ input.envoyer:hover {
 
 footer {
 	position:absolute;
-	top:2340px;
+	top:1340px;
 	width:100%;
-	height:270px;
+	height:90px;
 	background:#141414;
 	z-index: 12;
 }
@@ -1461,4 +1396,12 @@ footer .center {
 	font-size:14px;
 	color:#494949;
 	margin-top:35px;
+}
+
+
+.resume {
+	display: inline;
+	float: right;
+	color: #007ac2;
+	margin: -40px 30px 0 0;
 }
