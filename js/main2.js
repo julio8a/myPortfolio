@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	
+
 	$("#about").removeClass("debut");
 	$("#contact").removeClass("debut");
 
@@ -9,13 +9,13 @@ $(document).ready(function(){
 	var bgColor = "#FFFFFF";
 	var currentProject = 0;
 	var fromicon = false;
-	
+
 	var windowScroll = 0;
 	$(window).trigger('scroll');
 	$(window).scroll(function(event){
 		windowScroll = $(window).scrollTop();
-	}); 
-	
+	});
+
 	$(".about").click(function(){
 		if (rubOpen == false) {
 			$("#about").css("left", "0");
@@ -40,7 +40,7 @@ $(document).ready(function(){
 		}
 		return false;
 	});
-		
+
 	$(".contact").click(function(){
 		if (rubOpen == false) {
 			$("#about").css("left", "-100%");
@@ -60,19 +60,19 @@ $(document).ready(function(){
 			}
 			else {
 				menuferme();
-				contactOpen = false;	
+				contactOpen = false;
 			}
 		}
 		return false;
 	});
-	
+
 	$(".work").click(function(){
 		if (rubOpen == true) {
 			menuferme();
 		}
 		return false;
 	});
-	
+
 	function menuderoule() {
 		$("#about").css("marginTop", 0);
 		$("#contact").css("marginTop", 0);
@@ -81,13 +81,13 @@ $(document).ready(function(){
 		// $(".block").css("top", "+=470px");
 		// $("#footer").css("top", "2610px");
 		// $("#intro").css("top", "430px");
-		setTimeout(function() { 
+		setTimeout(function() {
 			$("#about").addClass("visible");
 			$("#contact").addClass("visible");
-		}, 300); 
-		rubOpen = true;	
+		}, 300);
+		rubOpen = true;
 	}
-	
+
 	function menuferme() {
 		$("#about").css("marginTop", "-470px");
 		$("#contact").css("marginTop", "-470px");
@@ -101,7 +101,7 @@ $(document).ready(function(){
 		$("#contact").removeClass("visible");
 		rubOpen = false;
 	}
-		
+
 	$(".block").click(function(){
 		if ($(this).hasClass("block1")) { $("#projet").load("projects/marilu/marilu.html", function(){ currentProject = 1; openprojet() } ); } ;
 		if ($(this).hasClass("block2")) { $("#projet").load("../projects/artspire/artspire.html", function(){ currentProject = 2; openprojet() } ); } ;
@@ -116,7 +116,7 @@ $(document).ready(function(){
 		if ($(this).hasClass("block11")) { $("#projet").load("../projects/mixtaroute/mixtaroute.html", function(){ currentProject = 11; openprojet() } ); } ;
 		if ($(this).hasClass("block12")) { $("#projet").load("../projects/xboxgamer/xboxgamer.html", function(){ currentProject = 12; openprojet() } ); } ;
 	});
-	
+
 	$(".icon").click(function(){
 		fromicon = true;
 		bgColor = $(this).find(".fond").css("background-color");
@@ -134,7 +134,7 @@ $(document).ready(function(){
 		if ($(this).hasClass("icon11")) { $("#projet").load("../projects/mixtaroute/mixtaroute.html", function(){ currentProject = 11;  vTop2 = "1590px"; openprojet() } ); } ;
 		if ($(this).hasClass("icon12")) { $("#projet").load("../projects/xboxgamer/xboxgamer.html", function(){ currentProject = 12;  vTop2 = "1590px"; openprojet() } ); } ;
 	});
-	
+
 	function openprojet() {
 		$('#blocks-container').css('marginTop', '50px');
 		$(".icon").removeClass("current");
@@ -142,7 +142,7 @@ $(document).ready(function(){
 		if (fromicon == true) {
 			$("#projet").addClass("visible");
 			$('#fond_projet.actif').animate({backgroundColor: bgColor},'600')
-			//$("#fond_projet.actif").css("background-color", bgColor); 
+			//$("#fond_projet.actif").css("background-color", bgColor);
 			$('html,body').delay(0).animate({scrollTop: 0},'10');
 		}
 		if (fromicon == false) {
@@ -154,7 +154,7 @@ $(document).ready(function(){
 			$("#fond_projet.actif").css("marginLeft", 0);
 			$("#fond_projet.actif").css("height", "100%");
 			$("#fond_projet.actif").css("width", "100%");
-			$("#fond_projet.actif").css("background-color", bgColor); 
+			$("#fond_projet.actif").css("background-color", bgColor);
 			$('html,body').delay(300).animate({scrollTop: 0},'10');
 		}
 		if(rubOpen == true) {
@@ -164,7 +164,7 @@ $(document).ready(function(){
 		}
 		fromicon = false;
 	}
-	
+
 	$(".block").mouseover(function(){
 		vTop = $(this).css("Top");
 		vTop2 = vTop;
@@ -177,9 +177,9 @@ $(document).ready(function(){
 		$("#fond_projet").css("height", "380px");
 		$("#fond_projet").css("background-color", bgColor);
 	});
-	
+
 	$(".back").click(function(){
-		$('#blocks-container').css('marginTop', '520px');
+		$('#blocks-container').css('marginTop', '300px');
 		$("#projet").removeClass("visible");
 		$("#project-menu").removeClass("visible");
 		$("#fond_projet").removeClass("actif");
@@ -188,35 +188,35 @@ $(document).ready(function(){
 		$("#fond_projet").css("marginLeft", mLeft);
 		$("#fond_projet").css("height", "380px");
 		$("#fond_projet").css("width", "300px");
-		$("#fond_projet").css("background-color", bgColor); 
+		$("#fond_projet").css("background-color", bgColor);
 		$('html,body').delay(220).animate({scrollTop: parseInt(vTop2)-100},'10');
 	});
-	
+
 	$(".caseA").click(function(){
     	var lien =$(this).find("a").attr("href");
 		window.open(lien);
 	});
-	
+
 	$("#contactCanada").click(function(){
 		$('html,body').animate({scrollTop: 0},'10');
-	}); 
-	
+	});
+
 	$(".caseB").click(function(){
     	var lien =$(this).find("a").attr("href");
 		window.open(lien);
 	});
-	
+
 	var windowW = $(window).width();
 	var windowW2 = -(windowW / 2);
 	gestionResize();
-	
+
 	$(window).resize(function() {
 		windowW = $(window).width();
 		windowW2 = -(windowW / 2);
 		gestionResize();
 	});
-		
-	function gestionResize(){	
+
+	function gestionResize(){
 		if( $(window).width() > 1920) {
 			$(".banner img").css("width", windowW);
 			$(".banner img").css("marginLeft", windowW2);
@@ -226,6 +226,5 @@ $(document).ready(function(){
 			$(".banner img").css("marginLeft", "-960px");
 		}
 	}
-	
+
 });
-	
