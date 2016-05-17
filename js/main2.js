@@ -113,6 +113,7 @@ $(document).ready(function(){
 		if ($(this).hasClass("block8")) { $("#projet").load("projects/workforce/index.html", function(){ currentProject = 8; openprojet() } ); } ;
 		if ($(this).hasClass("block9")) { $("#projet").load("projects/dashboard/index.html", function(){ currentProject = 9; openprojet() } ); } ;
 		if ($(this).hasClass("block10")) { $("#projet").load("projects/web-app-builder/index.html", function(){ currentProject = 10; openprojet() } ); } ;
+		if ($(this).hasClass("block11")) { $("#projet").load("projects/my-esri/index.html", function(){ currentProject = 11; openprojet() } ); } ;
 	});
 
 	$(".icon").click(function(){
@@ -129,6 +130,7 @@ $(document).ready(function(){
 		if ($(this).hasClass("icon8")) { $("#projet").load("../projects/workforce/index.html", function(){ currentProject = 8; vTop2 = "1260px"; openprojet() } ); } ;
 		if ($(this).hasClass("icon9")) { $("#projet").load("../projects/dashboard/index.html", function(){ currentProject = 9; vTop2 = "1260px"; openprojet() } ); } ;
 		if ($(this).hasClass("icon10")) { $("#projet").load("../projects/web-app-builder/index.html", function(){ currentProject = 10; vTop2 = "1260px"; openprojet() } ); } ;
+		if ($(this).hasClass("icon11")) { $("#projet").load("../projects/my-esri/index.html", function(){ currentProject = 11; vTop2 = "1260px"; openprojet() } ); } ;
 	});
 
 	function openprojet() {
