@@ -1413,3 +1413,9 @@ footer .center {
   background: #000;
   color: #fff;
 }
+
+.MsgSent {
+	width: 980px;
+	margin: 0 auto;
+	text-align: center;
+}

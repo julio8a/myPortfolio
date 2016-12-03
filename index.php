@@ -1,3 +1,38 @@
+<?php
+
+//IMPORTANT!!
+//Put in your email address below:
+$to = 'julio8a00@gmail.com';
+
+
+//User info (DO NOT EDIT!)
+$name = stripslashes($_POST['name']); //sender's name
+$email = stripslashes($_POST['email']); //sender's email
+
+//The subject
+$subject  = ""; //The default subject. Will appear by default in all messages. Change this if you want.
+$subject .= stripslashes($_POST['subject']); // the subject
+
+
+//The message you will receive in your mailbox
+//Each parts are commented to help you understand what it does exaclty.
+//YOU DON'T NEED TO EDIT IT BELOW BUT IF YOU DO, DO IT WITH CAUTION!
+$msg  = "From : $name \r\n";  //add sender's name to the message
+$msg .= "e-Mail : $email \r\n";  //add sender's email to the message
+$msg .= "Subject : $subject \r\n\n"; //add subject to the message (optional! It will be displayed in the header anyway)
+$msg .= "---Message--- \r\n".stripslashes($_POST['message'])."\r\n\n";  //the message itself
+
+//Extras: User info (Optional!)
+//Delete this part if you don't need it
+//Display user information such as Ip address and browsers information...
+$msg .= "---User information--- \r\n"; //Title
+$msg .= "User IP : ".$_SERVER["REMOTE_ADDR"]."\r\n"; //Sender's IP
+$msg .= "Browser info : ".$_SERVER["HTTP_USER_AGENT"]."\r\n"; //User agent
+$msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
+// END Extras
+
+?>
+
 <!doctype html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -20,89 +55,128 @@
 <div id="about" class="debut">
 	<div class="center">
 		<div id="presentation">
-            <h3>About me</h3><a class="resume" href="downloads/resume.pdf">Resume</a>
-            <p>This is my creative portfolio showcasing work in: User Experience, User Interface, Web Development, Branding, Identity, Advertising and Marketing.</p>
+	    <h3>About me</h3><a class="resume" href="downloads/resume.pdf">Resume</a>
+	    <p>This is my creative portfolio showcasing work in: User Experience, User Interface, Web Development, Branding, Identity, Advertising and Marketing.</p>
 
-            <p> As a designer I define and provide solutions by focusing on Usability, User Centric Designs and the Consumer Experience. Personal artistic skill and technique ensures quality in my work, implementing knowledge of color, space, form and typography into every project. As a visual communicator my challenge is to positively affecting the consumer choice. As a lifelong Learner l live and breathe design, which has always been a part of life. My design philosophy is user-centered and accounts of, accessibility, functionality, usability, likeability and sociability.</p>
-            <p>Want to work on a project together?<a href="#" class="contact"> Contact me</a></p>
-        </div>
-        <div id="services">
-            <h3>Services</h3>
-            <ul>
-                <li>Experience Strategy</li>
-                <li>Brainstorm Workshop Faciliatation</li>
-                <li>Workflow Diagramming</li>
-                <li>Information Architecture Strategy</li>
-                <li>Wireframing (aka user interface blueprints)</li>
-                <li>Graphic / Interface Design</li>
-                <li>Web Development</li>
-                <li>Usability Research</li>
-                <li>Branding & Marketing</li>
-                <li>Brand Strategy</li>
-            </ul>
-        </div>
-        <div id="awards">
-            <h3>Experience </h3>
-						<small>Short List</small>
-            <p>2013 to Present – Esri<br />
-            <span class="awardname">User Interface Designer</span>
-            </p>
-            <p>2015 to 2015 – University of Redlands<br />
-            <span class="awardname">Adjunct Instructor</span>
-						</p>
-            <p>2011 to 2013 – FindLegalForms Inc.<br />
-            <span class="awardname">UI / UX & Front-End Developer</span>
-						</p>
-            <p>2012 to 2012 – AICAIE Addy Awards 2012<br />
-            <span class="awardname">Electronic Event Curator</span>
-						</p>
-        </div>
-        <div class="clear"></div>
+	    <p> As a designer I define and provide solutions by focusing on Usability, User Centric Designs and the Consumer Experience. Personal artistic skill and technique ensures quality in my work, implementing knowledge of color, space, form and typography into every project. As a visual communicator my challenge is to positively affecting the consumer choice. As a lifelong Learner l live and breathe design, which has always been a part of life. My design philosophy is user-centered and accounts of, accessibility, functionality, usability, likeability and sociability.</p>
+	    <p>Want to work on a project together?<a href="#" class="contact"> Contact me</a></p>
     </div>
+    <div id="services">
+      <h3>Services</h3>
+      <ul>
+        <li>Experience Strategy</li>
+        <li>Brainstorm Workshop Faciliatation</li>
+        <li>Workflow Diagramming</li>
+        <li>Information Architecture Strategy</li>
+        <li>Wireframing (aka user interface blueprints)</li>
+        <li>Graphic / Interface Design</li>
+        <li>Web Development</li>
+        <li>Usability Research</li>
+        <li>Branding & Marketing</li>
+        <li>Brand Strategy</li>
+      </ul>
+    </div>
+    <div id="awards">
+      <h3>Experience </h3>
+			<small>Short List</small>
+      <p>2013 to Present – Esri<br />
+      <span class="awardname">User Interface Designer</span>
+      </p>
+      <p>2015 to 2015 – University of Redlands<br />
+      <span class="awardname">Adjunct Instructor</span>
+			</p>
+      <p>2011 to 2013 – FindLegalForms Inc.<br />
+      <span class="awardname">UI / UX & Front-End Developer</span>
+			</p>
+      <p>2012 to 2012 – AICAIE Addy Awards 2012<br />
+      <span class="awardname">Electronic Event Curator</span>
+			</p>
+    </div>
+    <div class="clear"></div>
+  </div>
 </div>
-
-
-
 
 <!-- CONTACT SECTION -->
 <div id="contact" class="debut">
 	<div class="center">
 		<div id="contactleft">
-            <h3>Contact me</h3>
-            <form action="" method="post" id="leform">
-            <legend>Who are you ?</legend><input name="name" id="nom" type="text" value="Name / Surname" onfocus="if(this.value == 'Name / Surname') { this.value = ''; }" />
-            <legend>How can I reach you ?</legend><input name="email" id="email" type="text" value="Your email" onfocus="if(this.value == 'Your email') { this.value = ''; }" />
-            <legend>What is this about ?</legend><input name="subject" id="sujet" type="text" value="Subject" onfocus="if(this.value == 'Subject') { this.value = ''; }" />
-        </div>
-        <div id="contactright">
-            <legend>Ok, let's talk.</legend><textarea name="message" id="message" cols="20" rows="8"></textarea>
-            <input name="" type="submit" class="envoyer" value="Send the message" />
-        </form>
-        		        </div>
-        <div class="clear"></div>
+      <h3>Contact me</h3>
+			<?php
+				if ($_SERVER['REQUEST_METHOD'] != 'POST'){
+					$self = $_SERVER['PHP_SELF'];
+			?>
+
+			<!-- Start HTML form -->
+			<form name="form" method="post" id="third" action="<?php echo $self;?>"  class="niceform">
+				<!-- Name -->
+				<legend>Name<legend>
+				<input id="name" name="name" type="text" class="validate['required','length[3,-1]','nodigit']" size="30" />
+
+				<!-- Email -->
+				<legend>Email</legend>
+				<input id="email" name="email" type="text" class="validate['required','length[5,-1]','email']" size="30" />
+
+				<!-- Subject -->
+				<legend>Subject</legend>
+				<input id="subject" name="subject" type="text" class="validate['required']" size="30" />
+		</div>
+		<div id="contactright">
+			<!-- Message -->
+			<legend>Message</legend>
+			<textarea id="message" name="message" type="text" class="validate['required']" rows="10" cols="30"></textarea>
+			<br />
+			<input type="submit" class="envoyer" value="Send the message" />
+
+			<!-- Niceforms: mouse over effect -->
+			<!-- Do not remove the line below -->
+			<div id="stylesheetTest"></div>
+		</form>
+
+		<?php
+			} else {
+      error_reporting(0);
+      	if  (mail($to, $subject, $msg, "From: $email\r\nReply-To: $email\r\nReturn-Path: $email\r\n"))
+
+	  	//Message sent!
+	  	//It the message that will be displayed when the user click the sumbit button
+	  	//You can modify the text if you want
+      	echo nl2br("
+		   	<div class=\"MsgSent\">
+					<h1>Successfully Sent.</h1>
+					<p>Thank you <b><?=$name;?></b>, your message is sent!<br /> I will get back to you as soon as possible.</p>
+				</div>
+		   ");
+
+       	else
+
+	    // Display error message if the message failed to send
+        echo "
+	   	<div class=\"MsgError\">
+				<h1>Error!!</h1>
+				<p>Sorry <b><?=$name;?></b>, your message failed to send. Try later!</p>
+			</div>";
+			}
+			?>
     </div>
+    <div class="clear"></div>
+  </div>
 </div>
-
-
-
 
 <div id="header">
 	<nav>
-        <div class="wrapper">
-            <div id="logo">
-                <!-- <img src="design/logo.png" width="100" height="133" /> -->
-                <h1>Julio Ochoa</h1>
-                <img src="images/logo.png" />
-            </div>
-
-            <ul>
-                <li><a href="#" class="work current">Work</a></li>
-                <li><a href="#" class="about">About</a></li>
-                <li><a href="#" class="contact">Contact</a></li>
-            </ul>
-
-        </div>
-    </nav>
+    <div class="wrapper">
+      <div id="logo">
+        <!-- <img src="design/logo.png" width="100" height="133" /> -->
+        <h1>Julio Ochoa</h1>
+        <img src="images/logo.png" />
+      </div>
+      <ul>
+          <li><a href="#" class="work current">Work</a></li>
+          <li><a href="#" class="about">About</a></li>
+          <li><a href="#" class="contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 </div>
 
 <div id="intro-container">
@@ -377,6 +451,14 @@
 <script src="js/main2.js"></script>
 <script src="js/jquery.animate-colors-min.js"></script>
 <script src="js/preload.js"></script>
+
+<script type="text/javascript">// <![CDATA[
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+// ]]></script>
+<script type="text/javascript">// <![CDATA[
+var pageTracker = _gat._getTracker("UA-8746780-1"); pageTracker._trackPageview();
+// ]]></script>
 
 </body>
 </html>
