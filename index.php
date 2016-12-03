@@ -2,7 +2,7 @@
 
 //IMPORTANT!!
 //Put in your email address below:
-$to = 'julio@jcodesigns.com';
+$to = 'julio8a00@gmail.com';
 
 
 //User info (DO NOT EDIT!)
