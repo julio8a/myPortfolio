@@ -390,51 +390,51 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
       <div>Back</div>
     </div>
     <div class="icon icon1 current">
-      <img src="icons/circle.png" alt="Zip Tapestry App" />
+      <img src="images/circle.png" alt="Zip Tapestry App" />
       <div class="fond"></div>
     </div>
     <div class="icon icon2">
-      <img src="icons/circle.png" alt="Urban Observatory Website" />
+      <img src="images/circle.png" alt="Urban Observatory Website" />
       <div class="fond"> </div>
     </div>
     <div class="icon icon3">
-      <img src="icons/circle.png" alt="Urban Observatory App" />
+      <img src="images/circle.png" alt="Urban Observatory App" />
       <div class="fond"></div>
     </div>
     <div class="icon icon4">
-      <img src="icons/circle.png" alt="Florida Public Health Tracking App"  />
+      <img src="images/circle.png" alt="Florida Public Health Tracking App"  />
       <div class="fond"></div>
     </div>
     <div class="icon icon5">
-      <img src="icons/circle.png" alt="Inca Trail App" />
+      <img src="images/circle.png" alt="Inca Trail App" />
       <div class="fond"></div>
     </div>
     <div class="icon icon6">
-      <img src="icons/circle.png" alt="Save Me" />
+      <img src="images/circle.png" alt="Save Me" />
       <div class="fond"></div>
     </div>
     <div class="icon icon7">
-      <img src="icons/circle.png" alt="Esri.com Industry Template" />
+      <img src="images/circle.png" alt="Esri.com Industry Template" />
       <div class="fond"></div>
     </div>
     <div class="icon icon8">
-      <img src="icons/circle.png" alt="Workforce for ArcGIS" />
+      <img src="images/circle.png" alt="Workforce for ArcGIS" />
       <div class="fond"></div>
     </div>
     <div class="icon icon9">
-      <img src="icons/circle.png" alt="Operations Dashboard for ArcGIS" />
+      <img src="images/circle.png" alt="Operations Dashboard for ArcGIS" />
       <div class="fond"></div>
     </div>
     <div class="icon icon10">
-      <img src="icons/circle.png" alt="Web App Builder Concept" />
+      <img src="images/circle.png" alt="Web App Builder Concept" />
       <div class="fond"></div>
     </div>
     <div class="icon icon11">
-      <img src="icons/circle.png" alt="My Esri" />
+      <img src="images/circle.png" alt="My Esri" />
       <div class="fond"></div>
     </div>
     <div class="icon icon12">
-      <img src="icons/circle.png" alt="City Engine" />
+      <img src="images/circle.png" alt="City Engine" />
       <div class="fond"></div>
     </div>
 
