@@ -36,17 +36,17 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
 <!doctype html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="TITLE" content="jcodesigns">
+<meta name="TITLE" content="julio8a">
 <meta name="DESCRIPTION" content="Julio Ochoa, Coachella valley Web Design , What is Web Design , Coachella, California, LA Web Design, Los Angeles, Web Design, Web Designer, Graphics Design, Coachella Web Design, user experience, user interface, experience design, strategy, marketing, advertising">
-<meta name="KEYWORDS" content="what is web design jcodesigns , Julio Ochoa, Web Designer, Webservices, la web design, Graphic Design, Web Design, strategy, marketing, advertising, user experience, user interface.">
-<meta name="OWNER" content="julio8a00@hotmail.com">
+<meta name="KEYWORDS" content="what is web design julio8a , Julio Ochoa, Web Designer, Webservices, la web design, Graphic Design, Web Design, strategy, marketing, advertising, user experience, user interface.">
+<meta name="OWNER" content="julio8a00@gmail.com">
 <meta name="AUTHOR" content="Julio Ochoa">
 
 <title>Julio Ochoa Web Portfolio</title>
 
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
 <link rel="icon" type="image/png" href="design/favicon.png">
-<link rel="shortcut icon" href="http://jcodesigns.com/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://julio8a.com/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -174,7 +174,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
           <li><a href="#" class="work current">Work</a></li>
           <li><a href="#" class="about">About</a></li>
           <li><a href="#" class="contact">Contact</a></li>
-          <li><a target="_blank" href="http://blog.jcodesigns.com" class="blog">Blog</a><img src="images/external-link.png" /></li>
+          <li><a target="_blank" href="http://blog.julio8a.com" class="blog">Blog</a><img src="images/external-link.png" /></li>
       </ul>
     </div>
   </nav>
