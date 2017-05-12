@@ -174,7 +174,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
           <li><a href="#" class="work current">Work</a></li>
           <li><a href="#" class="about">About</a></li>
           <li><a href="#" class="contact">Contact</a></li>
-          <li><a target="_blank" href="http://blog.julio8a.com" class="blog">Blog</a><img src="images/external-link.png" /></li>
+          <li><a href="http://blog.julio8a.com">Blog</a></li>
       </ul>
     </div>
   </nav>
