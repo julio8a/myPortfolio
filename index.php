@@ -2,7 +2,7 @@
 
 //IMPORTANT!!
 //Put in your email address below:
-$to = 'j@julio8a.com';
+$to = 'julio@julio8a.com';
 
 
 //User info (DO NOT EDIT!)
@@ -55,7 +55,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
 <div id="about" class="debut">
 	<div class="center">
 		<div id="presentation">
-	    <h3>About me</h3><a class="resume" href="downloads/resume.pdf">Resume</a>
+	    <h3>About me</h3><a class="resume" target="_blank" href="downloads/jochoa_resume.pdf">Resume</a>
 	    <p>This is my creative portfolio showcasing work in: User Experience, User Interface, Web Development, Branding, Identity, Advertising and Marketing.</p>
 
 	    <p> As a designer I define and provide solutions by focusing on Usability, User Centric Designs and the Consumer Experience. Personal artistic skill and technique ensures quality in my work, implementing knowledge of color, space, form and typography into every project. As a visual communicator my challenge is to positively affecting the consumer choice. As a lifelong Learner l live and breathe design, which has always been a part of life. My design philosophy is user-centered and accounts of, accessibility, functionality, usability, likeability and sociability.</p>
@@ -79,17 +79,17 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
     <div id="awards">
       <h3>Experience </h3>
 			<small>Short List</small>
-      <p>2013 to Present – Esri<br />
-      <span class="awardname">User Interface Designer</span>
+      <p>2016 to Present – Esri<br />
+        <span class="awardname">Senior Product Designer</span>
+      </p>
+      <p>2013 to 2016 – Esri<br />
+        <span class="awardname">UI / UX Designer</span>
       </p>
       <p>2015 to 2015 – University of Redlands<br />
-      <span class="awardname">Adjunct Instructor</span>
+      	<span class="awardname">Adjunct Instructor</span>
 			</p>
       <p>2011 to 2013 – FindLegalForms Inc.<br />
-      <span class="awardname">UI / UX & Front-End Developer</span>
-			</p>
-      <p>2012 to 2012 – AICAIE Addy Awards 2012<br />
-      <span class="awardname">Electronic Event Curator</span>
+      	<span class="awardname">UI / UX & Front-End Developer</span>
 			</p>
     </div>
     <div class="clear"></div>
@@ -367,7 +367,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
         <div class="caseB"><a href="http://www.facebook.com/julio8a00" target="_blank">Facebook</a><div class="fond behance"></div></div>
         <div class="caseB"><a href="http://www.linkedin.com/in/julioochoa" target="_blank">LinkedIn</a><div class="fond linkedin"></div></div>
         <div class="caseB"><a href="http://dribbble.com/julio8a00" target="_blank">Dribbble</a><div class="fond cpx"></div></div>
-        <div class="caseB"><a href="downloads/resume.pdf" target="_blank">Resume</a><div class="fond cv"></div></div>
+        <div class="caseB"><a href="downloads/jochoa_resume.pdf" target="_blank">Resume</a><div class="fond cv"></div></div>
     <div class="ligne"></div>
     <div class="copyright">© 2017 All rights reserved.</div>
 </footer>
