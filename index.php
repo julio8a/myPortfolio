@@ -198,8 +198,8 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
     	<div class="content">
         	<div class="circle"></div>
             <div class="project-title">
-                <h2>Zip Tapestry App</h2>
-                <span class="role">Web & Mobile App Design</span>
+                <h2>Zip Tapestry</h2>
+                <span class="role">Web & Mobile App</span>
             </div>
             <div class="img-container">
                 <img src="projects/zip-tapestry/images/thumb.jpg" />
@@ -212,8 +212,8 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
     	<div class="content">
         	<div class="circle"></div>
             <div class="project-title">
-                <h2>Urban Observatory Website</h2>
-                <span class="role">UX & UI Desiner</span>
+                <h2>Urban Observatory</h2>
+                <span class="role">Website</span>
             </div>
             <div class="img-container">
                 <img src="projects/urb-ob-site/images/thumb.jpg" />
@@ -226,8 +226,8 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
     	<div class="content">
         	<div class="circle"></div>
             <div class="project-title">
-                <h2>Urban Observatory App</h2>
-                <span class="role">UX & UI Designer</span>
+                <h2>Urban Observatory</h2>
+                <span class="role">Interactive App</span>
             </div>
             <div class="img-container">
                 <img src="projects/urb-ob-ui/images/thumb.jpg" />
@@ -241,7 +241,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
         	<div class="circle"></div>
             <div class="project-title">
                 <h2>Florida Environmental Public Health App</h2>
-                <span class="role">UX & UI Designer</span>
+                <span class="role">Web SaaS App</span>
             </div>
             <div class="img-container">
                 <img src="projects/public-health/images/thumb.jpg" />
@@ -255,7 +255,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
         	<div class="circle"></div>
             <div class="project-title">
                 <h2>Inca Train – Office App</h2>
-                <span class="role">App Design</span>
+                <span class="role">Native App</span>
             </div>
             <div class="img-container">
                 <img src="projects/inca/images/thumb.jpg" />
@@ -269,7 +269,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
         	<div class="circle"></div>
             <div class="project-title">
                 <h2>Save Me App</h2>
-                <span class="role">Prototype / Demo Application</span>
+                <span class="role">Native App</span>
             </div>
             <div class="img-container">
                 <img src="projects/save-me/images/thumb.jpg" />
@@ -283,7 +283,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
             <div class="circle"></div>
             <div class="project-title">
                 <h2>Esr Industries Template</h2>
-                <span class="role">UX & UI Designer</span>
+                <span class="role">Web and Mobile Site</span>
             </div>
             <div class="img-container">
                 <img src="projects/industries/images/thumb.jpg" />
@@ -297,7 +297,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
             <div class="circle"></div>
             <div class="project-title">
                 <h2>Workforce for ArcGIS</h2>
-                <span class="role">Web App</span>
+                <span class="role">Web SaaS App</span>
             </div>
             <div class="img-container">
                 <img src="projects/workforce/images/thumb.jpg" />
@@ -311,7 +311,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
             <div class="circle"></div>
             <div class="project-title">
                 <h2>Operations Dashboard for ArcGIS</h2>
-                <span class="role">Web & Native App</span>
+                <span class="role">Web SaaS App</span>
             </div>
             <div class="img-container">
                 <img src="projects/dashboard/images/thumb.jpg" />
@@ -325,7 +325,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
             <div class="circle"></div>
             <div class="project-title">
                 <h2>Web App Builder Concept</h2>
-                <span class="role">Web App</span>
+                <span class="role">Web SaaS App</span>
             </div>
             <div class="img-container">
                 <img src="projects/web-app-builder/images/thumb.jpg" />
