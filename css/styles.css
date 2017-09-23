@@ -596,7 +596,7 @@ nav .current {
 }
 
 #projet p.lien a {
-	opacity:0.6;
+	opacity:0.8;
 	border-bottom:1px solid rgba(255, 255, 255, 0);
 	-webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
@@ -848,7 +848,7 @@ nav .current {
 .louvre05 { top:170px; left:655px; } .louvre05:hover { top:120px; left:605px; }
 
 .op50 {
-	opacity:0.5;
+	opacity:0.7;
 }
 
 #project-menu {
@@ -1062,8 +1062,8 @@ nav .current {
 #about, #contact {
 	position:fixed;
 	width:100%;
-	height:470px;
-	margin-top:-470px;
+	height:550px;
+	margin-top:-550px;
 	background: rgba(255, 255, 255, 1);
 	/*background:#141414;*/
 	z-index:15;
@@ -1126,6 +1126,10 @@ nav .current {
 
 #services ul {
 	padding: 0;
+}
+
+#services ul li {
+	margin: 5px;
 }
 
 #awards {
@@ -1204,6 +1208,10 @@ input, textarea {
 	margin-bottom:25px;
 	background:#fff;
 	color:#666;
+}
+
+textarea {
+	resize: none;
 }
 
 #contactleft input {

@@ -77,8 +77,8 @@ $(document).ready(function(){
 		$("#about").css("marginTop", 0);
 		$("#contact").css("marginTop", 0);
 		$("#header a").removeClass("current");
-		$("#header").css("top", "470px");
-		// $(".block").css("top", "+=470px");
+		$("#header").css("top", "550px");
+		// $(".block").css("top", "+=550px");
 		// $("#footer").css("top", "2610px");
 		// $("#intro").css("top", "430px");
 		setTimeout(function() {
@@ -89,12 +89,12 @@ $(document).ready(function(){
 	}
 
 	function menuferme() {
-		$("#about").css("marginTop", "-470px");
-		$("#contact").css("marginTop", "-470px");
+		$("#about").css("marginTop", "-550px");
+		$("#contact").css("marginTop", "-550px");
 		$("#header a").removeClass("current");
 		$(".work").addClass("current");
 		$("#header").css("top", "0");
-		// $(".block").css("top", "-=470px");
+		// $(".block").css("top", "-=550px");
 		// $("#footer").css("top", "2140px");
 		// $("#intro").css("top", "100px");
 		$("#about").removeClass("visible");

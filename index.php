@@ -58,22 +58,23 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
 	    <h3>About me</h3><a class="resume" target="_blank" href="downloads/jochoa_resume.pdf">Resume</a>
 	    <p>This is my creative portfolio showcasing work in: User Experience, User Interface, Web Development, Branding, Identity, Advertising and Marketing.</p>
 
-	    <p> As a designer I define and provide solutions by focusing on Usability, User Centric Designs and the Consumer Experience. Personal artistic skill and technique ensures quality in my work, implementing knowledge of color, space, form and typography into every project. As a visual communicator my challenge is to positively affecting the consumer choice. As a lifelong Learner l live and breathe design, which has always been a part of life. My design philosophy is user-centered and accounts of, accessibility, functionality, usability, likeability and sociability.</p>
+	    <p>I am a multidisciplined individual focused on composing user workflows, information architecture systems, application interface visual designs and agile software development. As a passionate leader, I unlock individuals’ potential and inspire innovation within the technology and software development industry. My philosophy of leadership is based on knowledge, growth, opportunities and learning. Using my holistic insight and innovative multidisciplinary collaboration principles, my promise is to strengthen and empower individuals and collectives to perform at their greatest potential. Moreover, energize, focus and align software development organizations, resulting in sustainable acceleration of processes and reduction in misallocated time.</p>
 	    <p>Want to work on a project together?<a href="#" class="contact"> Contact me</a></p>
     </div>
     <div id="services">
       <h3>Services</h3>
       <ul>
-        <li>Experience Strategy</li>
+        <li>Experience Design & Strategy</li>
         <li>Brainstorm Workshop Faciliatation</li>
         <li>Workflow Diagramming</li>
-        <li>Information Architecture Strategy</li>
-        <li>Wireframing (aka user interface blueprints)</li>
+        <li>Information Architecture </li>
+        <li>Wireframing & Prototypes</li>
         <li>Graphic / Interface Design</li>
         <li>Web Development</li>
         <li>Usability Research</li>
         <li>Branding & Marketing</li>
         <li>Brand Strategy</li>
+        <li>Social Media Strategy</li>
       </ul>
     </div>
     <div id="awards">
@@ -90,6 +91,9 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
 			</p>
       <p>2011 to 2013 – FindLegalForms Inc.<br />
       	<span class="awardname">UI / UX & Front-End Developer</span>
+			</p>
+      <p>2009 to 2015 – JCO Designs<br />
+      	<span class="awardname">Owner / Information Architect</span>
 			</p>
     </div>
     <div class="clear"></div>
