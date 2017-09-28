@@ -183,17 +183,17 @@ nav {
     transition: all 0.3s ease-out;
 	}
 	h2 {
-	display:block;
-	margin:320px auto 5px auto;
-	letter-spacing:1px;
-	font-size:24px;
-	color:#fff;
-	font-weight:normal;
-	text-transform:uppercase;
-	position:relative;
-	z-index:4;
-	opacity: 0;
-  transition: all 0.3s ease-out;
+		display:block;
+		margin:320px auto 5px auto;
+		letter-spacing:1px;
+		font-size:24px;
+		color:#fff;
+		font-weight:normal;
+		text-transform:uppercase;
+		position:relative;
+		z-index:4;
+		opacity: 0;
+	  transition: all 0.3s ease-out;
 	}
 	.role {
 		display:block;
@@ -210,7 +210,6 @@ nav {
 		position:absolute;
     transition: all 0.3s ease-out;
 	}
-
 	&:hover {
 		.circle {
 			top:90px;
@@ -239,51 +238,51 @@ nav {
 	display:none;
 }
 
-.block1 .fond {
+.block1 .fond, .icon1 .fond {
 	background:#323232;
 }
 
-.block2 .fond {
+.block2 .fond, .icon2 .fond {
 	background:#e00000;
 }
 
-.block3 .fond {
+.block3 .fond, .icon3 .fond {
 	background:#1a1a1a;
 }
 
-.block4 .fond {
+.block4 .fond, .icon4 .fond {
 	background:#005e82;
 }
 
-.block5 .fond {
+.block5 .fond, .icon5 .fond {
 	background:#359600;
 }
 
-.block6 .fond {
+.block6 .fond, .icon6 .fond {
 	background:#343434;
 }
 
-.block7 .fond {
+.block7 .fond, .icon7 .fond {
 	background:#00598c;
 }
 
-.block8 .fond {
+.block8 .fond, .icon8 .fond {
 	background:#db3300;
 }
 
-.block9 .fond {
+.block9 .fond, .icon9 .fond {
 	background:#fec600;
 }
 
-.block10 .fond {
+.block10 .fond, .icon10 .fond {
 	background:#4d5a6a;
 }
 
-.block11 .fond {
+.block11 .fond, .icon11 .fond {
 	background:#404040;
 }
 
-.block12 .fond {
+.block12 .fond, .icon12 .fond {
 	background:#2d5c80;
 }
 
@@ -582,38 +581,18 @@ nav {
 	position:fixed;
 	bottom:-70px;
 	z-index:10000000;
-	-webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    -ms-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 	-webkit-transition-delay: 0s;
 	transition-delay: 0s;
-}
-
-#project-menu .center {
-	border-right:1px solid #222;
-	width:973px;
-}
-
-#project-menu.visible {
-	bottom:0px;
-	-webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    -ms-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-	-webkit-transition-delay: 1.5s;
-	transition-delay: 1.5s;
-}
-
-.closeProject {
-	position: fixed;
-	left: 50;
-	top: 60;
-	z-index: 15;
-	width: 30px;
-	height: 30px;
+	.center {
+		border-right:1px solid #222;
+		width:973px;
+	}
+	&.visible {
+		bottom:0px;
+	  transition: all 0.3s ease-out;
+		transition-delay: 1.5s;
+	}
 }
 
 .back {
@@ -629,33 +608,22 @@ nav {
 	padding-left:20px;
 	float:left;
 	cursor:pointer;
-	-webkit-transition: all 0.4s ease-out;
-    -moz-transition: all 0.4s ease-out;
-    -o-transition: all 0.4s ease-out;
-    -ms-transition: all 0.4s ease-out;
-    transition: all 0.4s ease-out;
-}
-
-.back:hover {
-	opacity:1;
-}
-
-.back img {
-	margin-top:2px;
-	float:left;
-	position:relative;
-	z-index:10000001;
-	-webkit-transition: all 0.4s ease-out;
-    -moz-transition: all 0.4s ease-out;
-    -o-transition: all 0.4s ease-out;
-    -ms-transition: all 0.4s ease-out;
-    transition: all 0.4s ease-out;
-}
-
-.back div {
-	margin-top:32px;
-	float:left;
-	margin-left:15px;
+  transition: all 0.4s ease-out;
+	img {
+		margin-top:2px;
+		float:left;
+		position:relative;
+		z-index:10000001;
+	  transition: all 0.4s ease-out;
+	}
+	div {
+		margin-top:32px;
+		float:left;
+		margin-left:15px;
+	}
+	&:hover {
+		opacity: 1;
+	}
 }
 
 .icon {
@@ -667,117 +635,37 @@ nav {
 	text-align:center;
 	padding-top:22px;
 	cursor:pointer;
+	.fond {
+		width:72px;
+		height:70px;
+		top:70px;
+		position:absolute;
+	  transition: all 0.2s ease-out;
+	}
+	img {
+		opacity:0.3;
+		position:relative;
+		z-index:10000001;
+	  transition: all 0.4s ease-out;
+	}
+	&.current {
+		width:72px;
+		border-left:0;
+		img {
+			opacity:1;
+		}
+	}
 }
 
 .icon11 {
 	padding-top:20px;
 }
 
-.icon.current {
-	width:72px;
-	border-left:0;
-}
-
-.icon.current img {
-	opacity:1;
-}
-
-.icon img {
-	opacity:0.3;
-	position:relative;
-	z-index:10000001;
-	-webkit-transition: all 0.4s ease-out;
-    -moz-transition: all 0.4s ease-out;
-    -o-transition: all 0.4s ease-out;
-    -ms-transition: all 0.4s ease-out;
-    transition: all 0.4s ease-out;
-}
-
-.icon .fond {
-	width:72px;
-	height:70px;
-	top:70px;
-	position:absolute;
-	-webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -o-transition: all 0.2 s ease-out;
-    -ms-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-}
-
-
 .icon:hover .fond, .icon.current .fond  {
 	top:0px;
 	z-index:10000000;
 }
 
-.icon:hover img, .back:hover img {
-		opacity:1;
-	    filter: FlipH;
-        -ms-filter: "FlipH";
-        -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-}
-
-.icon.current:hover img {
-		opacity:1;
-	    filter: none;
-        -ms-filter: none;
-        -moz-transform: none;
-        -o-transform: none;
-        -webkit-transform: none;
-        transform: none;
-}
-
-.icon1 .fond {
-	background:#323232;
-}
-
-.icon2 .fond {
-	background:#e00000;
-}
-
-.icon3 .fond {
-	background:#1a1a1a;
-}
-
-.icon4 .fond {
-	background:#005e82;
-}
-
-.icon5 .fond {
-	background:#359600;
-}
-
-.icon6 .fond {
-	background:#343434;
-}
-
-.icon7 .fond {
-	background:#00598c;
-}
-
-.icon8 .fond {
-	background:#db3300;
-}
-
-.icon9 .fond {
-	background:#fec600;
-}
-
-.icon10 .fond {
-	background:#4d5a6a;
-}
-
-.icon11 .fond {
-	background:#404040;
-}
-
-.icon12 .fond {
-	background:#2d5c80;
-}
 
 
 
