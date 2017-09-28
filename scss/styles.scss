@@ -682,6 +682,10 @@ nav {
   transition: left 0s ease-out, margin-top .5s ease-out;
 }
 
+.shadow3 {
+	box-shadow: 0 160px 210px 0 rgba(0, 0, 0, .5);
+}
+
 #about.debut, #contact.debut {
 	margin-top:-470px;
   transition: left 0s ease-out, margin-top 0s ease-out;
