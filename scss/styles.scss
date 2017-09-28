@@ -6,7 +6,7 @@ body {
 	padding-bottom:100px;
 	margin:0;
 	overflow-x:hidden;
-	background: #141414;
+	background: #333;
 }
 
 .clear {
@@ -66,7 +66,7 @@ h3 {
 		margin: 0;
 		padding: 10px 0 0 0;
 		margin-top: 0px;
-		width:135px;
+		width:140px;
 		float:left;
 	}
 	img {
@@ -257,53 +257,18 @@ nav {
 	display:none;
 }
 
-.block1 .fond, .icon1 .fond {
-	background:#323232;
-}
-
-.block2 .fond, .icon2 .fond {
-	background:#e00000;
-}
-
-.block3 .fond, .icon3 .fond {
-	background:#1a1a1a;
-}
-
-.block4 .fond, .icon4 .fond {
-	background:#005e82;
-}
-
-.block5 .fond, .icon5 .fond {
-	background:#359600;
-}
-
-.block6 .fond, .icon6 .fond {
-	background:#343434;
-}
-
-.block7 .fond, .icon7 .fond {
-	background:#00598c;
-}
-
-.block8 .fond, .icon8 .fond {
-	background:#db3300;
-}
-
-.block9 .fond, .icon9 .fond {
-	background:#fec600;
-}
-
-.block10 .fond, .icon10 .fond {
-	background:#4d5a6a;
-}
-
-.block11 .fond, .icon11 .fond {
-	background:#404040;
-}
-
-.block12 .fond, .icon12 .fond {
-	background:#2d5c80;
-}
+.block1 .fond, .icon1 .fond { background:#323232; }
+.block2 .fond, .icon2 .fond { background:#e00000; }
+.block3 .fond, .icon3 .fond { background:#1a1a1a; }
+.block4 .fond, .icon4 .fond { background:#005e82; }
+.block5 .fond, .icon5 .fond { background:#359600; }
+.block6 .fond, .icon6 .fond { background:#343434; }
+.block7 .fond, .icon7 .fond { background:#00598c; }
+.block8 .fond, .icon8 .fond { background:#db3300; }
+.block9 .fond, .icon9 .fond { background:#fec600; }
+.block10 .fond, .icon10 .fond { background:#4d5a6a; }
+.block11 .fond, .icon11 .fond { background:#404040; }
+.block12 .fond, .icon12 .fond { background:#2d5c80; }
 
 
 
@@ -428,13 +393,6 @@ nav {
 	  transition: all 0.3s ease-out;
 		transition-delay: 0s;
 	}
-	.filet {
-		opacity:0;
-		margin:0 auto 40px auto;
-		text-align:center;
-	  transition: all 0.3s ease-out;
-		transition-delay: 0s;
-	}
 	.infos {
 		display:table;
 		margin:0 auto;
@@ -486,7 +444,7 @@ nav {
 		text-align:center;
 		position:relative;
 		display:block;
-		background:#000;
+		background:#323232;
 		img {
 		  box-shadow: none;
 			position:relative;
@@ -514,14 +472,6 @@ nav {
 			margin:0px auto 0px auto;
 			text-transform:uppercase;
 			letter-spacing:3px;
-		}
-		.filet {
-			margin:40px auto 30px auto;
-			text-align:center;
-		}
-		.filetbas {
-			margin:30px auto 90px auto;
-			text-align:center;
 		}
 	}
 	&.visible {
@@ -566,11 +516,6 @@ nav {
 		  transition: all 0.3s ease-out;
 			transition-delay: 1.2s;
 		}
-		.filet {
-			opacity:1;
-		  transition: all 0.3s ease-out;
-			transition-delay: 1.3s;
-		}
 		.infos {
 			opacity:1;
 		  transition: all 0.3s ease-out;
@@ -596,7 +541,7 @@ nav {
 #project-menu {
 	width:100%;
 	height:70px;
-	background:#000;
+	background:#323232;
 	position:fixed;
 	bottom:-70px;
 	z-index:10000000;
@@ -685,8 +630,6 @@ nav {
 	top:0px;
 	z-index:10000000;
 }
-
-
 
 
 /************************************** ABOUT ************************************/
@@ -862,14 +805,12 @@ footer {
 	top:1140px;
 	width:100%;
 	height:90px;
-	background:#141414;
+	background:#333;
 	border-top: 2px solid #242424;
 	z-index: 12;
 	.center {
 		height:90px;
 		width:1000px;
-		border-left:1px solid #242424;
-		border-right:1px solid #242424;
 		font-family:'Roboto', Arial, sans-serif;
 		font-weight:normal;
 		-webkit-font-smoothing:antialiased;
@@ -885,7 +826,6 @@ footer {
 	height:1px;
 	background:#242424;
 }
-
 
 .caseA, #contactCanada {
 	display:block;
@@ -911,7 +851,7 @@ footer {
 	a {
 		position:relative;
 		z-index:3;
-		color:#CCC;
+		color:#aaa;
 	}
 	&:hover {
 		a {
@@ -968,27 +908,30 @@ footer {
 	top:34px;
 }
 
-.fond.twitter {
-	background:#00aced;
-}
+.fond {
+	&.twitter {
+		background:#00aced;
+	}
+	.behance {
+		background:#0364fa;
+	}
+	&.linkedin {
+		background:#3893c4;
+	}
+	&.cv {
+		background:#444;
+	}
 
-.fond.behance {
-	background:#0364fa;
-}
-
-.fond.linkedin {
-	background:#3893c4;
-}
-
-.fond.cv {
-	background:#444;
+	&.blog {
+		background:#000;
+	}
 }
 
 .copyright {
 	font-family:'Roboto', Arial, sans-serif;
 	text-align:center;
 	font-size:14px;
-	color:#494949;
+	color:#aaa;
 	margin-top:35px;
 }
 
@@ -1003,7 +946,7 @@ footer {
   padding: 10px 20px;
   position: absolute;
   top: -42px;
-  background: #000;
+  background: #323232;
   color: #fff;
 }
 

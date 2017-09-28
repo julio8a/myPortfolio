@@ -3,7 +3,6 @@ $(document).ready(function(){
 	$("#about").removeClass("debut");
 	$("#contact").removeClass("debut");
 
-
 	var vTop = 0;
 	var mLeft = 0;
 	var bgColor = "#FFFFFF";
@@ -88,9 +87,6 @@ $(document).ready(function(){
 		$("#contact").css("marginTop", 0);
 		$("#header a").removeClass("current");
 		$("#header").css("top", "550px");
-		// $(".block").css("top", "+=550px");
-		// $("#footer").css("top", "2610px");
-		// $("#intro").css("top", "430px");
 		setTimeout(function() {
 			$("#about").addClass("visible");
 			$("#contact").addClass("visible");
@@ -104,9 +100,6 @@ $(document).ready(function(){
 		$("#header a").removeClass("current");
 		$(".work").addClass("current");
 		$("#header").css("top", "0");
-		// $(".block").css("top", "-=550px");
-		// $("#footer").css("top", "2140px");
-		// $("#intro").css("top", "100px");
 		$("#about").removeClass("visible");
 		$("#contact").removeClass("visible");
 		rubOpen = false;
@@ -143,6 +136,7 @@ $(document).ready(function(){
 		if ($(this).hasClass("icon10")) { $("#projet").load("../projects/web-app-builder/index.html", function(){ currentProject = 10; vTop2 = "1260px"; openprojet() } ); } ;
 		if ($(this).hasClass("icon11")) { $("#projet").load("../projects/my-esri/index.html", function(){ currentProject = 11; vTop2 = "1260px"; openprojet() } ); } ;
 		if ($(this).hasClass("icon12")) { $("#projet").load("../projects/city-engine/index.html", function(){ currentProject = 12; vTop2 = "1260px"; openprojet() } ); } ;
+
 	});
 
 	function openprojet() {
@@ -205,10 +199,6 @@ $(document).ready(function(){
 	$(".caseA").click(function(){
     	var lien =$(this).find("a").attr("href");
 		window.open(lien);
-	});
-
-	$("#contactCanada").click(function(){
-		$('html,body').animate({scrollTop: 0},'10');
 	});
 
 	$(".caseB").click(function(){
