@@ -229,7 +229,7 @@ $(document).ready(function(){
 
  $('.icon').hover(
      function() {
-       var popupText = $(this).children('img').attr('alt');
+       var popupText = $(this).children('div').attr('alt');
        var popupContent = ('<div class="popup-text"><span>'+ popupText + '</span></div>');
        $(popupContent).prependTo($(this));
      }, function() {

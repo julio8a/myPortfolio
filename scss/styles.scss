@@ -629,12 +629,23 @@ nav {
 .icon {
 	display:block;
 	float:left;
-	width:71px;
+	width:70px;
 	height:48px;
 	border-left:1px solid #222;
 	text-align:center;
 	padding-top:22px;
 	cursor:pointer;
+	.shape {
+		width: 30px;
+		height: 30px;
+		border-radius: 50px;
+		background: #fff;
+		opacity:0.3;
+		position:relative;
+		z-index:10000001;
+	  transition: all 0.4s ease-out;
+		margin-left: 20px;
+	}
 	.fond {
 		width:72px;
 		height:70px;
@@ -642,23 +653,13 @@ nav {
 		position:absolute;
 	  transition: all 0.2s ease-out;
 	}
-	img {
-		opacity:0.3;
-		position:relative;
-		z-index:10000001;
-	  transition: all 0.4s ease-out;
-	}
 	&.current {
 		width:72px;
 		border-left:0;
-		img {
+		.shape {
 			opacity:1;
 		}
 	}
-}
-
-.icon11 {
-	padding-top:20px;
 }
 
 .icon:hover .fond, .icon.current .fond  {
@@ -677,7 +678,6 @@ nav {
 	height:550px;
 	margin-top:-550px;
 	background: rgba(255, 255, 255, 1);
-	/*background:#141414;*/
 	z-index:15;
   transition: left 0s ease-out, margin-top .5s ease-out;
 }
