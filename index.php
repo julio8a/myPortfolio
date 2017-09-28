@@ -59,7 +59,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
 	    <p>This is my creative portfolio showcasing work in: User Experience, User Interface, Web Development, Branding, Identity, Advertising and Marketing.</p>
 
 	    <p>I am a multidisciplined individual focused on composing user workflows, information architecture systems, application interface visual designs and agile software development. As a passionate leader, I unlock individuals’ potential and inspire innovation within the technology and software development industry. My philosophy of leadership is based on knowledge, growth, opportunities and learning. Using my holistic insight and innovative multidisciplinary collaboration principles, my promise is to strengthen and empower individuals and collectives to perform at their greatest potential. Moreover, energize, focus and align software development organizations, resulting in sustainable acceleration of processes and reduction in misallocated time.</p>
-	    <p>Want to work on a project together?<a href="#" class="contact"> Contact me</a></p>
+	    <p>Want to work on a project together? <a href="#" class="contact">Contact me</a></p>
     </div>
     <div id="services">
       <h3>Services</h3>
