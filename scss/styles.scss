@@ -680,15 +680,17 @@ nav {
 	background: rgba(255, 255, 255, 1);
 	z-index:15;
   transition: left 0s ease-out, margin-top .5s ease-out;
+	&.debut {
+		margin-top:-470px;
+	  transition: left 0s ease-out, margin-top 0s ease-out;
+	}
+	&.visible {
+	  transition: left 0.3s ease-out, margin-top 0.3s ease-out;
+	}
 }
 
 .shadow3 {
 	box-shadow: 0 160px 210px 0 rgba(0, 0, 0, .5);
-}
-
-#about.debut, #contact.debut {
-	margin-top:-470px;
-  transition: left 0s ease-out, margin-top 0s ease-out;
 }
 
 #about {
@@ -697,10 +699,6 @@ nav {
 
 #contact {
 	left : 100%;
-}
-
-#about.visible, #contact.visible {
-  transition: left 0.3s ease-out, margin-top 0.3s ease-out;
 }
 
 #presentation {
@@ -713,6 +711,9 @@ nav {
 	font-size:14px;
 	line-height:20px;
 	letter-spacing:1px;
+	p a {
+	  color: #007ac2;
+	}
 }
 
 #services {
@@ -726,15 +727,14 @@ nav {
 	font-size:14px;
 	line-height:20px;
 	letter-spacing:1px;
+	ul {
+		padding: 0;
+		li {
+			margin: 5px;
+		}
+	}
 }
 
-#services ul {
-	padding: 0;
-}
-
-#services ul li {
-	margin: 5px;
-}
 
 #awards {
 	float:left;
@@ -747,12 +747,12 @@ nav {
 	font-size:14px;
 	line-height:20px;
 	letter-spacing:1px;
+	small {
+		top: -15px;
+		position: relative;
+	}
 }
 
-#awards small {
-	top: -15px;
-	position: relative;
-}
 
 span.awardname {
 	font-size:12px;
@@ -763,19 +763,15 @@ span.awardname {
 p {
 	margin:0 0 15px 0;
 	padding:0;
+	a {
+		color:#fff;
+		&:hover {
+			border-bottom:1px solid #FFF;
+		}
+	}
 }
 
-#presentation p a {
-  color: #007ac2;
-}
 
-p a {
-	color:#fff;
-}
-
-p a:hover {
-	border-bottom:1px solid #FFF;
-}
 
 h3 {
 	font-size:28px;
@@ -802,6 +798,17 @@ h3 {
 #contactright {
 	margin-left:50px;
 	width:615px;
+	textarea {
+		width:573px;
+		height:214px;
+	}
+	legend {
+		margin-top:89px;
+	}
+}
+
+#contactleft input {
+	width:273px;
 }
 
 
@@ -818,18 +825,6 @@ textarea {
 	resize: none;
 }
 
-#contactleft input {
-	width:273px;
-}
-
-#contactright textarea {
-	width:573px;
-	height:214px;
-}
-
-#contactright legend {
-	margin-top:89px;
-}
 
 input.envoyer {
 	background:#fff;
@@ -842,12 +837,12 @@ input.envoyer {
 	margin: -50px 0 0 435px;
 	cursor:pointer;
 	font-weight:bold;
+	&:hover {
+		border:1px solid #007ac2;
+		color: #007ac2;
+	}
 }
 
-input.envoyer:hover {
-	border:1px solid #007ac2;
-	color: #007ac2;
-}
 
 .envoimess {
 	position:absolute;
@@ -872,6 +867,19 @@ footer {
 	height:90px;
 	background:#141414;
 	z-index: 12;
+	.center {
+		height:90px;
+		width:1000px;
+		border-left:1px solid #242424;
+		border-right:1px solid #242424;
+		font-family:'Roboto', Arial, sans-serif;
+		font-weight:normal;
+		-webkit-font-smoothing:antialiased;
+		font-size:14px;
+		line-height:20px;
+		letter-spacing:1px;
+		text-transform:uppercase;
+	}
 }
 
 .ligne {
@@ -880,19 +888,6 @@ footer {
 	background:#242424;
 }
 
-footer .center {
-	height:90px;
-	width:1000px;
-	border-left:1px solid #242424;
-	border-right:1px solid #242424;
-	font-family:'Roboto', Arial, sans-serif;
-	font-weight:normal;
-	-webkit-font-smoothing:antialiased;
-	font-size:14px;
-	line-height:20px;
-	letter-spacing:1px;
-	text-transform:uppercase;
-}
 
 .caseA, #contactCanada {
 	display:block;
