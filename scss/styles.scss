@@ -86,8 +86,7 @@ nav {
 #intro-container {
 	width: 100%;
 	height: 280px;
-	background: #f4f4f4;
-	border-bottom: 1px solid #eee;
+	background: #fff;
 	position:fixed;
 	top:0;
 	z-index:10;
@@ -127,7 +126,7 @@ nav {
 	width: 100%;
 	background: #fff;
 	height: 1000px;
-	margin-top: 281px;
+	margin-top: 280px;
 	position: absolute;
 	z-index: 11;
   transition: all .8s ease-out;
@@ -866,6 +865,7 @@ footer {
 	width:100%;
 	height:90px;
 	background:#141414;
+	border-top: 2px solid #242424;
 	z-index: 12;
 	.center {
 		height:90px;

@@ -189,7 +189,7 @@ $(document).ready(function(){
 	});
 
 	$(".back").click(function(){
-		$('#blocks-container').css('marginTop', '281px');
+		$('#blocks-container').css('marginTop', '280px');
 		$("#projet").removeClass("visible");
 		$("#project-menu").removeClass("visible");
 		$("#fond_projet").removeClass("actif");
