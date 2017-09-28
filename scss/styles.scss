@@ -17,7 +17,27 @@ a {
 	text-decoration:none;
 }
 
+p {
+	margin:0 0 15px 0;
+	padding:0;
+	a {
+		color:#fff;
+		&:hover {
+			border-bottom:1px solid #FFF;
+		}
+	}
+}
 
+
+
+h3 {
+	font-size:28px;
+	color:#333;
+	margin:50px 0 20px 0;
+	letter-spacing:1px;
+	font-family:'Roboto', Arial, sans-serif;
+	font-weight:normal;
+}
 /************************************************** HEADER *********************************************/
 
 .wrapper {
@@ -758,29 +778,6 @@ span.awardname {
 	color:#777;
 	letter-spacing:0;
 }
-
-p {
-	margin:0 0 15px 0;
-	padding:0;
-	a {
-		color:#fff;
-		&:hover {
-			border-bottom:1px solid #FFF;
-		}
-	}
-}
-
-
-
-h3 {
-	font-size:28px;
-	color:#333;
-	margin:50px 0 20px 0;
-	letter-spacing:1px;
-	font-family:'Roboto', Arial, sans-serif;
-	font-weight:normal;
-}
-
 
 #contactleft, #contactright {
 	float:left;
