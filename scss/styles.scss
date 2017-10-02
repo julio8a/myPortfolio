@@ -53,8 +53,9 @@ h3 {
 	z-index:100;
 	position:fixed;
 	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
   background: #fff;
-  box-shadow: 0 0 3px 1px rgba(0, 0, 0, .1);
+  //box-shadow: 0 0 3px 1px rgba(0, 0, 0, .1);
   transition: top .5s ease-out;
 }
 
@@ -541,7 +542,7 @@ nav {
 #project-menu {
 	width:100%;
 	height:70px;
-	background:#323232;
+	background:#111;
 	position:fixed;
 	bottom:-70px;
 	z-index:10000000;
