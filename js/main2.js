@@ -3,7 +3,6 @@ $(document).ready(function(){
 	$("#about").removeClass("debut");
 	$("#contact").removeClass("debut");
 
-
 	var vTop = 0;
 	var mLeft = 0;
 	var bgColor = "#FFFFFF";
@@ -23,10 +22,14 @@ $(document).ready(function(){
 			menuderoule();
 			aboutOpen = true;
 			$(this).addClass("current");
+			$('#about').addClass("shadow3")
 		}
 		else {
 			if(contactOpen == true) {
 				$("#contact").css("left", "100%");
+				$("#contact").removeClass("shadow3");
+				$("#about").addClass("shadow3");
+				$("#about").css("left", "0");
 				$("#about").css("left", "0");
 				contactOpen = false;
 				aboutOpen = true;
@@ -36,6 +39,7 @@ $(document).ready(function(){
 			else {
 				menuferme();
 				aboutOpen = false;
+				$('#about').removeClass('shadow3');
 			}
 		}
 		return false;
@@ -43,6 +47,7 @@ $(document).ready(function(){
 
 	$(".contact").click(function(){
 		if (rubOpen == false) {
+			$('#contact').addClass("shadow3")
 			$("#about").css("left", "-100%");
 			$("#contact").css("left", "0");
 			menuderoule();
@@ -53,6 +58,8 @@ $(document).ready(function(){
 			if(aboutOpen == true) {
 				$("#about").css("left", "-100%");
 				$("#contact").css("left", "0");
+				$("#contact").addClass("shadow3");
+				$("#about").removeClass("shadow3");
 				aboutOpen = false;
 				contactOpen = true;
 				$("#header a").removeClass("current");
@@ -61,6 +68,7 @@ $(document).ready(function(){
 			else {
 				menuferme();
 				contactOpen = false;
+			$('#contact').removeClass("shadow3")
 			}
 		}
 		return false;
@@ -69,6 +77,7 @@ $(document).ready(function(){
 	$(".work").click(function(){
 		if (rubOpen == true) {
 			menuferme();
+			$('#contact, #about').removeClass("shadow3")
 		}
 		return false;
 	});
@@ -77,10 +86,7 @@ $(document).ready(function(){
 		$("#about").css("marginTop", 0);
 		$("#contact").css("marginTop", 0);
 		$("#header a").removeClass("current");
-		$("#header").css("top", "470px");
-		// $(".block").css("top", "+=470px");
-		// $("#footer").css("top", "2610px");
-		// $("#intro").css("top", "430px");
+		$("#header").css("top", "550px");
 		setTimeout(function() {
 			$("#about").addClass("visible");
 			$("#contact").addClass("visible");
@@ -89,14 +95,11 @@ $(document).ready(function(){
 	}
 
 	function menuferme() {
-		$("#about").css("marginTop", "-470px");
-		$("#contact").css("marginTop", "-470px");
+		$("#about").css("marginTop", "-550px");
+		$("#contact").css("marginTop", "-550px");
 		$("#header a").removeClass("current");
 		$(".work").addClass("current");
 		$("#header").css("top", "0");
-		// $(".block").css("top", "-=470px");
-		// $("#footer").css("top", "2140px");
-		// $("#intro").css("top", "100px");
 		$("#about").removeClass("visible");
 		$("#contact").removeClass("visible");
 		rubOpen = false;
@@ -133,6 +136,7 @@ $(document).ready(function(){
 		if ($(this).hasClass("icon10")) { $("#projet").load("../projects/web-app-builder/index.html", function(){ currentProject = 10; vTop2 = "1260px"; openprojet() } ); } ;
 		if ($(this).hasClass("icon11")) { $("#projet").load("../projects/my-esri/index.html", function(){ currentProject = 11; vTop2 = "1260px"; openprojet() } ); } ;
 		if ($(this).hasClass("icon12")) { $("#projet").load("../projects/city-engine/index.html", function(){ currentProject = 12; vTop2 = "1260px"; openprojet() } ); } ;
+
 	});
 
 	function openprojet() {
@@ -179,7 +183,7 @@ $(document).ready(function(){
 	});
 
 	$(".back").click(function(){
-		$('#blocks-container').css('marginTop', '282px');
+		$('#blocks-container').css('marginTop', '280px');
 		$("#projet").removeClass("visible");
 		$("#project-menu").removeClass("visible");
 		$("#fond_projet").removeClass("actif");
@@ -195,10 +199,6 @@ $(document).ready(function(){
 	$(".caseA").click(function(){
     	var lien =$(this).find("a").attr("href");
 		window.open(lien);
-	});
-
-	$("#contactCanada").click(function(){
-		$('html,body').animate({scrollTop: 0},'10');
 	});
 
 	$(".caseB").click(function(){
@@ -229,7 +229,7 @@ $(document).ready(function(){
 
  $('.icon').hover(
      function() {
-       var popupText = $(this).children('img').attr('alt');
+       var popupText = $(this).children('div').attr('alt');
        var popupContent = ('<div class="popup-text"><span>'+ popupText + '</span></div>');
        $(popupContent).prependTo($(this));
      }, function() {

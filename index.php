@@ -58,22 +58,23 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
 	    <h3>About me</h3><a class="resume" target="_blank" href="downloads/jochoa_resume.pdf">Resume</a>
 	    <p>This is my creative portfolio showcasing work in: User Experience, User Interface, Web Development, Branding, Identity, Advertising and Marketing.</p>
 
-	    <p> As a designer I define and provide solutions by focusing on Usability, User Centric Designs and the Consumer Experience. Personal artistic skill and technique ensures quality in my work, implementing knowledge of color, space, form and typography into every project. As a visual communicator my challenge is to positively affecting the consumer choice. As a lifelong Learner l live and breathe design, which has always been a part of life. My design philosophy is user-centered and accounts of, accessibility, functionality, usability, likeability and sociability.</p>
-	    <p>Want to work on a project together?<a href="#" class="contact"> Contact me</a></p>
+	    <p>I am a multidisciplined individual focused on composing user workflows, information architecture systems, application interface visual designs and agile software development. As a passionate leader, I unlock individuals’ potential and inspire innovation within the technology and software development industry. My philosophy of leadership is based on knowledge, growth, opportunities and learning. Using my holistic insight and innovative multidisciplinary collaboration principles, my promise is to strengthen and empower individuals and collectives to perform at their greatest potential. Moreover, energize, focus and align software development organizations, resulting in sustainable acceleration of processes and reduction in misallocated time.</p>
+	    <p>Want to work on a project together? <a href="#" class="contact">Contact me</a></p>
     </div>
     <div id="services">
       <h3>Services</h3>
       <ul>
-        <li>Experience Strategy</li>
+        <li>Experience Design & Strategy</li>
         <li>Brainstorm Workshop Faciliatation</li>
         <li>Workflow Diagramming</li>
-        <li>Information Architecture Strategy</li>
-        <li>Wireframing (aka user interface blueprints)</li>
+        <li>Information Architecture </li>
+        <li>Wireframing & Prototypes</li>
         <li>Graphic / Interface Design</li>
         <li>Web Development</li>
         <li>Usability Research</li>
         <li>Branding & Marketing</li>
         <li>Brand Strategy</li>
+        <li>Social Media Strategy</li>
       </ul>
     </div>
     <div id="awards">
@@ -90,6 +91,9 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
 			</p>
       <p>2011 to 2013 – FindLegalForms Inc.<br />
       	<span class="awardname">UI / UX & Front-End Developer</span>
+			</p>
+      <p>2009 to 2015 – JCO Designs<br />
+      	<span class="awardname">Owner / Information Architect</span>
 			</p>
     </div>
     <div class="clear"></div>
@@ -194,8 +198,8 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
     	<div class="content">
         	<div class="circle"></div>
             <div class="project-title">
-                <h2>Zip Tapestry App</h2>
-                <span class="role">Web & Mobile App Design</span>
+                <h2>Zip Tapestry</h2>
+                <span class="role">Web & Mobile App</span>
             </div>
             <div class="img-container">
                 <img src="projects/zip-tapestry/images/thumb.jpg" />
@@ -208,8 +212,8 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
     	<div class="content">
         	<div class="circle"></div>
             <div class="project-title">
-                <h2>Urban Observatory Website</h2>
-                <span class="role">UX & UI Desiner</span>
+                <h2>Urban Observatory</h2>
+                <span class="role">Website</span>
             </div>
             <div class="img-container">
                 <img src="projects/urb-ob-site/images/thumb.jpg" />
@@ -222,8 +226,8 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
     	<div class="content">
         	<div class="circle"></div>
             <div class="project-title">
-                <h2>Urban Observatory App</h2>
-                <span class="role">UX & UI Designer</span>
+                <h2>Urban Observatory</h2>
+                <span class="role">Interactive App</span>
             </div>
             <div class="img-container">
                 <img src="projects/urb-ob-ui/images/thumb.jpg" />
@@ -237,7 +241,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
         	<div class="circle"></div>
             <div class="project-title">
                 <h2>Florida Environmental Public Health App</h2>
-                <span class="role">UX & UI Designer</span>
+                <span class="role">Web SaaS App</span>
             </div>
             <div class="img-container">
                 <img src="projects/public-health/images/thumb.jpg" />
@@ -251,7 +255,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
         	<div class="circle"></div>
             <div class="project-title">
                 <h2>Inca Train – Office App</h2>
-                <span class="role">App Design</span>
+                <span class="role">Native App</span>
             </div>
             <div class="img-container">
                 <img src="projects/inca/images/thumb.jpg" />
@@ -265,7 +269,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
         	<div class="circle"></div>
             <div class="project-title">
                 <h2>Save Me App</h2>
-                <span class="role">Prototype / Demo Application</span>
+                <span class="role">Native App</span>
             </div>
             <div class="img-container">
                 <img src="projects/save-me/images/thumb.jpg" />
@@ -279,7 +283,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
             <div class="circle"></div>
             <div class="project-title">
                 <h2>Esr Industries Template</h2>
-                <span class="role">UX & UI Designer</span>
+                <span class="role">Web and Mobile Site</span>
             </div>
             <div class="img-container">
                 <img src="projects/industries/images/thumb.jpg" />
@@ -293,7 +297,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
             <div class="circle"></div>
             <div class="project-title">
                 <h2>Workforce for ArcGIS</h2>
-                <span class="role">Web App</span>
+                <span class="role">Web SaaS App</span>
             </div>
             <div class="img-container">
                 <img src="projects/workforce/images/thumb.jpg" />
@@ -307,7 +311,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
             <div class="circle"></div>
             <div class="project-title">
                 <h2>Operations Dashboard for ArcGIS</h2>
-                <span class="role">Web & Native App</span>
+                <span class="role">Web SaaS App</span>
             </div>
             <div class="img-container">
                 <img src="projects/dashboard/images/thumb.jpg" />
@@ -321,7 +325,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
             <div class="circle"></div>
             <div class="project-title">
                 <h2>Web App Builder Concept</h2>
-                <span class="role">Web App</span>
+                <span class="role">Web SaaS App</span>
             </div>
             <div class="img-container">
                 <img src="projects/web-app-builder/images/thumb.jpg" />
@@ -368,6 +372,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
         <div class="caseB"><a href="http://www.linkedin.com/in/julioochoa" target="_blank">LinkedIn</a><div class="fond linkedin"></div></div>
         <div class="caseB"><a href="http://dribbble.com/julio8a00" target="_blank">Dribbble</a><div class="fond cpx"></div></div>
         <div class="caseB"><a href="downloads/jochoa_resume.pdf" target="_blank">Resume</a><div class="fond cv"></div></div>
+        <div class="caseB"><a href="http://blog.julio8a.com" target="_blank">Blog</a><div class="fond blog"></div></div>
     <div class="ligne"></div>
     <div class="copyright">© 2017 All rights reserved.</div>
 </footer>
@@ -390,51 +395,51 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
       <div>Back</div>
     </div>
     <div class="icon icon1 current">
-      <img src="images/circle.png" alt="Zip Tapestry App" />
+      <div class="shape" alt="Zip Tapestry App"></div>
       <div class="fond"></div>
     </div>
     <div class="icon icon2">
-      <img src="images/circle.png" alt="Urban Observatory Website" />
+      <div class="shape" alt="Urban Observatory Website"></div>
       <div class="fond"> </div>
     </div>
     <div class="icon icon3">
-      <img src="images/circle.png" alt="Urban Observatory App" />
+      <div class="shape" alt="Urban Observatory App"></div>
       <div class="fond"></div>
     </div>
     <div class="icon icon4">
-      <img src="images/circle.png" alt="Florida Public Health Tracking App"  />
+      <div class="shape" alt="Florida Public Health Tracking App" ></div>
       <div class="fond"></div>
     </div>
     <div class="icon icon5">
-      <img src="images/circle.png" alt="Inca Trail App" />
+      <div class="shape" alt="Inca Trail App"></div>
       <div class="fond"></div>
     </div>
     <div class="icon icon6">
-      <img src="images/circle.png" alt="Save Me" />
+      <div class="shape" alt="Save Me"></div>
       <div class="fond"></div>
     </div>
     <div class="icon icon7">
-      <img src="images/circle.png" alt="Esri.com Industry Template" />
+      <div class="shape" alt="Esri.com Industry Template"></div>
       <div class="fond"></div>
     </div>
     <div class="icon icon8">
-      <img src="images/circle.png" alt="Workforce for ArcGIS" />
+      <div class="shape" alt="Workforce for ArcGIS"></div>
       <div class="fond"></div>
     </div>
     <div class="icon icon9">
-      <img src="images/circle.png" alt="Operations Dashboard for ArcGIS" />
+      <div class="shape" alt="Operations Dashboard for ArcGIS"></div>
       <div class="fond"></div>
     </div>
     <div class="icon icon10">
-      <img src="images/circle.png" alt="Web App Builder Concept" />
+      <div class="shape" alt="Web App Builder Concept"></div>
       <div class="fond"></div>
     </div>
     <div class="icon icon11">
-      <img src="images/circle.png" alt="My Esri" />
+      <div class="shape" alt="My Esri"></div>
       <div class="fond"></div>
     </div>
     <div class="icon icon12">
-      <img src="images/circle.png" alt="City Engine" />
+      <div class="shape" alt="City Engine"></div>
       <div class="fond"></div>
     </div>
 
