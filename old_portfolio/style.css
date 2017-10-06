@@ -1,0 +1,751 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hidden {
+	display:inline;
+	display:none;
+}
+
+.newTabLinks {
+	color:#205e84;
+	text-decoration:none;
+}
+
+.link {
+	color:#205e84;
+	text-decoration:none;
+}
+
+
+body {
+	background:#fff top left repeat-x url(myImages/body-background.jpg);
+	background-position:top center;
+	padding:0;
+	margin:0;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#555;
+}
+
+hr {
+ 	border:0;
+  	border-top: 1px solid #CCC;
+  	height: 0;
+	clear:both;
+}
+
+p {
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-weight:normal;
+	padding:0;
+	margin:0;
+	color:#205e84;
+}
+
+h2 {
+	font-weight:normal;
+	color:#205e84;
+}
+
+h3 {
+	font-weight:normal;
+	margin:0;
+	padding:20px 0 10px 0;
+	color:#205e84;
+}
+
+#wrapper {
+	width:960px;
+	padding-top:20px;
+	margin:0 auto;
+}
+
+#brandingHolder {
+	padding:0;
+	width:300px;
+	height:90px;
+}
+
+#logo {
+	background-image: url(myImages/logo.jpg);
+	background-repeat:no-repeat;
+	margin-top:30px;
+	width:300;
+	height:55px;
+}
+
+#facebook_likebutton {
+	clear:both;}
+
+/************************ Navigation **************************/
+
+
+.nav li {
+	list-style:none;
+	display:inline;
+}
+
+.nav li a:link {
+	position: absolute;
+	top: 0;
+	height: 50px;
+	text-indent: -9000px;
+	overflow: hidden;
+	z-index: 10;
+}
+
+.nav {
+	background: url(myImages/topmenu.jpg) top center no-repeat;
+	width:960px;
+	height:80px;
+	position:absolute;
+	padding:0;
+	margin: -90px 0 0 250px;
+}
+
+/************************ home *******************/
+
+.nav .home a:link, .nav .home a:visited {
+	left: 296px;
+	width: 73px;
+	height:50px;
+}
+
+.nav .home a:hover, .nav .home a:focus {
+	background:url(myImages/topmenu.jpg) no-repeat -35px -81px;
+}
+.nav .home a:active {
+	background: url(myImages/topmenu.jpg) no-repeat -35px -0px;
+}
+.current-home .home a:link, .current-home .home a:visited {   
+	background: url(myImages/topmenu.jpg) no-repeat -35px -162px;
+	cursor: default;
+}
+.nav-home, .nav-home-click {
+	position: absolute;
+	top: 5px;
+	left: 52px;
+	width: 88px;
+	height: 40px;
+	background:url(myImages/topmenu.jpg) no-repeat -35px -81px;
+}
+.nav-home-click {
+	background: url(myImages/topmenu.jpg) no-repeat -35px -0px;
+}
+
+
+
+
+
+
+
+
+/************************ portfolio *******************/
+
+.nav .portfolio a:link, .nav .portfolio a:visited {
+	height:50px;
+	width:100px;
+	left:371px;
+}
+
+
+.nav .portfolio a:hover, .nav .portfolio a:focus {
+	background:url(myImages/topmenu.jpg) no-repeat -110px -81px;
+}
+.nav .portfolio a:active {
+	background: url(myImages/topmenu.jpg) no-repeat -110px -0px;
+}
+.current-portfolio .portfolio a:link, .current-portfolio .portfolio a:visited {   
+	background: url(myImages/topmenu.jpg) no-repeat -110px -162px;
+	cursor: default;
+}
+.nav-portfolio, .nav-portfolio-click {
+	position: absolute;
+	top: 5px;
+	left: 52px;
+	width: 88px;
+	height: 40px;
+	background:url(myImages/topmenu.jpg) no-repeat -110px -81px;
+}
+.nav-portfolio-click {
+	background: url(myImages/topmenu.jpg) no-repeat -110px -0px;
+}
+
+
+
+
+
+/************************ about *******************/
+
+.nav .about a:link, .nav .about a:visited {
+	left:473px;
+	width:93px;
+	height:50px;
+}
+
+
+.nav .about a:hover, .nav .about a:focus {
+	background:url(myImages/topmenu.jpg) no-repeat -212px -81px;
+}
+.nav .about a:active {
+	background:url(myImages/topmenu.jpg) no-repeat -212px -0px;
+}
+.current-about .about a:link, .current-about .about a:visited {   
+	background: url(myImages/topmenu.jpg) no-repeat -212px -162px;
+	cursor: default;
+}
+.nav-about, .nav-about-click {
+	position: absolute;
+	top: 5px;
+	left: 52px;
+	width: 88px;
+	height: 40px;
+	background:url(myImages/topmenu.jpg) no-repeat -212px -81px;
+}
+.nav-about-click {
+	background:url(myImages/topmenu.jpg) no-repeat -212px -0px;
+}
+
+
+
+/************************ contact *******************/
+
+.nav .contact a:link, .nav .contact a:visited {
+	left:568px;
+	width:97px;
+	height:50px;
+}
+
+
+.nav .contact a:hover, .nav .contact a:focus {
+	background:url(myImages/topmenu.jpg) no-repeat -307px -81px;
+}
+.nav .contact a:active {
+	background:url(myImages/topmenu.jpg) no-repeat -307px -0px;
+}
+.current-contact .contact a:link, .current-contact .contact a:visited {   
+	background: url(myImages/topmenu.jpg) no-repeat -307px -162px;
+	cursor: default;
+}
+.nav-contact, .nav-contact-click {
+	position: absolute;
+	top: 5px;
+	left: 52px;
+	width: 88px;
+	height: 40px;
+	background:url(myImages/topmenu.jpg) no-repeat -307px -81px;
+}
+.nav-contact-click {
+	background:url(myImages/topmenu.jpg) no-repeat -307px -0px;
+}
+
+
+
+/**************************************** HOME page *****************************************/
+
+
+
+
+#head {
+	background-image:url(myImages/header_bg.jpg);
+	background-repeat:no-repeat;
+	height:300px;
+	width:960px;
+	color:#444;
+}
+
+#head h1 {
+	font-weight:normal;
+	padding:0;
+	margin:0 0 15px 0;
+	color:#205e84;
+}
+
+.homeHead {
+	margin:15px 0;
+}
+
+#headContent {
+	font-family:Arial, Helvetica, sans-serif;
+	width:500px;
+	font-size:90%;
+}
+
+#headContent h1 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#headButts {
+	background-image:url(myImages/headButtsNav.png);
+	background-repeat:no-repeat;
+	width:600px;
+	height:80px;
+	margin-top:20px;
+}
+
+
+#headButts ul {
+	padding:12px 0 50px 0;
+	margin:0;
+}
+
+#headButts li {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:300;
+	color:#FFF;
+	border-left:1px solid #FFF;
+	display:inline;
+	text-decoration:none;
+	padding:0 15px;
+	display:inline;
+}
+
+#headButts li:first-child {
+	border-left:none;
+}
+
+#headButts a {
+	text-decoration:none;
+	color:#fff;
+	margin:0;
+}
+
+.hireMe  {
+	background:url(myImages/hire.png) top left no-repeat;
+	padding:15px 70px 50px 35px;
+	font-weight:bold;
+	margin:0;
+}
+
+
+#homeBody {
+	padding-top:40px;
+	margin:0;
+}
+
+
+#homeBody ul {
+	font-family:Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+}
+
+#homeBody li {
+	list-style:none;
+	margin:10px 0;
+	padding:0 0 0 25px;
+	background: url(myImages/bullet.gif) center left no-repeat;
+}
+
+#designWeb {
+	float:left;
+}
+
+#designPrint {
+	float:left;
+	margin-left:70px;
+}
+
+#recentWork {
+	float:right;
+	margin:0 50px 80px 0;
+	width:340px;
+}
+
+#recentWork img {
+	padding:0;
+	border:2px solid #ccc;
+	margin:5px 3px;
+}
+
+.findOutMore {
+	background: url(myImages/go.gif) center left no-repeat !important;
+}
+
+a.viewMore {
+	color:#205e84;
+	float:right;
+	padding:5px 0;
+}
+
+.findOutMore a {
+	color:#205e84;
+	
+}
+
+#infoBody {
+	clear:both;
+	float:left;
+	margin:0 0 50px 0;
+	width:530px;
+}
+
+#infoBody h1 {
+	margin:40px 0 0 0;
+}
+
+#infoBody p {
+	margin:10px 0;
+}
+
+
+
+
+
+
+
+/*************************************** ABOUT **********************************/
+
+
+
+#aboutContent {
+	line-height: 1.5em;
+	font-size:14px;
+	padding-top:40px;
+}
+
+#aboutContent h1 {
+	margin:20px 0;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#aboutContent p {
+	margin:10px 0;
+}
+
+#aboutMe {
+	margin:0;
+	padding-bottom:100px;
+	float:left;
+	width:750px;
+}
+
+#aboutImage img {
+	float:right;
+	margin:10px 0 0 0;
+	padding:0;
+	border: 1px solid #CCC;
+}
+
+#contact {
+}
+
+#footer {
+	background: #205e84 url(myImages/footer_shadow.png) top left repeat-x;
+	clear:both;
+	height:0;
+	color:#fff;
+	padding:5px 0;
+	font-size:14px;
+	margin-top:50px;
+	height:50px;
+}
+
+#space {
+	clear:both;
+	height:100px;
+}
+
+/*************************** Portfolio Page **************************/
+
+.contentContainer {
+	margin: 0px 0;
+	padding:20px 0 0 0;
+}
+
+.contentContainerStart {
+	margin: 0px 0;
+	padding-top:20px;
+}
+
+.contentContainerEnd {
+	margin: 30px 0 0 0;
+	padding-bottom:400px;
+}
+
+.contentImages {
+	float:left;
+	width:520px;
+	padding:20px 0;
+	margin:0;
+}
+
+.contentImages img {
+	border-style:none;
+	background:#CCC;
+	padding:2px 2px;
+	margin: 5px 20px 5px 0px;
+}
+
+.contentInfo {
+	float:left;
+	width:440px;
+	margin: 0 0 40px 0;
+ 	padding: 0;
+	line-height: 1.5em;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+.contentInfo p {
+	margin:0 0 10px 0;
+}
+
+.contentInfo h3 {
+	font-size:12px;
+	font-style:italic;
+	margin:0 15px 0 0;
+	padding:0;
+	float:right;
+}
+
+.contentInfoLast {
+	float:right;
+	width:440px;
+	margin: 0 0 100px 0;
+ 	padding: 0;
+	line-height: 1.5em;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+
+/*************************** Contact ******************************/
+
+.talk {
+	padding-top:50px;
+}
+
+#contact {
+	margin-top:40px;
+}
+
+.contactleft {
+	width: 430px;
+}
+
+
+.julio {
+	font-weight:bold;
+}
+
+#contactRight {
+	float:right;
+}
+
+#contactRight {
+	float:right;
+	color:#514f42;
+	font-size:20px;
+	padding-right:120px;
+	width:300px;
+}
+
+#contactRight a{
+	color:#8cbbd8;
+	text-decoration:none;
+}
+
+#contactRight a:hover {
+	color:#205e84;
+}
+
+
+#contactRight li{
+	list-style:none;
+	padding:5px 25px 15px 20px;
+	float:left;
+	text-align:center;
+}
+
+#contactRight ul {
+	padding:20px 0 0 0;
+	margin:0;
+	display:inline;
+}
+
+
+#contactRight h4 {
+	font-size:12px;
+	line-height:0;
+}
+
+#contactRight img {
+	border:0;
+}
+
+#screenshot{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+}
+
+
+form#contactform input, form#contactform textarea {
+	width: 380px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	font-family: arial, helvetica, verdana, sans-serif;
+	font-size: 13px;
+} 
+
+
+
+form#contactform input.submit {
+	width: 96px;
+	height: 62px;
+	background: url(myImages/submit.png);
+	border:none;
+	display: block;
+	margin: 10px 0 50px -3px;
+	padding-top:0;
+	
+}
+
+form#contactform input.submit img {
+	border:none;
+}
+
+
+
+/************* Home Header Slider **************/
+
+#slideshow {
+	margin:0 auto;
+	width:1020px;
+	height:350px;
+	position:relative;
+	margin:20px 0 0 -30px;
+}
+#slideshow #slidesContainer {
+  margin:0 auto;
+  width:940px;
+  overflow:auto; /* allow scrollbar */
+  position:relative;
+}
+#slideshow #slidesContainer .slide {
+  margin:0 auto;
+  width:540px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */
+  height:450px;
+}
+
+/** 
+ * Slideshow controls style rules.
+ */
+.control {
+  display:block;
+  width:39px;
+  height:263px;
+  text-indent:-10000px;
+  position:absolute;
+  cursor: pointer;
+}
+#leftControl {
+  top:0;
+  left:0;
+  background:transparent url(myImages/control_left.png) no-repeat 0 0;
+}
+#rightControl {
+  top:0;
+  right:0;
+  background:transparent url(myImages/control_right.png) no-repeat 0 0;
+}
+
+/** 
+ * Style rules for Demo page
+ */
+
+#pageContainer {
+  margin:0 auto;
+  width:960px;
+}
+#pageContainer h1 {
+}
+
+/*
+.slide h2, .slide p {
+  margin:15px;
+}
+
+.slide h2, .slide h1 {
+  margin:15px;
+}
+*/
+
+.slide h2 {
+
+}
+.slide img {
+  float:right;
+  margin:0 15px;
+}
+
+
+/**************** Twitter ***************/
+
+
+
+#twitter {
+	width:300px;
+	float:right;
+	margin:50px 50px 0 0;
+}
+
+#tweets {
+ background-color:#FFF;
+ background-image:url(myImages/twitter_bg.jpg);
+ display:inline-block;
+ padding:2px;
+ height:450px;
+ -moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+ border-radius: 10px;
+ -moz-box-shadow: 1px 1px 3px #555;
+ -webkit-box-shadow: 1px 1px 3px #555;
+ box-shadow: 1px 1px 3px #555;
+}
+
+#tweets ul {
+	background:none;
+}
+
+.tweetItem {
+ list-style:none;
+ font-family:verdana;
+ font-size:12px;
+ padding:5px 10px 5px 5px;
+ height: 50px;
+ width: 300px;
+ margin-bottom: 10px;
+ color:#FFF;
+}
+.tweetimg {
+ float:left; 
+ background-color:#555;
+ border:none;
+ padding:3px;
+ margin-right:5px;
+}
+.tweetItem a{
+ color: #7ed4f7;
+ text-decoration:none;
+}
+.tweetItem a:hover {
+ color: #FFF;
+ text-decoration: underline;
+}
+.tweetimg:hover{
+ background-color: #CCC;
+}
+
+#tweets p {
+	color:#FFF;
+	height:90px;
+}

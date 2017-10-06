@@ -1,0 +1,335 @@
+#wrapper {
+	width:95%;
+	margin-left:10px;
+}
+
+.newTabLinks {
+	color:#205e84;
+	text-decoration:none;
+}
+
+.link {
+	color:#205e84;
+	text-decoration:none;
+}
+
+
+body {
+	background:#fff top left repeat-x url(myImages/body-background.jpg);
+	background-position:top left;
+	padding:0;
+	margin:0;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#555;
+	font-size:16px;
+}
+
+hr {
+	border:0;
+	border-top: 1px solid #CCC;
+	height: 0;
+}
+
+p {
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-weight:normal;
+	font-size:22px;
+	padding:0;
+	margin:0;
+	color:#205e84;
+}
+
+h2 {
+	font-weight:normal;
+	color:#205e84;
+}
+
+h3 {
+	font-weight:normal;
+	margin:0;
+	padding:20px 0 10px 0;
+	color:#205e84;
+}
+
+
+
+#brandingHolder {
+	padding:0;
+	width:100%;
+	height:80px;
+}
+
+#logo {
+	background-image: url(myImages/logo.jpg);
+	background-repeat:no-repeat;
+	margin-top:20px;
+	width:100%;
+	height:55px;
+}
+
+
+/************************ Navigation **************************/
+
+#blueNav {
+	background:top left repeat-x #013e7d;
+	height:45px;
+}
+
+#nav {
+width:100%;
+padding:0;
+margin:0;
+}
+
+#nav ul {
+margin:0;
+padding:10px 0 0 10px;
+height:50px;
+}
+
+#nav li {
+list-style:none;
+display:inline;
+padding:0 15px 0 0;
+/*  border-right:#666 solid 1px;  */
+margin:0;
+}
+
+#nav a {
+text-decoration:none;
+color:#FFF;
+font-weight:bold;
+font-size:14px;	
+}
+
+#nav a:active {
+	color:#7dd2f7;
+}
+
+.selected a {
+	color:#7dd2f7 !important;
+}
+
+
+/**************************************** HOME page *****************************************/
+
+
+
+
+#head {
+	height:100%;
+	color:#444;
+}
+
+#head h1 {
+	font-weight:normal;
+	padding:0;
+	margin:0 0 15px 0;
+	color:#205e84;
+}
+
+.homeHead {
+	margin:15px 0;
+}
+
+#headContent {
+	margin-top:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	width:100%;
+}
+
+#headContent h1 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#headButts {
+	width:100%;
+	height:80px;
+	margin-top:20px;
+}
+
+
+#headButts ul {
+	padding:15px 0 50px 0;
+	margin:0;
+}
+
+#headButts li {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:300;
+	color:#FFF;
+	display:inline;
+	text-decoration:none;
+	padding:0 5px;
+	display:inline;
+}
+
+#headButts li:first-child {
+	border-left:none;
+}
+
+#headButts a {
+	text-decoration:none;
+	color:#666;
+	margin:0;
+	font-size:14px;
+	text-decoration:underline;
+}
+
+.hireMe  {
+	font-weight:bold;
+	color:#205e84 !important;
+}
+
+
+#infoBody {
+	margin:50px 0 50px 0;
+	width:100%;
+}
+
+#infoBody h1 {
+	margin:40px 0 0 0;
+}
+
+#infoBody p {
+	margin:10px 0;
+}
+
+/*************************************** ABOUT **********************************/
+
+
+
+#aboutContent {
+	line-height: 1.5em;
+	padding-top:20px;
+}
+
+#aboutContent h1 {
+	margin:20px 0;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#aboutContent p {
+	margin:10px 0;
+	width:100%;
+}
+
+#aboutMe {
+	margin:0;
+	padding-bottom:100px;
+	width:100%;
+}
+
+#aboutImage img {
+	border: 1px solid #CCC;
+}
+
+#contact {
+}
+
+#footer {
+	background: #205e84 url(myImages/footer_shadow.png) top left repeat-x;
+	height:0;
+	color:#fff;
+	padding:25px 0 0 5px;
+	font-size:12px;
+	margin-top:50px;
+	height:50px;
+}
+
+
+/*************************** Portfolio Page **************************/
+
+.contentContainer {
+	margin: 0px 0;
+	padding:20px 0 0 0;
+}
+
+.contentContainerStart {
+	margin: 0px 0;
+	padding-top:20px;
+}
+
+.contentContainerEnd {
+	margin: 30px 0 0 0;
+	padding-bottom:400px;
+}
+
+.contentImages {
+	width:100%;
+	padding:20px 0;
+	margin:0 0 50px 0;
+}
+
+.contentImages img {
+	border-style:none;
+	background:#CCC;
+	padding:2px 2px;
+	margin: 5px 20px 5px 0px;
+}
+
+/*************************** Contact ******************************/
+
+.talk {
+	padding-top:50px;
+}
+
+#contact {
+	margin-top:40px;
+}
+
+.contactleft {
+	width:100%;
+}
+
+
+.julio {
+	font-weight:bold;
+}
+
+
+#contactRight {
+	color:#514f42;
+	font-size:20px;
+	padding-right:120px;
+	width:100%;
+}
+
+#contactRight a{
+	color:#8cbbd8;
+	text-decoration:none;
+}
+
+#contactRight a:hover {
+	color:#205e84;
+}
+
+
+#contactRight li{
+	list-style:none;
+	padding:5px 25px 15px 20px;
+	text-align:center;
+}
+
+#contactRight ul {
+	padding:20px 0 0 0;
+	margin:0;
+	display:inline;
+}
+
+
+#contactRight h4 {
+	font-size:12px;
+	line-height:0;
+}
+
+#contactRight img {
+	border:0;
+}
+
+
