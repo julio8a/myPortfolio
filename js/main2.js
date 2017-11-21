@@ -146,7 +146,6 @@ $(document).ready(function(){
 		if (fromicon == true) {
 			$("#projet").addClass("visible");
 			$('#fond_projet.actif').animate({backgroundColor: bgColor},'600')
-			//$("#fond_projet.actif").css("background-color", bgColor);
 			$('html,body').delay(0).animate({scrollTop: 0},'10');
 		}
 		if (fromicon == false) {
