@@ -41,6 +41,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
 <meta name="KEYWORDS" content="what is web design julio8a , Julio Ochoa, Web Designer, Webservices, la web design, Graphic Design, Web Design, strategy, marketing, advertising, user experience, user interface.">
 <meta name="OWNER" content="julio8a00@gmail.com">
 <meta name="AUTHOR" content="Julio Ochoa">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Julio Ochoa Web Portfolio</title>
 
@@ -359,9 +360,6 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
         </div>
         <div class="fond"></div>
     </div>
-
-
-
 
 <footer>
     <div class="center">

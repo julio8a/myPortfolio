@@ -151,11 +151,11 @@ nav {
 #blocks-container {
 	width: 100%;
 	background: #fff;
-	height: 1000px;
 	margin-top: 280px;
 	position: absolute;
 	z-index: 11;
-  transition: all .8s ease-out;
+	margin-bottom: 93px;
+	transition: all .8s ease-out;
 }
 
 .block {
@@ -568,7 +568,7 @@ nav {
 }
 
 .back {
-	opacity:0.3;
+	opacity:0.5;
 	color:#FFF;
 	font-size:14px;
 	text-transform:uppercase;
@@ -643,6 +643,7 @@ nav {
 /************************************** ABOUT ************************************/
 
 #about, #contact {
+	overflow: scroll;
 	position:fixed;
 	width:100%;
 	height:550px;
@@ -810,13 +811,13 @@ input.envoyer {
 /********************************** FOOTER **********************************/
 
 footer {
-	position:absolute;
-	top:1140px;
+	position: fixed;
 	width:100%;
 	height:90px;
 	background:#333;
 	border-top: 2px solid #242424;
 	z-index: 12;
+	bottom: 0;
 	.center {
 		height:90px;
 		width:1000px;
@@ -982,7 +983,7 @@ footer {
 	#presentation {
 		margin-left: 50px;
 	}
-	#projet .capture, .center {
+	#project-menu .center, #projet .capture, .center {
 		width: 100%;
 	}
 	.capture img {
@@ -993,7 +994,19 @@ footer {
 	}
 	.back {
 		width: 100%;
-		padding-left: 10px;
+		margin: 0 auto;
+		height: 70px;
+		padding: 0;
+		img {
+			display: none;
+		}
+	}
+	.back div {
+		margin: 30px auto 0 auto;
+		width: 50px;
+		float: none;
+		font-weight: 800;
+		font-size: 16px;
 	}
 	#contactleft { 
 		width: 280px;
@@ -1058,6 +1071,15 @@ footer {
 	input.envoyer {
 		float: left;
 		margin-top: -10px;
+	}
+	.affiche img {
+		width: 100%;
+	}
+	#projet p {
+		width: 90%;
+	}
+	footer {
+		display: none;
 	}
 }
 
