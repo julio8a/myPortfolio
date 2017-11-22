@@ -834,16 +834,6 @@ footer {
 	background:#242424;
 }
 
-.caseA, #contactCanada {
-	display:block;
-	width:652px;
-	height:90px;
-	float:left;
-	overflow:hidden;
-	position:relative;
-	cursor:pointer;
-}
-
 .caseB {
 	display:block;
 	width:115px;
@@ -867,14 +857,6 @@ footer {
 	}
 }
 
-.caseA a{
-	position:absolute;
-	z-index:3;
-	color:#FFF;
-	margin-left:80px;
-	margin-top:25px;
-}
-
 #contactCanada .texte {
 	position:absolute;
 	z-index:3;
@@ -884,7 +866,7 @@ footer {
 }
 
 
-.caseA .fond, #contactCanada .fond, .caseB .fond {
+#contactCanada .fond, .caseB .fond {
 	height:90px;
 	position:absolute;
 	z-index:1;
@@ -893,11 +875,11 @@ footer {
   transition: all 0.1s ease-out;
 }
 
-.caseA:hover .fond, #contactCanada:hover .fond, .caseB:hover .fond {
+#contactCanada:hover .fond, .caseB:hover .fond {
 	top:0;
 }
 
-.caseA .fond, #contactCanada .fond {
+#contactCanada .fond {
 	width:652px;
 }
 
@@ -905,14 +887,10 @@ footer {
 	width:115px;
 }
 
-.caseA img, #contactCanada img {
+#contactCanada img {
 	position:absolute;
 	z-index:3;
 	left:30px;
-}
-
-.caseA img {
-	top:34px;
 }
 
 .fond {

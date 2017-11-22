@@ -195,16 +195,6 @@ $(document).ready(function(){
 		$('html,body').delay(220).animate({scrollTop: parseInt(vTop2)-100},'10');
 	});
 
-	$(".caseA").click(function(){
-    	var lien =$(this).find("a").attr("href");
-		window.open(lien);
-	});
-
-	$(".caseB").click(function(){
-    	var lien =$(this).find("a").attr("href");
-		window.open(lien);
-	});
-
 	var windowW = $(window).width();
 	var windowW2 = -(windowW / 2);
 	gestionResize();
