@@ -82,6 +82,7 @@ h3 {
 
 nav {
 	ul {
+		padding: 0;
 		float: right;
 		li {
 			display: inline;
@@ -779,12 +780,12 @@ input.envoyer {
 	font-family:'Roboto', Arial, sans-serif;
 	color:#444;
 	text-transform:uppercase;
-	left:50%;
 	width:180px;
-	margin: -50px 0 0 435px;
 	cursor:pointer;
 	font-weight:bold;
 	border-radius: 0;
+	margin: -10px 0 0 0;
+	float: right;
 	&:hover {
 		border:1px solid #007ac2;
 		color: #007ac2;
@@ -964,6 +965,10 @@ footer {
 	}
   }
 
+  ////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////
+
 @media (max-width: 1109px) {
 	nav .wrapper {
 		width: 100%;
@@ -974,8 +979,8 @@ footer {
 			margin-right: 10px;
 		}
 	}
-	#services, #awards {
-		display: none;
+	#presentation {
+		margin-left: 50px;
 	}
 	#projet .capture, .center {
 		width: 100%;
@@ -990,4 +995,74 @@ footer {
 		width: 100%;
 		padding-left: 10px;
 	}
+	#contactleft { 
+		width: 280px;
+		margin-left: 50px;
+		input {
+			width: 80%;
+		}
+	}
+	#contactright  {
+		margin-left: 20px;
+		width: 50%;
+		textarea {
+			width: 90%;
+		}
+	}
+	.MsgSent {
+		width: 100%;
+		text-align: left;
+	}
   }
+
+@media (max-width: 991px) {
+	#services {
+		display: none;
+	}
+	#awards {
+		margin-left: 50px;
+	}
+}
+
+@media (max-width: 738px) {
+	 #awards {
+		display: none;
+	}
+	#presentation {
+		width: 85%;
+	}
+
+	#contactleft {
+		width: 80%;
+		margin-left: 20px;
+		input {
+			width: 100%;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		h3 {
+			margin-top: 20px;
+		}
+	}
+
+	#contactright {
+		width: 90%;
+		legend {
+			margin-top: 0;
+		}
+		textarea {
+			height: 50px;
+		}
+	}
+
+	input.envoyer {
+		float: left;
+		margin-top: -10px;
+	}
+}
+
+@media (max-width: 520px) {
+	#logo {
+		display: none;
+	}
+}
