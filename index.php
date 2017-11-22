@@ -367,32 +367,44 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
 
 <footer>
     <div class="center">
-        <div class="caseB">
-            <a href="https://twitter.com/julio8a" target="_blank">Twitter</a>
-            <div class="fond twitter"></div>
-        </div>
-        <div class="caseB">
-            <a href="http://www.facebook.com/julio8a00" target="_blank">Facebook</a>
-            <div class="fond behance"></div>
-        </div>
-        <div class="caseB">
-            <a href="http://www.linkedin.com/in/julioochoa" target="_blank">LinkedIn</a>
-            <div class="fond linkedin"></div>
-        </div>
-        <div class="caseB">
-            <a href="http://dribbble.com/julio8a00" target="_blank">Dribbble</a>
-            <div class="fond cpx"></div>
-        </div>
-        <div class="caseB">
-            <a href="downloads/jochoa_resume.pdf" target="_blank">Resume</a>
-            <div class="fond cv"></div>
-        </div>
-        <div class="caseB">
-            <a href="http://blog.julio8a.com" target="_blank">Blog</a>
-            <div class="fond blog"></div>
-        </div>
+        <a href="https://twitter.com/julio8a" target="_blank">
+            <div class="caseB">
+                <span>Twitter</span>
+                <div class="fond twitter"></div>
+            </div>
+        </a>            
+        <a href="http://www.facebook.com/julio8a00" target="_blank">
+            <div class="caseB">
+                <span>Facebook</span>
+                <div class="fond behance"></div>
+            </div>
+        </a>            
+        <a href="http://www.linkedin.com/in/julioochoa" target="_blank">
+            <div class="caseB">
+                <span>LinkedIn</span>
+                <div class="fond linkedin"></div>
+            </div>
+        </a>            
+        <a href="http://dribbble.com/julio8a00" target="_blank">
+            <div class="caseB">
+                <span>Dribbble</span>
+                <div class="fond cpx"></div>
+            </div>
+        </a>            
+        <a href="downloads/jochoa_resume.pdf" target="_blank">
+            <div class="caseB">
+                <span>Resume</span>
+                <div class="fond cv"></div>
+            </div>
+        </a>            
+        <a href="http://blog.julio8a.com" target="_blank">
+            <div class="caseB">
+                <span>Blog</span>
+                <div class="fond blog"></div>
+            </div>
+        </a>            
         <div class="ligne"></div>
-        <div class="copyright">© 2017 All rights reserved.</div>
+        <div class="copyright">© 2018 All rights reserved.</div>
     </div>
 </footer>
 

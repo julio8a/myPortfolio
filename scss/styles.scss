@@ -845,13 +845,13 @@ footer {
 	text-align:center;
 	line-height:90px;
 	cursor:pointer;
-	a {
+	span {
 		position:relative;
 		z-index:3;
 		color:#aaa;
 	}
 	&:hover {
-		a {
+		span {
 			color: #fff;
 		}
 	}
