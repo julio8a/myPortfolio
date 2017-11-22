@@ -295,7 +295,7 @@ nav {
 		z-index:500;
 		overflow:inherit;
 		opacity:1;
-		transition: left 0.3s ease-out, top 0.3s ease-out, width 0.3s ease-out, height 0.3s ease-out, margin-left 0.3s ease-out, opacity 0s ease-out, border-radius 300ms linear;
+		transition: left 0.3s ease-out, top 0.3s ease-out, width 0.3s ease-out, height 0.3s ease-out, margin-left 0.3s ease-out, opacity 0s ease-out, border-radius 0.3s linear;
 	}
 }
 
@@ -942,3 +942,53 @@ footer {
 	text-align: center;
 	margin-top: 25%;
 }
+
+
+
+/////////// Media Queries
+@media (min-width: 1110px) and (max-width: 1477px) {
+	.block {
+		width: 33.3%;
+	}
+  }
+
+@media (min-width: 738px) and (max-width: 1109px) {
+	.block {
+		width: 50%;
+	}
+  }
+
+@media (min-width: 0px) and (max-width: 738px) {
+	.block {
+		width: 100%;
+	}
+  }
+
+@media (max-width: 1109px) {
+	nav .wrapper {
+		width: 100%;
+		#logo {
+			margin-left: 15px;
+		}
+		ul {
+			margin-right: 10px;
+		}
+	}
+	#services, #awards {
+		display: none;
+	}
+	#projet .capture, .center {
+		width: 100%;
+	}
+	.capture img {
+		width: 98%;
+	}
+	.icon {
+		display:none;
+	}
+	.back {
+		width: 100%;
+		padding-left: 10px;
+		background: #007ac2;
+	}
+  }
