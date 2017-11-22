@@ -185,11 +185,9 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
 </div>
 
 <div id="intro-container">
-    <div class="wrapper">
-        <div id="intro">
-            <span class="name">Julio Ochoa</span> <br />
-            <span class="position-title">UX, UI & Front-End Developer</span>
-        </div>
+    <div id="intro">
+        <span class="name">Julio Ochoa</span> <br />
+        <span class="position-title">UX, UI & Front-End Developer</span>
     </div>
 </div>
 

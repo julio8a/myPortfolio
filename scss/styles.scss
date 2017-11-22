@@ -127,7 +127,7 @@ nav {
 	font-size:30px;
 	line-height:40px;
 	letter-spacing:1px;
-	width: 960px;
+	width: inherit;
 	span {
 		color: #4c4c4c;
 		font-family:'Roboto', Arial, sans-serif;
@@ -989,6 +989,5 @@ footer {
 	.back {
 		width: 100%;
 		padding-left: 10px;
-		background: #007ac2;
 	}
   }
