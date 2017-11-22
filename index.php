@@ -485,13 +485,15 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
 <script src="js/jquery.animate-colors-min.js"></script>
 <script src="js/preload.js"></script>
 
-<script type="text/javascript">// <![CDATA[
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-// ]]></script>
-<script type="text/javascript">// <![CDATA[
-var pageTracker = _gat._getTracker("UA-8746780-1"); pageTracker._trackPageview();
-// ]]></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110062040-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110062040-1');
+</script>
 
 </body>
 </html>
