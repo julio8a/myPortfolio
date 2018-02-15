@@ -81,7 +81,10 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
     <div id="awards">
       <h3>Experience </h3>
 			<small>Short List</small>
-      <p>2016 to Present – Esri<br />
+      <p>2017 to Present – Esri<br />
+        <span class="awardname">Design Program Manager</span>
+      </p>
+      <p>2016 to 2017 – Esri<br />
         <span class="awardname">Senior Product Designer</span>
       </p>
       <p>2013 to 2016 – Esri<br />
@@ -188,7 +191,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
 <div id="intro-container">
     <div id="intro">
         <span class="name">Julio Ochoa</span> <br />
-        <span class="position-title">UX, UI & Front-End Developer</span>
+        <span class="position-title">Design - Program Manager / Product Owner</span>
     </div>
 </div>
 
