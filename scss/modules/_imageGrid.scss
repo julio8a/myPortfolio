@@ -8,48 +8,38 @@
 	transition: all .8s ease-out;
 }
 
-.block {
+%block {
+    @include imageGrid (4, 0%);
     @include break(1110px, 1477px) {
-        width: 33.3%;
+        @include imageGrid (3, 0%);
     }
     @include break(738px, 1109px) {
-        width: 50%;
+        @include imageGrid (2, 0%);
     }
     @include break(0, 738px) {
-        width: 100%;
+        @include imageGrid (1, 0%);
     }
-	float: left;
+    float: left;
 	z-index: 100;
-	display: block;
 	overflow: hidden;
-	width: 25%;
-	margin: 0px;
 	height: 380px;
-	cursor: pointer;
 	color: #777;
 	position: relative;
+	cursor: pointer;
 	.content {
 		display:block;
 		width:100%;
 		top:0;
 		font-size:14px;
-		font-family:'Roboto', Arial, sans-serif;
+		font-family: $robo;
 		-webkit-font-smoothing:antialiased;
-		color:#999;
 		text-align:center;
 		.img-container{
 			top: 0;
 			left: 0;
             position: absolute;
-            background-size: cover;
-            background-position: center center;
-			width: 100%;
-			height: auto;
-			overflow: hidden;
 			img {
 				width: 100%;
-				top: 0;
-				left: 0;
 			}
 		}
 	}
@@ -66,7 +56,7 @@
 		background:url(../images/arrow.png) no-repeat 34px center;
 		border:3px solid $white;
 		opacity:0;
-    transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
 	}
 	h2 {
 		display:block;
@@ -123,16 +113,3 @@
 .block.actif .role, .block.actif h2, .block.actif .circle {
 	display:none;
 }
-
-.block1 .fond, .icon1 .fond { background:#323232; }
-.block2 .fond, .icon2 .fond { background:#e00000; }
-.block3 .fond, .icon3 .fond { background:#1a1a1a; }
-.block4 .fond, .icon4 .fond { background:#005e82; }
-.block5 .fond, .icon5 .fond { background:#359600; }
-.block6 .fond, .icon6 .fond { background:#343434; }
-.block7 .fond, .icon7 .fond { background:#00598c; }
-.block8 .fond, .icon8 .fond { background:#db3300; }
-.block9 .fond, .icon9 .fond { background:#f3b20a; }
-.block10 .fond, .icon10 .fond { background:#4d5a6a; }
-.block11 .fond, .icon11 .fond { background:#404040; }
-.block12 .fond, .icon12 .fond { background:#2d5c80; }

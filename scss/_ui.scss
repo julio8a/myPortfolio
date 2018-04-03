@@ -1,0 +1,14 @@
+@each $key, $value in $project-themes {
+	.block#{$key} {
+        @extend %block;
+        .fond {
+            background-color: $value;
+        }
+	}
+	.icon#{$key} {
+        @extend %block;
+        .fond {
+            background-color: $value;
+        }
+	}
+}

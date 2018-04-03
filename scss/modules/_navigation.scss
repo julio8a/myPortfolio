@@ -64,7 +64,7 @@ nav {
 		color: $dark-gray;
 		padding: 5px 15px;
 		&:hover {
-			color: #007ac2;
+			color: $color-main
 		}
 	}
 	.current {
@@ -95,8 +95,8 @@ nav {
 	letter-spacing:1px;
 	width: inherit;
 	span {
-		color: #4c4c4c;
-		font-family:'Roboto', Arial, sans-serif;
+		color: $dark-gray;
+		font-family: $robo;
 		font-weight: 100;
 		font-size: 46px;
 		line-height: 55px;
