@@ -356,12 +356,10 @@
 	@include break(1109px) {
 		display: none;
 	}
-	display:block;
 	float:left;
 	width:72px;
 	height:48px;
 	border-left: $border-heavy;
-	text-align:center;
 	padding-top:22px;
 	cursor:pointer;
 	.shape {

@@ -121,12 +121,13 @@ footer {
 }
 
 .popup-text {
-  padding: 10px 20px;
-  position: absolute;
-  top: -72px;
-  background: #323232;
-  color: $white;
+	padding: 10px 20px;
+	top: -42px;
+	background: #323232;
+	color: $white;
+	position: absolute;
 }
+
 
 .MsgSent {
 	@include break(1109px) {
