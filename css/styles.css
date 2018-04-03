@@ -215,7 +215,8 @@ nav .current {
   height: 380px;
   color: #777;
   position: relative;
-  cursor: pointer; }
+  cursor: pointer;
+  overflow: hidden; }
   .block1:nth-child(n), .block2:nth-child(n), .block3:nth-child(n), .block4:nth-child(n), .block5:nth-child(n), .block6:nth-child(n), .block7:nth-child(n), .block8:nth-child(n), .block9:nth-child(n), .block10:nth-child(n), .block11:nth-child(n), .block12:nth-child(n) {
     margin-right: 0%;
     margin-bottom: 0%; }
