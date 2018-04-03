@@ -1,0 +1,20 @@
+// Fonts
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,100);
+$robo: 'Roboto', Arial, sans-serif;
+
+// Colors
+$color-main: #007ac2;
+$black: #000;
+$darkest-gray: #222;
+$dark-gray: #333;
+$gray: #aaa;
+$light-gray: #eee;
+$white: #fff;
+
+// Borders
+$border-white: 1px solid $white;
+$border-light: 1px solid $light-gray;
+$border-medium: 1px solid $gray;
+$border-heavy: 1px solid $darkest-gray;
+$border-black: 1px solid $black;
+$border-blue: 1px solid $color-main;

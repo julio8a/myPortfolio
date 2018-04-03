@@ -1,0 +1,42 @@
+.envoyer, a {
+	transition: 500ms;
+}
+
+body {
+	font-family: $robo;
+	font-weight: 400;
+	padding-bottom:100px;
+	margin:0;
+	overflow-x:hidden;
+	background: $dark-gray;
+}
+
+.clear {
+	clear:both;
+}
+
+a {
+	text-decoration:none;
+}
+
+p {
+	margin:0 0 15px 0;
+	padding:0;
+	a {
+		color:$white;
+		&:hover {
+			border-bottom: $border-white;
+		}
+	}
+}
+
+
+
+h3 {
+	font-size:28px;
+	color:$dark-gray;
+	margin:50px 0 20px 0;
+	letter-spacing:1px;
+	font-family: $robo;
+	font-weight: normal;
+}
