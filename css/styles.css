@@ -35,6 +35,9 @@ h3 {
 .wrapper {
   width: 960px;
   margin: 0 auto; }
+  @media (max-width: 1109px) {
+    .wrapper {
+      width: 100%; } }
 
 #header {
   top: 0;
@@ -51,6 +54,12 @@ h3 {
 #logo {
   float: left;
   color: #333; }
+  @media (max-width: 1109px) {
+    #logo {
+      margin-left: 15px; } }
+  @media (max-width: 520px) {
+    #logo {
+      display: none; } }
   #logo h1 {
     margin: 0;
     padding: 10px 0 0 0;
@@ -60,6 +69,10 @@ h3 {
   #logo img {
     margin-top: 5px;
     float: right; }
+
+@media (max-width: 1109px) {
+  nav {
+    margin-right: 10px; } }
 
 nav ul {
   padding: 0;
@@ -134,6 +147,15 @@ nav .current {
   cursor: pointer;
   color: #777;
   position: relative; }
+  @media (min-width: 1110px) and (max-width: 1477px) {
+    .block {
+      width: 33.3%; } }
+  @media (min-width: 738px) and (max-width: 1109px) {
+    .block {
+      width: 50%; } }
+  @media (min-width: 0) and (max-width: 738px) {
+    .block {
+      width: 100%; } }
   .block .content {
     display: block;
     width: 100%;
@@ -147,6 +169,8 @@ nav .current {
       top: 0;
       left: 0;
       position: absolute;
+      background-size: cover;
+      background-position: center center;
       width: 100%;
       height: auto;
       overflow: hidden; }
@@ -303,6 +327,9 @@ nav .current {
     margin: 0 auto 40px auto;
     transition: all 0.3s ease-out;
     transition-delay: 0s; }
+    @media (max-width: 738px) {
+      #projet p {
+        width: 90%; } }
     #projet p.lien {
       opacity: 0;
       font-family: 'Roboto', Arial, sans-serif;
@@ -335,6 +362,9 @@ nav .current {
     position: relative;
     transition: all 0.3s ease-out;
     transition-delay: 0s; }
+    @media (max-width: 738px) {
+      #projet .affiche img {
+        width: 100%; } }
     #projet .affiche.affichelouvre {
       width: 863px;
       opacity: 0;
@@ -384,10 +414,16 @@ nav .current {
     text-align: center;
     position: relative;
     display: block; }
+    @media (max-width: 1109px) {
+      #projet .capture {
+        width: 100%; } }
     #projet .capture img {
       box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.18);
       position: relative;
       opacity: 1; }
+      @media (max-width: 1109px) {
+        #projet .capture img {
+          width: 98%; } }
     #projet .capture.mobile img {
       -webkit-box-shadow: none;
       box-shadow: none; }
@@ -472,6 +508,9 @@ nav .current {
 .center {
   width: 980px;
   margin: 0 auto; }
+  @media (max-width: 1109px) {
+    .center {
+      width: 100%; } }
 
 .op50 {
   opacity: 0.7; }
@@ -489,6 +528,9 @@ nav .current {
   #project-menu .center {
     border-right: 1px solid #222;
     width: 973px; }
+    @media (max-width: 1109px) {
+      #project-menu .center {
+        width: 100%; } }
   #project-menu.visible {
     bottom: 0px;
     transition: all 0.3s ease-out;
@@ -508,6 +550,14 @@ nav .current {
   float: left;
   cursor: pointer;
   transition: all 0.4s ease-out; }
+  @media (max-width: 1109px) {
+    .back {
+      width: 100%;
+      margin: 0 auto;
+      height: 70px;
+      padding: 0; }
+      .back img {
+        display: none; } }
   .back img {
     margin-top: 2px;
     float: left;
@@ -518,6 +568,13 @@ nav .current {
     margin-top: 32px;
     float: left;
     margin-left: 15px; }
+    @media (max-width: 1109px) {
+      .back div {
+        margin: 30px auto 0 auto;
+        width: 50px;
+        float: none;
+        font-weight: 800;
+        font-size: 16px; } }
   .back:hover {
     opacity: 1; }
 
@@ -530,6 +587,9 @@ nav .current {
   text-align: center;
   padding-top: 22px;
   cursor: pointer; }
+  @media (max-width: 1109px) {
+    .icon {
+      display: none; } }
   .icon .shape {
     width: 30px;
     height: 30px;
@@ -562,7 +622,7 @@ nav .current {
   width: 100%;
   height: 550px;
   margin-top: -550px;
-  background: white;
+  background: #fff;
   z-index: 15;
   transition: left 0s ease-out, margin-top .5s ease-out; }
   #about.debut, #contact.debut {
@@ -590,6 +650,12 @@ nav .current {
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 1px; }
+  @media (max-width: 1109px) {
+    #presentation {
+      margin-left: 50px; } }
+  @media (max-width: 738px) {
+    #presentation {
+      width: 85%; } }
   #presentation a {
     color: #007ac2;
     text-decoration: underline; }
@@ -605,6 +671,9 @@ nav .current {
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 1px; }
+  @media (max-width: 991px) {
+    #services {
+      display: none; } }
   #services ul {
     padding: 0; }
     #services ul li {
@@ -621,6 +690,12 @@ nav .current {
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 1px; }
+  @media (max-width: 991px) {
+    #awards {
+      margin-left: 50px; } }
+  @media (max-width: 738px) {
+    #awards {
+      display: none; } }
   #awards small {
     top: -15px;
     position: relative; }
@@ -641,17 +716,55 @@ span.awardname {
   line-height: 20px;
   letter-spacing: 1px; }
 
-#contactright {
-  margin-left: 50px;
-  width: 615px; }
-  #contactright textarea {
-    width: 573px;
-    height: 214px; }
-  #contactright legend {
-    margin-top: 89px; }
+@media (max-width: 1109px) {
+  #contactleft {
+    width: 280px;
+    margin-left: 50px; } }
+
+@media (max-width: 738px) {
+  #contactleft {
+    width: 80%;
+    margin-left: 20px; } }
 
 #contactleft input {
   width: 273px; }
+  @media (max-width: 1109px) {
+    #contactleft input {
+      width: 80%; } }
+  @media (max-width: 738px) {
+    #contactleft input {
+      width: 100%;
+      padding-top: 10px;
+      padding-bottom: 10px; } }
+
+@media (max-width: 738px) {
+  #contactleft h3 {
+    margin-top: 20px; } }
+
+#contactright {
+  margin-left: 50px;
+  width: 615px; }
+  @media (max-width: 1109px) {
+    #contactright {
+      margin-left: 20px;
+      width: 50%; } }
+  @media (max-width: 738px) {
+    #contactright {
+      width: 90%; } }
+  #contactright textarea {
+    width: 573px;
+    height: 214px; }
+    @media (max-width: 1109px) {
+      #contactright textarea {
+        width: 90%; } }
+    @media (max-width: 738px) {
+      #contactright textarea {
+        height: 50px; } }
+  #contactright legend {
+    margin-top: 89px; }
+    @media (max-width: 738px) {
+      #contactright legend {
+        margin-top: 0; } }
 
 input, textarea {
   border: 1px solid #aaa;
@@ -676,6 +789,10 @@ input.envoyer {
   border-radius: 0;
   margin: -10px 0 0 0;
   float: right; }
+  @media (max-width: 738px) {
+    input.envoyer {
+      float: left;
+      margin-top: -10px; } }
   input.envoyer:hover {
     border: 1px solid #007ac2;
     color: #007ac2; }
@@ -700,6 +817,9 @@ footer {
   border-top: #222;
   z-index: 12;
   bottom: 0; }
+  @media (max-width: 738px) {
+    footer {
+      display: none; } }
   footer .center {
     height: 90px;
     width: 1000px;
@@ -803,97 +923,7 @@ footer {
   margin: 0 auto;
   text-align: center;
   margin-top: 25%; }
-
-@media (min-width: 1110px) and (max-width: 1477px) {
-  .block {
-    width: 33.3%; } }
-
-@media (min-width: 738px) and (max-width: 1109px) {
-  .block {
-    width: 50%; } }
-
-@media (min-width: 0px) and (max-width: 738px) {
-  .block {
-    width: 100%; } }
-
-@media (max-width: 1109px) {
-  nav .wrapper {
-    width: 100%; }
-    nav .wrapper #logo {
-      margin-left: 15px; }
-    nav .wrapper ul {
-      margin-right: 10px; }
-  #presentation {
-    margin-left: 50px; }
-  #project-menu .center, #projet .capture, .center {
-    width: 100%; }
-  .capture img {
-    width: 98%; }
-  .icon {
-    display: none; }
-  .back {
-    width: 100%;
-    margin: 0 auto;
-    height: 70px;
-    padding: 0; }
-    .back img {
-      display: none; }
-  .back div {
-    margin: 30px auto 0 auto;
-    width: 50px;
-    float: none;
-    font-weight: 800;
-    font-size: 16px; }
-  #contactleft {
-    width: 280px;
-    margin-left: 50px; }
-    #contactleft input {
-      width: 80%; }
-  #contactright {
-    margin-left: 20px;
-    width: 50%; }
-    #contactright textarea {
-      width: 90%; }
-  .MsgSent {
-    width: 100%;
-    text-align: left; } }
-
-@media (max-width: 991px) {
-  #services {
-    display: none; }
-  #awards {
-    margin-left: 50px; } }
-
-@media (max-width: 738px) {
-  #awards {
-    display: none; }
-  #presentation {
-    width: 85%; }
-  #contactleft {
-    width: 80%;
-    margin-left: 20px; }
-    #contactleft input {
+  @media (max-width: 1109px) {
+    .MsgSent {
       width: 100%;
-      padding-top: 10px;
-      padding-bottom: 10px; }
-    #contactleft h3 {
-      margin-top: 20px; }
-  #contactright {
-    width: 90%; }
-    #contactright legend {
-      margin-top: 0; }
-    #contactright textarea {
-      height: 50px; }
-  input.envoyer {
-    float: left;
-    margin-top: -10px; }
-  .affiche img {
-    width: 100%; }
-  #projet p {
-    width: 90%; }
-  footer {
-    display: none; } }
-
-@media (max-width: 520px) {
-  #logo {
-    display: none; } }
+      text-align: left; } }

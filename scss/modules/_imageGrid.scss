@@ -9,6 +9,15 @@
 }
 
 .block {
+    @include break(1110px, 1477px) {
+        width: 33.3%;
+    }
+    @include break(738px, 1109px) {
+        width: 50%;
+    }
+    @include break(0, 738px) {
+        width: 100%;
+    }
 	float: left;
 	z-index: 100;
 	display: block;
@@ -31,7 +40,9 @@
 		.img-container{
 			top: 0;
 			left: 0;
-			position: absolute;
+            position: absolute;
+            background-size: cover;
+            background-position: center center;
 			width: 100%;
 			height: auto;
 			overflow: hidden;

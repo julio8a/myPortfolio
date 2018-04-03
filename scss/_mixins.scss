@@ -1,6 +1,6 @@
 @mixin break($args...) {
     @if length($args) == 1 {
-      @media (min-width: nth($args, 1)) {
+      @media (max-width: nth($args, 1)) {
         @content;
       }
     } @else {

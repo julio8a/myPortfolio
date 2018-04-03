@@ -1,4 +1,7 @@
 .wrapper {
+	@include break(1109px) {
+		width: 100%;
+	}
 	width: 960px;
 	margin: 0 auto;
 }
@@ -13,12 +16,17 @@
 	border-top: $border-light;
 	border-bottom: $border-light;
   background: $white;
-  //box-shadow: 0 0 3px 1px rgba(0, 0, 0, .1);
   transition: top .5s ease-out;
 }
 
 
 #logo {
+	@include break(1109px) {
+		margin-left: 15px;
+	}
+	@include break(520px) {
+		display: none;
+	}
 	float: left;
 	color: $dark-gray;
 	h1 {
@@ -35,6 +43,9 @@
 }
 
 nav {
+	@include break(1109px) {
+		margin-right: 10px;
+	}
 	ul {
 		padding: 0;
 		float: right;

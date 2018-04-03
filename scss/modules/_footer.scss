@@ -6,6 +6,9 @@ footer {
 	border-top: $darkest-gray;
 	z-index: 12;
 	bottom: 0;
+	@include break(738px) {
+		display: none;
+	}
 	.center {
 		height:90px;
 		width:1000px;
@@ -127,6 +130,10 @@ footer {
 }
 
 .MsgSent {
+	@include break(1109px) {
+		width: 100%;
+		text-align: left;
+	}
 	width: 980px;
 	margin: 0 auto;
 	text-align: center;
