@@ -33,76 +33,76 @@ h3 {
   font-weight: normal; }
 
 .block1 .fond {
-  background-color: #323232; }
+  background: linear-gradient(#323232, #3f3f3f); }
 
 .icon1 .fond {
-  background-color: #323232; }
+  background: #323232; }
 
 .block2 .fond {
-  background-color: #e00000; }
+  background: linear-gradient(#e00000, #fa0000); }
 
 .icon2 .fond {
-  background-color: #e00000; }
+  background: #e00000; }
 
 .block3 .fond {
-  background-color: #1a1a1a; }
+  background: linear-gradient(#1a1a1a, #272727); }
 
 .icon3 .fond {
-  background-color: #1a1a1a; }
+  background: #1a1a1a; }
 
 .block4 .fond {
-  background-color: #005e82; }
+  background: linear-gradient(#005e82, #00709c); }
 
 .icon4 .fond {
-  background-color: #005e82; }
+  background: #005e82; }
 
 .block5 .fond {
-  background-color: #359600; }
+  background: linear-gradient(#359600, #3eb000); }
 
 .icon5 .fond {
-  background-color: #359600; }
+  background: #359600; }
 
 .block6 .fond {
-  background-color: #343434; }
+  background: linear-gradient(#343434, #414141); }
 
 .icon6 .fond {
-  background-color: #343434; }
+  background: #343434; }
 
 .block7 .fond {
-  background-color: #00598c; }
+  background: linear-gradient(#00598c, #0069a6); }
 
 .icon7 .fond {
-  background-color: #00598c; }
+  background: #00598c; }
 
 .block8 .fond {
-  background-color: #db3300; }
+  background: linear-gradient(#db3300, #f53900); }
 
 .icon8 .fond {
-  background-color: #db3300; }
+  background: #db3300; }
 
 .block9 .fond {
-  background-color: #f3b20a; }
+  background: linear-gradient(#f3b20a, #f6ba21); }
 
 .icon9 .fond {
-  background-color: #f3b20a; }
+  background: #f3b20a; }
 
 .block10 .fond {
-  background-color: #4d5a6a; }
+  background: linear-gradient(#4d5a6a, #586779); }
 
 .icon10 .fond {
-  background-color: #4d5a6a; }
+  background: #4d5a6a; }
 
 .block11 .fond {
-  background-color: #404040; }
+  background: linear-gradient(#404040, #4d4d4d); }
 
 .icon11 .fond {
-  background-color: #404040; }
+  background: #404040; }
 
 .block12 .fond {
-  background-color: #2d5c80; }
+  background: linear-gradient(#2d5c80, #346a93); }
 
 .icon12 .fond {
-  background-color: #2d5c80; }
+  background: #2d5c80; }
 
 .wrapper {
   width: 960px;
@@ -300,9 +300,10 @@ nav .current {
   .block1 .fond, .block2 .fond, .block3 .fond, .block4 .fond, .block5 .fond, .block6 .fond, .block7 .fond, .block8 .fond, .block9 .fond, .block10 .fond, .block11 .fond, .block12 .fond {
     width: 100%;
     height: 380px;
-    top: 370px;
+    top: 380px;
     position: absolute;
-    transition: all 0.3s ease-out; }
+    transition: all 0.3s ease-out;
+    opacity: .95; }
   .block1:hover .circle, .block2:hover .circle, .block3:hover .circle, .block4:hover .circle, .block5:hover .circle, .block6:hover .circle, .block7:hover .circle, .block8:hover .circle, .block9:hover .circle, .block10:hover .circle, .block11:hover .circle, .block12:hover .circle {
     top: 90px;
     opacity: 1; }
@@ -914,7 +915,6 @@ footer {
   position: absolute;
   z-index: 1;
   top: 90px;
-  background: #093;
   transition: all 0.1s ease-out; }
 
 #contactCanada:hover .fond, .caseB:hover .fond {

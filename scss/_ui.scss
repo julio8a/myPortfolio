@@ -2,13 +2,14 @@
 	.block#{$key} {
         @extend %block;
         .fond {
-            background-color: $value;
+            background: linear-gradient($value, lighten($value, 5%));
         }
 	}
 	.icon#{$key} {
         @extend %icon;
         .fond {
-            background-color: $value;
+            background: $value;
         }
 	}
 }
+

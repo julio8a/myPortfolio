@@ -192,7 +192,7 @@ $(document).ready(function(){
 		$("#fond_projet").css("height", "380px");
 		$("#fond_projet").css("width", "300px");
 		$("#fond_projet").css("background-color", bgColor);
-		$('html,body').delay(220).animate({scrollTop: parseInt(vTop2)-100},'10');
+		$('html,body').delay(320).animate({scrollTop: parseInt(vTop2)-100},'10');
 	});
 
 	var windowW = $(window).width();
