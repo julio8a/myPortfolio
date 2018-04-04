@@ -6,13 +6,13 @@
 	margin-top:-550px;
 	background: $white;
 	z-index:15;
-  transition: left 0s ease-out, margin-top .5s ease-out;
+	transition: left 0s ease-out, margin-top .5s ease-out;
 	&.debut {
 		margin-top:-470px;
-	  transition: left 0s ease-out, margin-top 0s ease-out;
+		transition: left 0s ease-out, margin-top 0s ease-out;
 	}
 	&.visible {
-	  transition: left 0.3s ease-out, margin-top 0.3s ease-out;
+		transition: left 0.3s ease-out, margin-top 0.3s ease-out;
 	}
 }
 

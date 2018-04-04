@@ -628,7 +628,7 @@ nav .current {
   .back:hover {
     opacity: 1; }
 
-.icon {
+.icon1, .icon2, .icon3, .icon4, .icon5, .icon6, .icon7, .icon8, .icon9, .icon10, .icon11, .icon12 {
   float: left;
   width: 72px;
   height: 48px;
@@ -636,9 +636,9 @@ nav .current {
   padding-top: 22px;
   cursor: pointer; }
   @media (max-width: 1109px) {
-    .icon {
+    .icon1, .icon2, .icon3, .icon4, .icon5, .icon6, .icon7, .icon8, .icon9, .icon10, .icon11, .icon12 {
       display: none; } }
-  .icon .shape {
+  .icon1 .shape, .icon2 .shape, .icon3 .shape, .icon4 .shape, .icon5 .shape, .icon6 .shape, .icon7 .shape, .icon8 .shape, .icon9 .shape, .icon10 .shape, .icon11 .shape, .icon12 .shape {
     width: 30px;
     height: 30px;
     border-radius: 50px;
@@ -648,16 +648,16 @@ nav .current {
     z-index: 10000001;
     transition: all 0.4s ease-out;
     margin-left: 20px; }
-  .icon .fond {
+  .icon1 .fond, .icon2 .fond, .icon3 .fond, .icon4 .fond, .icon5 .fond, .icon6 .fond, .icon7 .fond, .icon8 .fond, .icon9 .fond, .icon10 .fond, .icon11 .fond, .icon12 .fond {
     width: 72px;
     height: 70px;
     top: 70px;
     position: absolute;
     transition: all 0.2s ease-out; }
-  .icon.current {
+  .current.icon1, .current.icon2, .current.icon3, .current.icon4, .current.icon5, .current.icon6, .current.icon7, .current.icon8, .current.icon9, .current.icon10, .current.icon11, .current.icon12 {
     width: 72px;
     border-left: 0; }
-    .icon.current .shape {
+    .current.icon1 .shape, .current.icon2 .shape, .current.icon3 .shape, .current.icon4 .shape, .current.icon5 .shape, .current.icon6 .shape, .current.icon7 .shape, .current.icon8 .shape, .current.icon9 .shape, .current.icon10 .shape, .current.icon11 .shape, .current.icon12 .shape {
       opacity: 1; }
 
 .icon:hover .fond, .icon.current .fond {

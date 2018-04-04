@@ -6,6 +6,7 @@
         }
 	}
 	.icon#{$key} {
+        @extend %icon;
         .fond {
             background-color: $value;
         }
