@@ -1,8 +1,8 @@
 @each $key, $value in $project-themes {
-	.block#{$key} {
+	.block#{$key}, {
         @extend %block;
         .fond {
-            background: linear-gradient($value, lighten($value, 5%));
+            background: $value;
         }
 	}
 	.icon#{$key} {
@@ -13,3 +13,10 @@
 	}
 }
 
+@each $key, $value in $social-colors {
+    .fond {
+        &.#{$key} {
+            background: $value;
+        }
+    }
+}

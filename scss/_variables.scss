@@ -25,6 +25,15 @@ $webApps: #4d5a6a;
 $myEsri: #404040;
 $cityEngine: #2d5c80;
 
+// Social Colors
+$twitter: #00aced;
+$facebook: #3b5998;
+$dribble: #ea4c89;
+$linkedin: #3893c4;
+$cv: #444;
+$blog: #000;
+
+
 // Borders
 $border-white: 1px solid $white;
 $border-light: 1px solid $light-gray;
@@ -47,3 +56,12 @@ $project-themes: (
     11: $myEsri,
     12: $cityEngine
 );
+
+$social-colors: (
+    twitter: $twitter,
+    facebook: $facebook,
+    dribble: $dribble,
+    linkedin: $linkedin,
+    cv: $cv,
+    blog: $blog
+)

@@ -38,6 +38,9 @@ footer {
 		color:#aaa;
 	}
 	&:hover {
+		.fond {
+			top: 0;
+		}
 		span {
 			color: $white;
 		}
@@ -51,32 +54,6 @@ footer {
 	top:90px;
     transition: all 0.1s ease-out;
 	width:115px;
-}
-
-.caseB:hover .fond {
-	top:0;
-}
-
-.fond {
-	&.twitter {
-		background:#00aced;
-	}
-	&.facebook {
-		background:#3b5998;
-	}
-	&.dribble {
-		background:#ea4c89;
-	}
-	&.linkedin {
-		background:#3893c4;
-	}
-	&.cv {
-		background:#444;
-	}
-
-	&.blog {
-		background:#000;
-	}
 }
 
 .copyright {

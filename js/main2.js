@@ -22,13 +22,13 @@ $(document).ready(function(){
 			menuderoule();
 			aboutOpen = true;
 			$(this).addClass("current");
-			$('#about').addClass("shadow3")
+			$('#about').addClass("shadow-heavy")
 		}
 		else {
 			if(contactOpen == true) {
 				$("#contact").css("left", "100%");
-				$("#contact").removeClass("shadow3");
-				$("#about").addClass("shadow3");
+				$("#contact").removeClass("shadow-heavy");
+				$("#about").addClass("shadow-heavy");
 				$("#about").css("left", "0");
 				$("#about").css("left", "0");
 				contactOpen = false;
@@ -39,7 +39,7 @@ $(document).ready(function(){
 			else {
 				menuferme();
 				aboutOpen = false;
-				$('#about').removeClass('shadow3');
+				$('#about').removeClass('shadow-heavy');
 			}
 		}
 		return false;
@@ -47,7 +47,7 @@ $(document).ready(function(){
 
 	$(".contact").click(function(){
 		if (rubOpen == false) {
-			$('#contact').addClass("shadow3")
+			$('#contact').addClass("shadow-heavy")
 			$("#about").css("left", "-100%");
 			$("#contact").css("left", "0");
 			menuderoule();
@@ -58,8 +58,8 @@ $(document).ready(function(){
 			if(aboutOpen == true) {
 				$("#about").css("left", "-100%");
 				$("#contact").css("left", "0");
-				$("#contact").addClass("shadow3");
-				$("#about").removeClass("shadow3");
+				$("#contact").addClass("shadow-heavy");
+				$("#about").removeClass("shadow-heavy");
 				aboutOpen = false;
 				contactOpen = true;
 				$("#header a").removeClass("current");
@@ -68,7 +68,7 @@ $(document).ready(function(){
 			else {
 				menuferme();
 				contactOpen = false;
-			$('#contact').removeClass("shadow3")
+			$('#contact').removeClass("shadow-heavy")
 			}
 		}
 		return false;
@@ -77,7 +77,7 @@ $(document).ready(function(){
 	$(".work").click(function(){
 		if (rubOpen == true) {
 			menuferme();
-			$('#contact, #about').removeClass("shadow3")
+			$('#contact, #about').removeClass("shadow-heavy")
 		}
 		return false;
 	});
