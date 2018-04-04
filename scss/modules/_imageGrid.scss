@@ -52,7 +52,7 @@
 		top:-24px;
 		left:50%;
 		margin-left:-37px;
-		border-radius: 50%;
+		@include rounded(50%);
 		background:url(../images/arrow.png) no-repeat 34px center;
 		border:3px solid $white;
 		opacity:0;

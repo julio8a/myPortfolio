@@ -193,7 +193,7 @@ input.envoyer {
 	width:180px;
 	cursor:pointer;
 	font-weight:bold;
-	border-radius: 0;
+	@include rounded(0);
 	margin: -10px 0 0 0;
 	float: right;
 	&:hover {
