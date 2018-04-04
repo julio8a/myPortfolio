@@ -862,8 +862,7 @@ footer {
   position: fixed;
   width: 100%;
   height: 90px;
-  background: #333;
-  border-top: #222;
+  background: #222;
   z-index: 12;
   bottom: 0; }
   @media (max-width: 738px) {
@@ -879,11 +878,6 @@ footer {
     line-height: 20px;
     letter-spacing: 1px;
     text-transform: uppercase; }
-
-.ligne {
-  width: 100%;
-  height: 1px;
-  background: #242424; }
 
 .caseB {
   display: block;
@@ -903,39 +897,25 @@ footer {
   .caseB:hover span {
     color: #fff; }
 
-#contactCanada .texte {
-  position: absolute;
-  z-index: 3;
-  color: #fff;
-  margin-left: 80px;
-  margin-top: 25px; }
-
-#contactCanada .fond, .caseB .fond {
+.caseB .fond {
   height: 90px;
   position: absolute;
   z-index: 1;
   top: 90px;
-  transition: all 0.1s ease-out; }
-
-#contactCanada:hover .fond, .caseB:hover .fond {
-  top: 0; }
-
-#contactCanada .fond {
-  width: 652px; }
-
-.caseB .fond {
+  transition: all 0.1s ease-out;
   width: 115px; }
 
-#contactCanada img {
-  position: absolute;
-  z-index: 3;
-  left: 30px; }
+.caseB:hover .fond {
+  top: 0; }
 
 .fond.twitter {
   background: #00aced; }
 
-.fond .behance {
-  background: #0364fa; }
+.fond.facebook {
+  background: #3b5998; }
+
+.fond.dribble {
+  background: #ea4c89; }
 
 .fond.linkedin {
   background: #3893c4; }
@@ -951,7 +931,8 @@ footer {
   text-align: center;
   font-size: 14px;
   color: #aaa;
-  margin-top: 35px; }
+  margin-top: 35px;
+  float: right; }
 
 .resume {
   float: right;

@@ -375,7 +375,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
         <a href="http://www.facebook.com/julio8a00" target="_blank">
             <div class="caseB">
                 <span>Facebook</span>
-                <div class="fond behance"></div>
+                <div class="fond facebook"></div>
             </div>
         </a>            
         <a href="http://www.linkedin.com/in/julioochoa" target="_blank">
@@ -387,7 +387,7 @@ $msg .= "User come from : ".$_SERVER["HTTP_REFERER"]; //Referrer
         <a href="http://dribbble.com/julio8a00" target="_blank">
             <div class="caseB">
                 <span>Dribbble</span>
-                <div class="fond cpx"></div>
+                <div class="fond dribble"></div>
             </div>
         </a>            
         <a href="downloads/jochoa_resume.pdf" target="_blank">

@@ -2,8 +2,7 @@ footer {
 	position: fixed;
 	width:100%;
 	height:90px;
-	background:$dark-gray;
-	border-top: $darkest-gray;
+	background:$darkest-gray;
 	z-index: 12;
 	bottom: 0;
 	@include break(738px) {
@@ -20,12 +19,6 @@ footer {
 		letter-spacing:1px;
 		text-transform:uppercase;
 	}
-}
-
-.ligne {
-	width:100%;
-	height:1px;
-	background:#242424;
 }
 
 .caseB {
@@ -51,47 +44,28 @@ footer {
 	}
 }
 
-#contactCanada .texte {
-	position:absolute;
-	z-index:3;
-	color:$white;
-	margin-left:80px;
-	margin-top:25px;
-}
-
-
-#contactCanada .fond, .caseB .fond {
+.caseB .fond {
 	height:90px;
 	position:absolute;
 	z-index:1;
 	top:90px;
     transition: all 0.1s ease-out;
-}
-
-#contactCanada:hover .fond, .caseB:hover .fond {
-	top:0;
-}
-
-#contactCanada .fond {
-	width:652px;
-}
-
-.caseB .fond {
 	width:115px;
 }
 
-#contactCanada img {
-	position:absolute;
-	z-index:3;
-	left:30px;
+.caseB:hover .fond {
+	top:0;
 }
 
 .fond {
 	&.twitter {
 		background:#00aced;
 	}
-	.behance {
-		background:#0364fa;
+	&.facebook {
+		background:#3b5998;
+	}
+	&.dribble {
+		background:#ea4c89;
 	}
 	&.linkedin {
 		background:#3893c4;
@@ -111,6 +85,7 @@ footer {
 	font-size:14px;
 	color:#aaa;
 	margin-top:35px;
+	float: right;
 }
 
 .resume {
