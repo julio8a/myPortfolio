@@ -1,0 +1,110 @@
+.wrapper {
+	@include break(1109px) {
+		width: 100%;
+	}
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	top:0;
+	display:block;
+	width: 100%;
+	height:50px;
+	z-index:100;
+	position:fixed;
+	border-top: $border-light;
+	border-bottom: $border-light;
+	background: $white;
+	transition: top .5s ease-out;
+}
+
+
+#logo {
+	@include break(1109px) {
+		margin-left: 15px;
+	}
+	@include break(520px) {
+		display: none;
+	}
+	float: left;
+	color: $dark-gray;
+	h1 {
+		margin: 0;
+		padding: 10px 0 0 0;
+		margin-top: 0px;
+		width:140px;
+		float:left;
+		font-size: 1.7rem;
+	}
+	img {
+		margin-top: 5px;
+		float:right;
+	}
+}
+
+nav {
+	@include break(1109px) {
+		margin-right: 10px;
+	}
+	ul {
+		padding: 0;
+		float: right;
+		li {
+			display: inline;
+			img {
+				width: 12px;
+				height: 12px;
+				position: relative;
+				top: -7px;
+				left: -11px;
+			}
+		}
+	}
+	a {
+		color: $dark-gray;
+		padding: 5px 15px;
+		font-size: 1.13rem;
+		&:hover {
+			color: $color-main
+		}
+	}
+	.current {
+		background: rgba(0, 0, 0, .05);
+		@include rounded(15px);
+		color: #007ac2;
+	}
+}
+
+#intro-container {
+	width: 100%;
+	height: 280px;
+	background: $white;
+	position:fixed;
+	top:0;
+	z-index:10;
+	text-align: center;
+  transition: top 0.3s ease-out;
+}
+
+#intro {
+	position:absolute;
+	top:40px;
+	z-index:2;
+	margin:80px 0 50px 0;
+	font-size:2.14rem;
+	line-height:40px;
+	letter-spacing:1px;
+	width: inherit;
+	span {
+		color: $dark-gray;
+		font-weight: 100;
+		font-size: 3.3rem;
+		line-height: 55px;
+		letter-spacing: -0.2px;
+	}
+	.position-title {
+		font-size: 1.7rem;
+		letter-spacing: 0;
+	}
+}
