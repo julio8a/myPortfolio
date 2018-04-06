@@ -30,8 +30,7 @@
 		display:block;
 		width:100%;
 		top:0;
-		font-size:14px;
-		font-family: $robo;
+		font-size: 1rem;
 		-webkit-font-smoothing:antialiased;
 		text-align:center;
 		.img-container{
@@ -62,7 +61,7 @@
 		display:block;
 		margin:320px auto 5px auto;
 		letter-spacing:1px;
-		font-size:24px;
+		font-size:1.7rem;
 		color:$white;
 		font-weight:normal;
 		text-transform:uppercase;
@@ -75,7 +74,6 @@
 		display:block;
 		position:relative;
 		z-index:4;
-		font-family:'Roboto', Arial, sans-serif;
 		color:#eee;
 		opacity: 0;
 	}

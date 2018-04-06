@@ -31,11 +31,10 @@
 	overflow:hidden;
 	h1 {
 		opacity:0;
-		font-family:'Roboto', Arial, sans-serif;
 		font-weight:normal;
 		-webkit-font-smoothing:antialiased;
 		text-align:center;
-		font-size:60px;
+		font-size:4.3rem;
 		color:$white;
 		margin:0 auto 50px auto;
 		text-transform:uppercase;
@@ -48,26 +47,26 @@
 			width: 90%;
 		}
 		opacity:0;
-		font-family:'Roboto', Arial, sans-serif;
 		font-weight:normal;
 		-webkit-font-smoothing:antialiased;
 		text-align:center;
-		font-size:14px;
+		font-size: 1rem;
 		line-height:20px;
 		letter-spacing:1px;
 		color:$white;
+		text-decoration-color: $white;
 		width:600px;
 		margin:0 auto 40px auto;
 	  transition: all 0.3s ease-out;
 		transition-delay: 0s;
 		&.lien {
 			opacity:0;
-			font-family:'Roboto', Arial, sans-serif;
 			margin:-20px auto 40px auto;
 			a {
 				opacity:0.8;
 				border-bottom: $border-black;
-			  transition: all 0.3s ease-out;
+				transition: all 0.3s ease-out;
+				font-size: 1.4rem;
 				&:hover {
 					opacity:1;
 					border-bottom: $border-white;
@@ -135,12 +134,11 @@
 	  transition: all 0.3s ease-out;
 		transition-delay: 0s;
 		p {
-			font-family:'Roboto', Arial, sans-serif;
 			font-weight:normal;
 			-webkit-font-smoothing:antialiased;
 			text-transform:uppercase;
 			text-align:center;
-			font-size:12px;
+			font-size:.9rem;
 			line-height:20px;
 			color:$white;
 			float:left;
@@ -203,11 +201,10 @@
 	  transition: all 0.6s ease-out;
 		transition-delay: 0s;
 		h2 {
-			font-family:'Roboto', Arial, sans-serif;
 			font-weight:normal;
 			-webkit-font-smoothing:antialiased;
 			text-align:center;
-			font-size:30px;
+			font-size:2.1rem;
 			color:$white;
 			margin:0px auto 0px auto;
 			text-transform:uppercase;
@@ -317,9 +314,8 @@
 	}
 	opacity:0.5;
 	color:$white;
-	font-size:14px;
+	font-size: 1rem;
 	text-transform:uppercase;
-	font-family:'Roboto', Arial, sans-serif;
 	font-weight:normal;
 	-webkit-font-smoothing:antialiased;
 	line-height:14px;
@@ -341,7 +337,7 @@
 			width: 50px;
 			float: none;
 			font-weight: 800;
-			font-size: 16px;
+			font-size: 1.1rem;
 		}
 		margin-top:32px;
 		float:left;

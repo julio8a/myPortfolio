@@ -11,10 +11,9 @@ footer {
 	.center {
 		height:90px;
 		width:1000px;
-		font-family:'Roboto', Arial, sans-serif;
 		font-weight:normal;
 		-webkit-font-smoothing:antialiased;
-		font-size:14px;
+		font-size: 1rem;
 		line-height:20px;
 		letter-spacing:1px;
 		text-transform:uppercase;
@@ -57,9 +56,8 @@ footer {
 }
 
 .copyright {
-	font-family:'Roboto', Arial, sans-serif;
 	text-align:center;
-	font-size:14px;
+	font-size: 1rem;
 	color:#aaa;
 	margin-top:35px;
 	float: right;

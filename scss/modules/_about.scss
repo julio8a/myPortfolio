@@ -33,11 +33,10 @@
 	}
 	float:left;
 	width:425px;
-	font-family:'Roboto', Arial, sans-serif;
 	font-weight:normal;
 	-webkit-font-smoothing:antialiased;
 	color:#666;
-	font-size:14px;
+	font-size: 1rem;
 	line-height:20px;
 	letter-spacing:1px;
 	a {
@@ -53,11 +52,10 @@
 	float:left;
 	width:215px;
 	margin-left:80px;
-	font-family:'Roboto', Arial, sans-serif;
 	font-weight:normal;
 	-webkit-font-smoothing:antialiased;
 	color:#666;
-	font-size:14px;
+	font-size: 1rem;
 	line-height:20px;
 	letter-spacing:1px;
 	ul {
@@ -79,11 +77,10 @@
 	float:left;
 	width:180px;
 	margin-left:20px;
-	font-family:'Roboto', Arial, sans-serif;
 	font-weight:normal;
 	-webkit-font-smoothing:antialiased;
 	color:#666;
-	font-size:14px;
+	font-size: 1rem;
 	line-height:20px;
 	letter-spacing:1px;
 	small {
@@ -94,7 +91,7 @@
 
 
 span.awardname {
-	font-size:12px;
+	font-size:.9rem;
 	color:#444;
 	letter-spacing:0;
 }
@@ -102,11 +99,10 @@ span.awardname {
 #contactleft, #contactright {
 	float:left;
 	width:315px;
-	font-family:'Roboto', Arial, sans-serif;
 	font-weight:normal;
 	-webkit-font-smoothing:antialiased;
 	color:#777;
-	font-size:14px;
+	font-size: 1rem;
 	line-height:20px;
 	letter-spacing:1px;
 }
@@ -187,7 +183,6 @@ input.envoyer {
 	}
 	background:$white;
 	border:1px solid #aaa;
-	font-family:'Roboto', Arial, sans-serif;
 	color:#444;
 	text-transform:uppercase;
 	width:180px;
@@ -200,18 +195,4 @@ input.envoyer {
 		border: $border-blue;
 		color: #007ac2;
 	}
-}
-
-
-.envoimess {
-	position:absolute;
-	top:54px;
-	width:400px;
-	font-family:'Roboto', Arial, sans-serif;
-	font-weight:normal;
-	-webkit-font-smoothing:antialiased;
-	text-align:right;
-	color:#aaa;
-	font-size:12px;
-	line-height:20px;
 }
