@@ -67,7 +67,7 @@
 }
 
 
-#awards {
+#experience {
 	@include break(991px) {
 		margin-left: 50px;
 	}
@@ -90,7 +90,7 @@
 }
 
 
-span.awardname {
+span.job-title {
 	font-size:.9rem;
 	color:#444;
 	letter-spacing:0;

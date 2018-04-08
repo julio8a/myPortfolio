@@ -1,0 +1,141 @@
+{ 
+    "data" : [
+        { "services": [
+            {"service":"Experience Design & Strategy"},
+            {"service":"Brainstorm Workshop Faciliatation"},
+            {"service":"Workflow Diagramming"},
+            {"service":"Information Architecture"},
+            {"service":"Wireframing & Prototypes"},
+            {"service":"Graphics / Interface Design"},
+            {"service":"Web Development"},
+            {"service":"Usability Research"},
+            {"service":"Branding & Marketing"},
+            {"service":"Brand Strategy"},
+            {"service":"Social Media Strategy"}
+        ]},
+        { "experience" : [
+            {
+                "dateCompany":"2017 to Present – Esri",
+                "jobTitle": "Design Program Manager"
+            },
+            {
+                "dateCompany":"2016 to 2017 – Esri",
+                "jobTitle": "Senior Product Designer"
+            },
+            {
+                "dateCompany":"2013 to 2016 – Esri",
+                "jobTitle": "UI / UX Designer"
+            },
+            {
+                "dateCompany":"2015 to 2015 – University of Redlands",
+                "jobTitle": "Adjunct Instructor"
+            },
+            {
+                "dateCompany":"2011 to 2013 – FindLegalForms Inc.",
+                "jobTitle": "UI / UX & Front-End Developer"
+            },
+            {
+                "dateCompany":"2009 to 2015 – JCO Designs",
+                "jobTitle": "Owner / Information Architect"
+            }
+        ]},
+        { "projectBlock" : [
+            {
+                "blockNumer":"1",
+                "projectName":"Zip Tapestry",
+                "role":"Web & Moble App",
+                "imageURL":"zip-tapestry/images/thumb.jpg"
+            },
+            {
+                "blockNumer":"2",
+                "projectName":"Urban Observatory",
+                "role":"Website",
+                "imageURL":"urb-ob-site/images/thumb.jpg"
+            },            {
+                "blockNumer":"3",
+                "projectName":"Urban Observatory App",
+                "role":"Interactive App",
+                "imageURL":"urb-ob-ui/images/thumb.jpg"
+            },            {
+                "blockNumer":"4",
+                "projectName":"Florida Environmental Public Health App",
+                "role":"Web SaaS App",
+                "imageURL":"public-health/images/thumb.jpg"
+            },            {
+                "blockNumer":"5",
+                "projectName":"Inca Train – Office App",
+                "role":"Native App",
+                "imageURL":"inca/images/thumb.jpg"
+            },            {
+                "blockNumer":"6",
+                "projectName":"Save Me App",
+                "role":"Native App",
+                "imageURL":"save-me/images/thumb.jpg"
+            },            {
+                "blockNumer":"7",
+                "projectName":"Esr Industries Template",
+                "role":"Web and Mobile Site",
+                "imageURL":"industries/images/thumb.jpg"
+            },            {
+                "blockNumer":"8",
+                "projectName":"Workforce for ArcGIS",
+                "role":"Web SaaS App",
+                "imageURL":"workforce/images/thumb.jpg"
+            },            {
+                "blockNumer":"9",
+                "projectName":"Operations Dashboard for ArcGIS",
+                "role":"Web SaaS App",
+                "imageURL":"dashboard/images/thumb.jpg"
+            },            {
+                "blockNumer":"10",
+                "projectName":"Web App Builder Concept",
+                "role":"Web SaaS App",
+                "imageURL":"web-app-builder/images/thumb.jpg"
+            },            {
+                "blockNumer":"11",
+                "projectName":"My Esri",
+                "role":"Website",
+                "imageURL":"my-esri/images/thumb.jpg"
+            },            {
+                "blockNumer":"12",
+                "projectName":"City Engine",
+                "role":"Landing Pages",
+                "imageURL":"city-engine/images/thumb.jpg"
+            }
+        ]},
+        { "socialMedia" : [
+            {
+                "name":"Twitter",
+                "URL": "https://twitter.com/julio8a",
+                "className": "twitter"
+            },
+            {
+                "name":"Facebook",
+                "URL": "http://www.facebook.com/julio8a00",
+                "className": "facebook"
+            },
+            {
+                "name":"LinkedIn",
+                "URL": "http://www.linkedin.com/in/julioochoa",
+                "className": "linkedin"
+            },
+            {
+                "name":"Dribble",
+                "URL": "http://dribbble.com/julio8a00",
+                "className": "dribble"
+            },
+            {
+                "name":"Resume",
+                "URL": "downloads/jochoa_resume.pdf",
+                "className": "cv"
+            },
+            {
+                "name":"Blog",
+                "URL": "http://blog.julio8a.com",
+                "className": "blog"
+            }
+        ]}
+    ]
+}
+
+   

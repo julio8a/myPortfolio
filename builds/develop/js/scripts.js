@@ -14,7 +14,7 @@ return(!i||i!==r&&!b.contains(r,i))&&(e.type=o.origType,n=o.handler.apply(this,a
 d.extend(true,d,{support:{rgba:m()}});var k=["color","backgroundColor","borderBottomColor","borderLeftColor","borderRightColor","borderTopColor","outlineColor"];d.each(k,function(b,a){d.Tween.propHooks[a]={get:function(c){return d(c.elem).css(a)},set:function(c){var e=c.elem.style,i=g(d(c.elem).css(a)),h=g(c.end);c.run=function(f){e[a]=j(i,h,f)}}}});d.Tween.propHooks.borderColor={set:function(b){var a=b.elem.style,c=[],e=k.slice(2,6);d.each(e,function(h,f){c[f]=g(d(b.elem).css(f))});var i=g(b.end);
 b.run=function(h){d.each(e,function(f,l){a[l]=j(c[l],i,h)})}}}})(jQuery);
 
-$(document).ready(function(){
+$(window).load(function(){
 
 	$("#about").removeClass("debut");
 	$("#contact").removeClass("debut");
@@ -272,3 +272,28 @@ $(document).ready(function(){
 	addLoadEvent(preloader);
 
 });
+$(function() {
+
+  $.getJSON('js/data.json', function(data) {
+    var servicesTemplate = $('#servicesTemplate').html();
+    var servicesResults = Mustache.to_html(servicesTemplate, data);
+    $('#services ul').append(servicesResults);
+
+    var experienceTemplate = $('#experienceTemplate').html();
+    var experienceResults = Mustache.to_html(experienceTemplate, data);
+    $('#experience').append(experienceResults);
+
+    var blockTemplate = $('#blockTemplate').html();
+    var blockResults = Mustache.to_html(blockTemplate, data);
+    $('#blocks-container').append(blockResults);
+
+    var socialTemplate = $('#socialTemplate').html();
+    var socialResults = Mustache.to_html(socialTemplate, data);
+    $('footer .center').append(socialResults);
+
+    var iconTemplate = $('#iconTemplate').html();
+    var iconResults = Mustache.to_html(iconTemplate, data);
+    $('#project-menu .center').append(iconResults);
+  }); //getJSON
+  
+}); //function
