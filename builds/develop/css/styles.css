@@ -187,7 +187,7 @@ h3 {
   position: fixed;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
-  background: white;
+  background: #fff;
   transition: top 0.5s ease-out;
 }
 
