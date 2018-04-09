@@ -79,7 +79,7 @@ module.exports = function(grunt) {
               'builds/develop/*.html',
               'js/**/*.js',
               'scss/**/*.scss'],
-          tasks: ['concat', 'sass']
+          tasks: ['concat', 'uglify', 'sass']
         }
       }
   
