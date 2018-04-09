@@ -9,6 +9,14 @@ module.exports = function(grunt) {
           dest: 'builds/develop/js/scripts.js'
         }
       }, //concat
+
+      uglify: {
+        dist: {
+           files: {
+              'builds/develop/js/scripts.min.js': ['builds/develop/js/scripts.js'],
+           }
+        }
+     }, // compress JS
   
       sass: {
         dist: {
@@ -46,16 +54,7 @@ module.exports = function(grunt) {
               ],
               dest: 'builds/develop/projects/'
            }]
-        }
-        // ,
-        // dynamic: {
-        //     files: [{
-        //         expand: true,
-        //         cwd: 'src/',
-        //         src: ['**/*.{png,jpg,gif}'],
-        //         dest: 'dist/'
-        //     }]
-        // }
+        } // Compress images
     },
   
       connect: {
@@ -87,6 +86,7 @@ module.exports = function(grunt) {
     }); //initConfig
   
     grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-watch');
@@ -95,6 +95,7 @@ module.exports = function(grunt) {
     grunt.registerTask(
         'default', [
             'concat', 
+            'uglify', 
             'sass', 
             'connect', 
             'watch'
