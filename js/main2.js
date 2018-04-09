@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(window).load(function(){
 
 	$("#about").removeClass("debut");
 	$("#contact").removeClass("debut");

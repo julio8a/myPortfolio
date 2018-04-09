@@ -878,7 +878,7 @@ nav .current {
   left: 100%;
 }
 
-#presentation {
+#aboutMe {
   float: left;
   width: 425px;
   font-weight: normal;
@@ -889,16 +889,16 @@ nav .current {
   letter-spacing: 1px;
 }
 @media (max-width: 1109px) {
-  #presentation {
+  #aboutMe {
     margin-left: 50px;
   }
 }
 @media (max-width: 738px) {
-  #presentation {
+  #aboutMe {
     width: 85%;
   }
 }
-#presentation a {
+#aboutMe a {
   color: #007ac2;
   text-decoration: underline;
 }
@@ -926,7 +926,7 @@ nav .current {
   margin: 5px;
 }
 
-#awards {
+#experience {
   float: left;
   width: 180px;
   margin-left: 20px;
@@ -938,21 +938,21 @@ nav .current {
   letter-spacing: 1px;
 }
 @media (max-width: 991px) {
-  #awards {
+  #experience {
     margin-left: 50px;
   }
 }
 @media (max-width: 738px) {
-  #awards {
+  #experience {
     display: none;
   }
 }
-#awards small {
+#experience small {
   top: -15px;
   position: relative;
 }
 
-span.awardname {
+span.job-title {
   font-size: 0.9rem;
   color: #444;
   letter-spacing: 0;
