@@ -21,7 +21,8 @@ module.exports = function(grunt) {
       sass: {
         dist: {
           options: {
-            style: 'expanded'
+            outputStyle: 'compressed',
+            sourceMap: true
           },
           files : [{
             src: 'scss/styles.scss',
@@ -29,18 +30,6 @@ module.exports = function(grunt) {
           }]
         }
       }, //sass
-
-      cssmin: {
-        target: {
-          files: [{
-            expand: true,
-            cwd: 'builds/develop/css',
-            src: ['*.css', '!*.min.css'],
-            dest: 'builds/develop/css',
-            ext: '.min.css'
-          }]
-        }
-      }, // Compress CSS
 
       imagemin: {
         static: {
@@ -99,8 +88,7 @@ module.exports = function(grunt) {
   
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-contrib-sass');
-    grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-connect');
@@ -110,7 +98,6 @@ module.exports = function(grunt) {
             'concat', 
             'uglify', 
             'sass', 
-            'cssmin', 
             'connect', 
             'watch'
         ]);
