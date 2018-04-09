@@ -29,7 +29,7 @@ module.exports = function(grunt) {
             },
             files: [{
               expand: true,
-              cwd: 'projects/',
+              cwd: 'builds/develop/projects/',
               src: [
                 'city-engine/images/*.{png,jpg,gif}',
                 'dashboard/images/*.{png,jpg,gif}',
