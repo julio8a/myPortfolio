@@ -1,5 +1,15 @@
 { 
     "data" : [
+        { "aboutMe" : [
+            {
+                "title": "About me",
+                "cvURL": "downloads/jochoa_resume.pdf",
+                "cvTitle": "Resume",
+                "para1": "This is my creative portfolio showcasing work in: User Experience, User Interface, Web Development, Branding, Identity, Advertising and Marketing.",
+                "para2": "I am a multidisciplined individual focused on composing user workflows, information architecture systems, application interface visual designs and agile software development. As a passionate leader, I unlock individuals’ potential and inspire innovation within the technology and software development industry. My philosophy of leadership is based on knowledge, growth, opportunities and learning. Using my holistic insight and innovative multidisciplinary collaboration principles, my promise is to strengthen and empower individuals and collectives to perform at their greatest potential. Moreover, energize, focus and align software development organizations, resulting in sustainable acceleration of processes and reduction in misallocated time.",
+                "para3": "Want to work on a project together?"
+            }
+        ]},
         { "services": [
             {"service":"Experience Design & Strategy"},
             {"service":"Brainstorm Workshop Faciliatation"},
@@ -39,65 +49,91 @@
                 "jobTitle": "Owner / Information Architect"
             }
         ]},
+        { "navigation" : [
+            {
+                "URL":"#",
+                "className": "work",
+                "active": "current",
+                "name": "Work"
+            },
+            {
+                "URL":"#",
+                "className": "about",
+                "active": "",
+                "name": "About"
+            },
+            {
+                "URL":"#",
+                "className": "contact",
+                "active": "",
+                "name": "Contact"
+            },
+            {
+                "URL":"http://blog.julio8a.com",
+                "className": "",
+                "active": "",
+                "name": "Blog"
+            }
+        ]},
         { "projectBlock" : [
             {
-                "blockNumer":"1",
+                "number":"1",
                 "projectName":"Zip Tapestry",
                 "role":"Web & Moble App",
                 "imageURL":"zip-tapestry/images/thumb.jpg"
             },
             {
-                "blockNumer":"2",
+                "number":"2",
                 "projectName":"Urban Observatory",
                 "role":"Website",
                 "imageURL":"urb-ob-site/images/thumb.jpg"
             },            {
-                "blockNumer":"3",
+                "number":"3",
                 "projectName":"Urban Observatory App",
                 "role":"Interactive App",
                 "imageURL":"urb-ob-ui/images/thumb.jpg"
             },            {
-                "blockNumer":"4",
+                "number":"4",
                 "projectName":"Florida Environmental Public Health App",
                 "role":"Web SaaS App",
                 "imageURL":"public-health/images/thumb.jpg"
             },            {
-                "blockNumer":"5",
+                "number":"5",
                 "projectName":"Inca Train – Office App",
                 "role":"Native App",
                 "imageURL":"inca/images/thumb.jpg"
             },            {
-                "blockNumer":"6",
+                "number":"6",
                 "projectName":"Save Me App",
                 "role":"Native App",
                 "imageURL":"save-me/images/thumb.jpg"
             },            {
-                "blockNumer":"7",
+                "number":"7",
                 "projectName":"Esr Industries Template",
                 "role":"Web and Mobile Site",
                 "imageURL":"industries/images/thumb.jpg"
             },            {
-                "blockNumer":"8",
+                "number":"8",
                 "projectName":"Workforce for ArcGIS",
                 "role":"Web SaaS App",
                 "imageURL":"workforce/images/thumb.jpg"
             },            {
-                "blockNumer":"9",
+                "number":"9",
                 "projectName":"Operations Dashboard for ArcGIS",
                 "role":"Web SaaS App",
                 "imageURL":"dashboard/images/thumb.jpg"
             },            {
-                "blockNumer":"10",
+                "number":"10",
                 "projectName":"Web App Builder Concept",
                 "role":"Web SaaS App",
                 "imageURL":"web-app-builder/images/thumb.jpg"
             },            {
-                "blockNumer":"11",
+                "number":"11",
                 "projectName":"My Esri",
                 "role":"Website",
                 "imageURL":"my-esri/images/thumb.jpg"
             },            {
-                "blockNumer":"12",
+                "number":"12",
                 "projectName":"City Engine",
                 "role":"Landing Pages",
                 "imageURL":"city-engine/images/thumb.jpg"
@@ -133,6 +169,56 @@
                 "name":"Blog",
                 "URL": "http://blog.julio8a.com",
                 "className": "blog"
+            }
+        ]},
+        { "icons" : [
+            {
+                "altName": "Zip Tapestry App",
+                "number": "1"
+            },
+            {
+                "altName": "Urban Observatory Website",
+                "number": "2"
+            },
+            {
+                "altName": "Urban Observatory App",
+                "number": "3"
+            },
+            {
+                "altName": "Florida Public Health Tracking App",
+                "number": "4"
+            },
+            {
+                "altName": "Inca Trail App",
+                "number": "5"
+            },
+            {
+                "altName": "Save Me",
+                "number": "6"
+            },
+            {
+                "altName": "Esri.com Industry Template",
+                "number": "7"
+            },
+            {
+                "altName": "Workforce for ArcGIS",
+                "number": "8"
+            },
+            {
+                "altName": "Operations Dashboard for ArcGIS",
+                "number": "9"
+            },
+            {
+                "altName": "Web App Builder Concept",
+                "number": "10"
+            },
+            {
+                "altName": "My Esri",
+                "number": "11"
+            },
+            {
+                "altName": "City Engine",
+                "number": "12"
             }
         ]}
     ]

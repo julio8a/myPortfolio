@@ -878,7 +878,7 @@ nav .current {
   left: 100%;
 }
 
-#presentation {
+#aboutMe {
   float: left;
   width: 425px;
   font-weight: normal;
@@ -889,16 +889,16 @@ nav .current {
   letter-spacing: 1px;
 }
 @media (max-width: 1109px) {
-  #presentation {
+  #aboutMe {
     margin-left: 50px;
   }
 }
 @media (max-width: 738px) {
-  #presentation {
+  #aboutMe {
     width: 85%;
   }
 }
-#presentation a {
+#aboutMe a {
   color: #007ac2;
   text-decoration: underline;
 }

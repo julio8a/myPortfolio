@@ -8,35 +8,32 @@
   <meta name="OWNER" content="julio8a00@gmail.com">
   <meta name="AUTHOR" content="Julio Ochoa">
   <meta name="viewport" content="width=device-width, initial-scale=0.8">
-
   <title>Julio Ochoa Web Portfolio</title>
-
   <link href="css/styles.css" rel="stylesheet" type="text/css" />
   <link rel="shortcut icon" href="http://julio8a.com/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-
   <!-- ABOUT SECTION -->
   <div id="about" class="debut">
     <div class="center">
-      <div id="presentation">
-        <h3>About me</h3>
-        <a class="resume" target="_blank" href="downloads/jochoa_resume.pdf">Resume</a>
-        <p>This is my creative portfolio showcasing work in: User Experience, User Interface, Web Development, Branding, Identity,
-          Advertising and Marketing.</p>
 
-        <p>I am a multidisciplined individual focused on composing user workflows, information architecture systems, application
-          interface visual designs and agile software development. As a passionate leader, I unlock individuals’ potential
-          and inspire innovation within the technology and software development industry. My philosophy of leadership is
-          based on knowledge, growth, opportunities and learning. Using my holistic insight and innovative multidisciplinary
-          collaboration principles, my promise is to strengthen and empower individuals and collectives to perform at their
-          greatest potential. Moreover, energize, focus and align software development organizations, resulting in sustainable
-          acceleration of processes and reduction in misallocated time.</p>
-        <p>Want to work on a project together?
+      <!-- ABOUT ME -->
+      <div id="aboutMe">
+        <script id="aboutTemplate" type="text/template">
+        {{#data}}{{#aboutMe}}
+        <h3>{{title}}</h3>
+        <a class="resume" target="_blank" href="{{cvURL}}">{{cvTitle}}</a>
+        <p>{{para1}}</p>
+        <p>{{para2}}</p>
+        <p>{{para3}}
           <a href="#" class="contact">Contact me</a>
         </p>
+      {{/aboutMe}}{{/data}}
+      </script>
       </div>
+
+      <!-- SERVICES -->
       <div id="services">
         <h3>Services</h3>
         <ul>
@@ -47,6 +44,8 @@
           </script>
         </ul>
       </div>
+
+      <!-- EXPERIENCE -->
       <div id="experience">
         <h3>Experience </h3>
         <small>Short List</small>
@@ -59,7 +58,6 @@
         {{/experience}}{{/data}}
         </script>
       </div>
-      <div class="clear"></div>
     </div>
   </div>
 
@@ -99,6 +97,7 @@
     </div>
   </div>
 
+  <!-- HEADER / NAVIGATION -->
   <div id="header">
     <nav>
       <div class="wrapper">
@@ -107,18 +106,11 @@
           <img src="images/logo.png" />
         </div>
         <ul>
-          <li>
-            <a href="#" class="work current">Work</a>
-          </li>
-          <li>
-            <a href="#" class="about">About</a>
-          </li>
-          <li>
-            <a href="#" class="contact">Contact</a>
-          </li>
-          <li>
-            <a href="http://blog.julio8a.com">Blog</a>
-          </li>
+        <script id="navigationTemplate" type="text/template">
+        {{#data}}{{#navigation}}
+          <li><a href="{{URL}}" class="{{className}} {{active}}">{{name}}</a></li>
+        {{/navigation}}{{/data}}
+        </script>
         </ul>
       </div>
     </nav>
@@ -135,7 +127,7 @@
   <div id="blocks-container">
     <script id="blockTemplate" type="text/template">
     {{#data}}{{#projectBlock}}
-    <div class="block block{{blockNumer}}">
+    <div class="block block{{number}}">
       <div class="content">
         <div class="circle"></div>
         <div class="project-title">
@@ -149,45 +141,20 @@
       <div class="fond"></div>
     </div>
     {{/projectBlock}}{{/data}}
+    </script>
 
     <footer>
       <div class="center">
-        <a href="https://twitter.com/julio8a" target="_blank">
+        <script id="socialTemplate" type="text/template">
+        {{#data}}{{#socialMedia}}
+        <a href="{{URL}}" target="_blank">
           <div class="caseB">
-            <span>Twitter</span>
-            <div class="fond twitter"></div>
+            <span>{{name}}</span>
+            <div class="fond {{className}}"></div>
           </div>
         </a>
-        <a href="http://www.facebook.com/julio8a00" target="_blank">
-          <div class="caseB">
-            <span>Facebook</span>
-            <div class="fond facebook"></div>
-          </div>
-        </a>
-        <a href="http://www.linkedin.com/in/julioochoa" target="_blank">
-          <div class="caseB">
-            <span>LinkedIn</span>
-            <div class="fond linkedin"></div>
-          </div>
-        </a>
-        <a href="http://dribbble.com/julio8a00" target="_blank">
-          <div class="caseB">
-            <span>Dribbble</span>
-            <div class="fond dribble"></div>
-          </div>
-        </a>
-        <a href="downloads/jochoa_resume.pdf" target="_blank">
-          <div class="caseB">
-            <span>Resume</span>
-            <div class="fond cv"></div>
-          </div>
-        </a>
-        <a href="http://blog.julio8a.com" target="_blank">
-          <div class="caseB">
-            <span>Blog</span>
-            <div class="fond blog"></div>
-          </div>
-        </a>
+        {{/socialMedia}}{{/data}}
+        </script>
         <div class="ligne"></div>
         <div class="copyright">© 2018 All rights reserved.</div>
       </div>
@@ -210,56 +177,14 @@
           <img src="images/grid.png" width="16" height="70" />
           <div>Back</div>
         </div>
-        <div class="icon icon1 current">
-          <div class="shape" alt="Zip Tapestry App"></div>
+        <script id="iconTemplate" type="text/template">
+        {{#data}}{{#icons}}
+        <div class="icon icon{{number}}">
+          <div class="shape" alt="{{altName}}"></div>
           <div class="fond"></div>
         </div>
-        <div class="icon icon2">
-          <div class="shape" alt="Urban Observatory Website"></div>
-          <div class="fond"> </div>
-        </div>
-        <div class="icon icon3">
-          <div class="shape" alt="Urban Observatory App"></div>
-          <div class="fond"></div>
-        </div>
-        <div class="icon icon4">
-          <div class="shape" alt="Florida Public Health Tracking App"></div>
-          <div class="fond"></div>
-        </div>
-        <div class="icon icon5">
-          <div class="shape" alt="Inca Trail App"></div>
-          <div class="fond"></div>
-        </div>
-        <div class="icon icon6">
-          <div class="shape" alt="Save Me"></div>
-          <div class="fond"></div>
-        </div>
-        <div class="icon icon7">
-          <div class="shape" alt="Esri.com Industry Template"></div>
-          <div class="fond"></div>
-        </div>
-        <div class="icon icon8">
-          <div class="shape" alt="Workforce for ArcGIS"></div>
-          <div class="fond"></div>
-        </div>
-        <div class="icon icon9">
-          <div class="shape" alt="Operations Dashboard for ArcGIS"></div>
-          <div class="fond"></div>
-        </div>
-        <div class="icon icon10">
-          <div class="shape" alt="Web App Builder Concept"></div>
-          <div class="fond"></div>
-        </div>
-        <div class="icon icon11">
-          <div class="shape" alt="My Esri"></div>
-          <div class="fond"></div>
-        </div>
-        <div class="icon icon12">
-          <div class="shape" alt="City Engine"></div>
-          <div class="fond"></div>
-        </div>
-
-        <div class="clear"></div>
+        {{/icons}}{{/data}}
+        </script>
       </div>
     </div>
 
@@ -270,7 +195,6 @@
       var aboutOpen = false;
     </script>
     <script src="js/scripts.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
