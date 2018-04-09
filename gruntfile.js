@@ -96,7 +96,6 @@ module.exports = function(grunt) {
         'default', [
             'concat', 
             'sass', 
-            'imagemin', 
             'connect', 
             'watch'
         ]);
