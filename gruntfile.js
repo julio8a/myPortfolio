@@ -21,6 +21,42 @@ module.exports = function(grunt) {
           }]
         }
       }, //sass
+
+      imagemin: {
+        static: {
+            options: {
+                optimizationLevel: 7
+            },
+            files: [{
+              expand: true,
+              cwd: 'builds/develop/projects/',
+              src: [
+                'city-engine/images/*.{png,jpg,gif}',
+                'dashboard/images/*.{png,jpg,gif}',
+                'inca/images/*.{png,jpg,gif}',
+                'industries/images/*.{png,jpg,gif}',
+                'my-esri/images/*.{png,jpg,gif}',
+                'public-health/images/*.{png,jpg,gif}',
+                'save-me/images/*.{png,jpg,gif}',
+                'urb-ob-site/images/*.{png,jpg,gif}',
+                'urb-ob-ui/images/*.{png,jpg,gif}',
+                'web-app-builder/images/*.{png,jpg,gif}',
+                'workforce/images/*.{png,jpg,gif}',
+                'zip-tapestry/images/*.{png,jpg,gif}'
+              ],
+              dest: 'builds/develop/projects/'
+           }]
+        }
+        // ,
+        // dynamic: {
+        //     files: [{
+        //         expand: true,
+        //         cwd: 'src/',
+        //         src: ['**/*.{png,jpg,gif}'],
+        //         dest: 'dist/'
+        //     }]
+        // }
+    },
   
       connect: {
         sever: {
@@ -52,6 +88,7 @@ module.exports = function(grunt) {
   
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-connect');
   
