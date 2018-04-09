@@ -21,7 +21,8 @@ module.exports = function(grunt) {
       sass: {
         dist: {
           options: {
-            style: 'expanded'
+            outputStyle: 'compressed',
+            sourceMap: true
           },
           files : [{
             src: 'scss/styles.scss',
@@ -87,7 +88,7 @@ module.exports = function(grunt) {
   
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-connect');
