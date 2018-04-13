@@ -13,7 +13,7 @@ module.exports = function(grunt) {
       uglify: {
         dist: {
            files: {
-              'builds/develop/js/scripts.min.js': ['builds/develop/js/scripts.js'],
+              'builds/develop/js/scripts.min.js': 'builds/develop/js/scripts.js',
            }
         }
      }, // compress JS
