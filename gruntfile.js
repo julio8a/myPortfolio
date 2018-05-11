@@ -77,6 +77,7 @@ module.exports = function(grunt) {
         scripts: {
           files: [
               'builds/develop/*.html',
+              'builds/develop/js/*.json',
               'js/**/*.js',
               'scss/**/*.scss'],
           tasks: ['concat', 'uglify', 'sass']
