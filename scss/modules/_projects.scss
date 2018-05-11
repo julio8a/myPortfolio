@@ -18,7 +18,6 @@
 	}
 }
 
-
 #projet {
 	position:absolute;
 	z-index:0;
@@ -29,6 +28,9 @@
   transition: all 0.3s ease-out;
 	height:0;
 	overflow:hidden;
+	.screenshot {
+		position: absolute;
+	}
 	h1 {
 		opacity:0;
 		font-weight:normal;
@@ -97,15 +99,8 @@
 		position:relative;
 	  transition: all 0.3s ease-out;
 		transition-delay: 0s;
-		img {
-			@include break(738px) {
-				width: 100%;
-			}
-		}
-		&.desktoplouvre {
-			width:863px;
-			opacity:0;
-			margin:-500px auto 0 auto;
+		.screenshot {
+			margin: 47px 0 0 52px;
 		}
 	}
 	.phone {
@@ -116,6 +111,9 @@
 		position:relative;
 	  transition: all 0.3s ease-out;
 		transition-delay: 0s;
+		.screenshot {
+			margin: 115px 0 0 109px;
+		}
 	}
 	.tablet {
 		width:231px;
