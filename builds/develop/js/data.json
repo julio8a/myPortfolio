@@ -77,62 +77,72 @@
         ]},
         { "projectBlock" : [
             {
+                "number":"9",
+                "projectName":"Operations Dashboard for ArcGIS",
+                "role":"Web SaaS App",
+                "imageURL":"dashboard/images/thumb.jpg"
+            },  
+            {
+                "number":"3",
+                "projectName":"Urban Observatory App",
+                "role":"Interactive App",
+                "imageURL":"urb-ob-ui/images/thumb.jpg"
+            },  
+            {
+                "number":"5",
+                "projectName":"Inca Train – Office App",
+                "role":"Native App",
+                "imageURL":"inca/images/thumb.jpg"
+            },  
+            {
                 "number":"1",
                 "projectName":"Zip Tapestry",
                 "role":"Web & Moble App",
                 "imageURL":"zip-tapestry/images/thumb.jpg"
-            },
+            },  
             {
                 "number":"2",
                 "projectName":"Urban Observatory",
                 "role":"Website",
                 "imageURL":"urb-ob-site/images/thumb.jpg"
-            },            {
-                "number":"3",
-                "projectName":"Urban Observatory App",
-                "role":"Interactive App",
-                "imageURL":"urb-ob-ui/images/thumb.jpg"
-            },            {
+            },            
+            {
                 "number":"4",
                 "projectName":"Florida Environmental Public Health App",
                 "role":"Web SaaS App",
                 "imageURL":"public-health/images/thumb.jpg"
-            },            {
-                "number":"5",
-                "projectName":"Inca Train – Office App",
-                "role":"Native App",
-                "imageURL":"inca/images/thumb.jpg"
-            },            {
+            },            
+            {
                 "number":"6",
                 "projectName":"Save Me App",
                 "role":"Native App",
                 "imageURL":"save-me/images/thumb.jpg"
-            },            {
+            },            
+            {
                 "number":"7",
                 "projectName":"Esr Industries Template",
                 "role":"Web and Mobile Site",
                 "imageURL":"industries/images/thumb.jpg"
-            },            {
+            },            
+            {
                 "number":"8",
                 "projectName":"Workforce for ArcGIS",
                 "role":"Web SaaS App",
                 "imageURL":"workforce/images/thumb.jpg"
-            },            {
-                "number":"9",
-                "projectName":"Operations Dashboard for ArcGIS",
-                "role":"Web SaaS App",
-                "imageURL":"dashboard/images/thumb.jpg"
-            },            {
+            },            
+            {
                 "number":"10",
                 "projectName":"Web App Builder Concept",
                 "role":"Web SaaS App",
                 "imageURL":"web-app-builder/images/thumb.jpg"
-            },            {
+            },            
+            {
                 "number":"11",
                 "projectName":"My Esri",
                 "role":"Website",
                 "imageURL":"my-esri/images/thumb.jpg"
-            },            {
+            },            
+            {
                 "number":"12",
                 "projectName":"City Engine",
                 "role":"Landing Pages",
@@ -173,6 +183,18 @@
         ]},
         { "icons" : [
             {
+                "altName": "Operations Dashboard for ArcGIS",
+                "number": "9"
+            },
+            {
+                "altName": "Urban Observatory App",
+                "number": "3"
+            },
+            {
+                "altName": "Inca Trail App",
+                "number": "5"
+            },
+            {
                 "altName": "Zip Tapestry App",
                 "number": "1"
             },
@@ -181,16 +203,8 @@
                 "number": "2"
             },
             {
-                "altName": "Urban Observatory App",
-                "number": "3"
-            },
-            {
                 "altName": "Florida Public Health Tracking App",
                 "number": "4"
-            },
-            {
-                "altName": "Inca Trail App",
-                "number": "5"
             },
             {
                 "altName": "Save Me",
@@ -203,10 +217,6 @@
             {
                 "altName": "Workforce for ArcGIS",
                 "number": "8"
-            },
-            {
-                "altName": "Operations Dashboard for ArcGIS",
-                "number": "9"
             },
             {
                 "altName": "Web App Builder Concept",
