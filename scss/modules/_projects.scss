@@ -116,13 +116,16 @@
 		}
 	}
 	.tablet {
-		width:231px;
+		width:600px;
 		opacity:0;
 		margin:-986px auto 0 640px;
 		z-index:3;
 		position:relative;
 	  transition: all 0.3s ease-out;
 		transition-delay: 0s;
+		.screenshot {
+			margin: 66px 0 0 143px;
+		}
 	}
 	.infos {
 		display:table;
@@ -351,7 +354,7 @@
 		display: none;
 	}
 	float:left;
-	width:72px;
+	width:70px;
 	height:48px;
 	border-left: $border-heavy;
 	padding-top:22px;
@@ -368,15 +371,14 @@
 		margin-left: 20px;
 	}
 	.fond {
-		width:72px;
+		width:70px;
 		height:70px;
 		top:70px;
 		position:absolute;
 		transition: all 0.2s ease-out;
 	}
 	&.current {
-		width:72px;
-		border-left:0;
+		width:70px;
 		.shape {
 			opacity:1;
 		}
