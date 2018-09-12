@@ -63,16 +63,17 @@ nav {
 	}
 	a {
 		color: $dark-gray;
-		padding: 5px 15px;
+		padding: 5px 20px;
 		font-size: 1.13rem;
+		border: 1px solid transparent;
 		&:hover {
 			color: $color-main
 		}
 	}
 	.current {
-		background: rgba(0, 0, 0, .05);
-		@include rounded(15px);
-		color: #007ac2;
+		@include rounded(100px);
+		color: $color-main;
+		border-color: $color-main;
 	}
 	@include break(738px) {
 		a {
@@ -81,8 +82,8 @@ nav {
 	}
 	@include break(530px) {
 		a {
-			font-size: 1.5rem;
-			padding: 5px 20px;
+			font-size: 1.8rem;
+			padding: 10px 20px;
 		}
 	}
 }
