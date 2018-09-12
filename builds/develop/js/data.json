@@ -180,56 +180,6 @@
                 "URL": "http://blog.julio8a.com",
                 "className": "blog"
             }
-        ]},
-        { "icons" : [
-            {
-                "altName": "Operations Dashboard for ArcGIS",
-                "number": "9"
-            },
-            {
-                "altName": "Urban Observatory App",
-                "number": "3"
-            },
-            {
-                "altName": "Inca Trail App",
-                "number": "5"
-            },
-            {
-                "altName": "Zip Tapestry App",
-                "number": "1"
-            },
-            {
-                "altName": "Urban Observatory Website",
-                "number": "2"
-            },
-            {
-                "altName": "Florida Public Health Tracking App",
-                "number": "4"
-            },
-            {
-                "altName": "Save Me",
-                "number": "6"
-            },
-            {
-                "altName": "Esri.com Industry Template",
-                "number": "7"
-            },
-            {
-                "altName": "Workforce for ArcGIS",
-                "number": "8"
-            },
-            {
-                "altName": "Web App Builder Concept",
-                "number": "10"
-            },
-            {
-                "altName": "My Esri",
-                "number": "11"
-            },
-            {
-                "altName": "City Engine",
-                "number": "12"
-            }
         ]}
     ]
 }
