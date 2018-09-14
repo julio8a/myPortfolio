@@ -166,6 +166,7 @@ $(function() {
 		  if ($(this).hasClass("block10")) { $("#projet").load("projects/web-app-builder/index.html", function(){ currentProject = 10; openprojet() } ); } ;
 		  if ($(this).hasClass("block11")) { $("#projet").load("projects/my-esri/index.html", function(){ currentProject = 11; openprojet() } ); } ;
 		  if ($(this).hasClass("block12")) { $("#projet").load("projects/city-engine/index.html", function(){ currentProject = 12; openprojet() } ); } ;
+		  if ($(this).hasClass("block13")) { $("#projet").load("projects/calcite-ui-icons/index.html", function(){ currentProject = 13; openprojet() } ); } ;
 		});
 	  
 		$(".icon").click(function(){
@@ -184,6 +185,7 @@ $(function() {
 		  if ($(this).hasClass("icon10")) { $("#projet").load("../projects/web-app-builder/index.html", function(){ currentProject = 10; vTop2 = "1260px"; openprojet() } ); } ;
 		  if ($(this).hasClass("icon11")) { $("#projet").load("../projects/my-esri/index.html", function(){ currentProject = 11; vTop2 = "1260px"; openprojet() } ); } ;
 		  if ($(this).hasClass("icon12")) { $("#projet").load("../projects/city-engine/index.html", function(){ currentProject = 12; vTop2 = "1260px"; openprojet() } ); } ;
+		  if ($(this).hasClass("icon13")) { $("#projet").load("../projects/calcite-ui-icons/index.html", function(){ currentProject = 13; vTop2 = "1260px"; openprojet() } ); } ;
 	  
 		});
 	  
