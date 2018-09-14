@@ -154,60 +154,60 @@ $(function() {
 		}
 	  
 		$(".block").click(function(){
-		  if ($(this).hasClass("block1")) { $("#projet").load("projects/zip-tapestry/index.html", function(){ currentProject = 1; openprojet() } ); } ;
-		  if ($(this).hasClass("block2")) { $("#projet").load("projects/urb-ob-site/index.html", function(){ currentProject = 2; openprojet() } ); } ;
-		  if ($(this).hasClass("block3")) { $("#projet").load("projects/urb-ob-ui/index.html", function(){ currentProject = 3; openprojet() } ); } ;
-		  if ($(this).hasClass("block4")) { $("#projet").load("projects/public-health/index.html", function(){ currentProject = 4; openprojet() } ); } ;
-		  if ($(this).hasClass("block5")) { $("#projet").load("projects/inca/index.html", function(){ currentProject = 5;openprojet() } ); } ;
-		  if ($(this).hasClass("block6")) { $("#projet").load("projects/save-me/index.html", function(){ currentProject = 6; openprojet() } ); } ;
-		  if ($(this).hasClass("block7")) { $("#projet").load("projects/industries/index.html", function(){ currentProject = 7; openprojet() } ); } ;
-		  if ($(this).hasClass("block8")) { $("#projet").load("projects/workforce/index.html", function(){ currentProject = 8; openprojet() } ); } ;
-		  if ($(this).hasClass("block9")) { $("#projet").load("projects/dashboard/index.html", function(){ currentProject = 9; openprojet() } ); } ;
-		  if ($(this).hasClass("block10")) { $("#projet").load("projects/web-app-builder/index.html", function(){ currentProject = 10; openprojet() } ); } ;
-		  if ($(this).hasClass("block11")) { $("#projet").load("projects/my-esri/index.html", function(){ currentProject = 11; openprojet() } ); } ;
-		  if ($(this).hasClass("block12")) { $("#projet").load("projects/city-engine/index.html", function(){ currentProject = 12; openprojet() } ); } ;
-		  if ($(this).hasClass("block13")) { $("#projet").load("projects/calcite-ui-icons/index.html", function(){ currentProject = 13; openprojet() } ); } ;
+		  if ($(this).hasClass("block1")) { $("#project").load("projects/zip-tapestry/index.html", function(){ currentProject = 1; openproject() } ); } ;
+		  if ($(this).hasClass("block2")) { $("#project").load("projects/urb-ob-site/index.html", function(){ currentProject = 2; openproject() } ); } ;
+		  if ($(this).hasClass("block3")) { $("#project").load("projects/urb-ob-ui/index.html", function(){ currentProject = 3; openproject() } ); } ;
+		  if ($(this).hasClass("block4")) { $("#project").load("projects/public-health/index.html", function(){ currentProject = 4; openproject() } ); } ;
+		  if ($(this).hasClass("block5")) { $("#project").load("projects/inca/index.html", function(){ currentProject = 5;openproject() } ); } ;
+		  if ($(this).hasClass("block6")) { $("#project").load("projects/save-me/index.html", function(){ currentProject = 6; openproject() } ); } ;
+		  if ($(this).hasClass("block7")) { $("#project").load("projects/industries/index.html", function(){ currentProject = 7; openproject() } ); } ;
+		  if ($(this).hasClass("block8")) { $("#project").load("projects/workforce/index.html", function(){ currentProject = 8; openproject() } ); } ;
+		  if ($(this).hasClass("block9")) { $("#project").load("projects/dashboard/index.html", function(){ currentProject = 9; openproject() } ); } ;
+		  if ($(this).hasClass("block10")) { $("#project").load("projects/web-app-builder/index.html", function(){ currentProject = 10; openproject() } ); } ;
+		  if ($(this).hasClass("block11")) { $("#project").load("projects/my-esri/index.html", function(){ currentProject = 11; openproject() } ); } ;
+		  if ($(this).hasClass("block12")) { $("#project").load("projects/city-engine/index.html", function(){ currentProject = 12; openproject() } ); } ;
+		  if ($(this).hasClass("block13")) { $("#project").load("projects/calcite-ui-icons/index.html", function(){ currentProject = 13; openproject() } ); } ;
 		});
 	  
 		$(".icon").click(function(){
 		  fromicon = true;
 		  bgColor = $(this).find(".fond").css("background-color");
-		  $("#projet").removeClass("visible");
-		  if ($(this).hasClass("icon1")) { $("#projet").load("../projects/zip-tapestry/index.html", function(){ currentProject = 1; vTop2 = "400px"; openprojet() } ); } ;
-		  if ($(this).hasClass("icon2")) { $("#projet").load("../projects/urb-ob-site/index.html", function(){ currentProject = 2; vTop2 = "400px"; openprojet() } ); } ;
-		  if ($(this).hasClass("icon3")) { $("#projet").load("../projects/urb-ob-ui/index.html", function(){ currentProject = 3; vTop2 = "400px"; openprojet() } ); } ;
-		  if ($(this).hasClass("icon4")) { $("#projet").load("../projects/public-health/index.html", function(){ currentProject = 4; vTop2 = "830px"; openprojet() } ); } ;
-		  if ($(this).hasClass("icon5")) { $("#projet").load("../projects/inca/index.html", function(){ currentProject = 5; vtop2 = "830px"; openprojet() } ); } ;
-		  if ($(this).hasClass("icon6")) { $("#projet").load("../projects/save-me/index.html", function(){ currentProject = 6; vtop2 = "830px"; openprojet() } ); } ;
-		  if ($(this).hasClass("icon7")) { $("#projet").load("../projects/industries/index.html", function(){ currentProject = 7; vTop2 = "1260px"; openprojet() } ); } ;
-		  if ($(this).hasClass("icon8")) { $("#projet").load("../projects/workforce/index.html", function(){ currentProject = 8; vTop2 = "1260px"; openprojet() } ); } ;
-		  if ($(this).hasClass("icon9")) { $("#projet").load("../projects/dashboard/index.html", function(){ currentProject = 9; vTop2 = "1260px"; openprojet() } ); } ;
-		  if ($(this).hasClass("icon10")) { $("#projet").load("../projects/web-app-builder/index.html", function(){ currentProject = 10; vTop2 = "1260px"; openprojet() } ); } ;
-		  if ($(this).hasClass("icon11")) { $("#projet").load("../projects/my-esri/index.html", function(){ currentProject = 11; vTop2 = "1260px"; openprojet() } ); } ;
-		  if ($(this).hasClass("icon12")) { $("#projet").load("../projects/city-engine/index.html", function(){ currentProject = 12; vTop2 = "1260px"; openprojet() } ); } ;
-		  if ($(this).hasClass("icon13")) { $("#projet").load("../projects/calcite-ui-icons/index.html", function(){ currentProject = 13; vTop2 = "1260px"; openprojet() } ); } ;
+		  $("#project").removeClass("visible");
+		  if ($(this).hasClass("icon1")) { $("#project").load("../projects/zip-tapestry/index.html", function(){ currentProject = 1; vTop2 = "400px"; openproject() } ); } ;
+		  if ($(this).hasClass("icon2")) { $("#project").load("../projects/urb-ob-site/index.html", function(){ currentProject = 2; vTop2 = "400px"; openproject() } ); } ;
+		  if ($(this).hasClass("icon3")) { $("#project").load("../projects/urb-ob-ui/index.html", function(){ currentProject = 3; vTop2 = "400px"; openproject() } ); } ;
+		  if ($(this).hasClass("icon4")) { $("#project").load("../projects/public-health/index.html", function(){ currentProject = 4; vTop2 = "830px"; openproject() } ); } ;
+		  if ($(this).hasClass("icon5")) { $("#project").load("../projects/inca/index.html", function(){ currentProject = 5; vtop2 = "830px"; openproject() } ); } ;
+		  if ($(this).hasClass("icon6")) { $("#project").load("../projects/save-me/index.html", function(){ currentProject = 6; vtop2 = "830px"; openproject() } ); } ;
+		  if ($(this).hasClass("icon7")) { $("#project").load("../projects/industries/index.html", function(){ currentProject = 7; vTop2 = "1260px"; openproject() } ); } ;
+		  if ($(this).hasClass("icon8")) { $("#project").load("../projects/workforce/index.html", function(){ currentProject = 8; vTop2 = "1260px"; openproject() } ); } ;
+		  if ($(this).hasClass("icon9")) { $("#project").load("../projects/dashboard/index.html", function(){ currentProject = 9; vTop2 = "1260px"; openproject() } ); } ;
+		  if ($(this).hasClass("icon10")) { $("#project").load("../projects/web-app-builder/index.html", function(){ currentProject = 10; vTop2 = "1260px"; openproject() } ); } ;
+		  if ($(this).hasClass("icon11")) { $("#project").load("../projects/my-esri/index.html", function(){ currentProject = 11; vTop2 = "1260px"; openproject() } ); } ;
+		  if ($(this).hasClass("icon12")) { $("#project").load("../projects/city-engine/index.html", function(){ currentProject = 12; vTop2 = "1260px"; openproject() } ); } ;
+		  if ($(this).hasClass("icon13")) { $("#project").load("../projects/calcite-ui-icons/index.html", function(){ currentProject = 13; vTop2 = "1260px"; openproject() } ); } ;
 	  
 		});
 	  
-		function openprojet() {
+		function openproject() {
 		  $('#blocks-container').css('marginTop', '50px');
 		  $(".icon").removeClass("current");
 		  $(".icon"+currentProject).addClass("current");
 		  if (fromicon == true) {
-			$("#projet").addClass("visible");
-			$('#fond_projet.actif').animate({backgroundColor: bgColor},'600')
+			$("#project").addClass("visible");
+			$('#fond_project.actif').animate({backgroundColor: bgColor},'600')
 			$('html,body').delay(0).animate({scrollTop: 0},'10');
 		  }
 		  if (fromicon == false) {
-			$("#fond_projet").addClass("actif");
-			$("#projet").addClass("visible");
+			$("#fond_project").addClass("actif");
+			$("#project").addClass("visible");
 			$("#project-menu").addClass("visible");
-			$("#fond_projet.actif").css("top", 0);
-			$("#fond_projet.actif").css("left", 0);
-			$("#fond_projet.actif").css("marginLeft", 0);
-			$("#fond_projet.actif").css("height", "100%");
-			$("#fond_projet.actif").css("width", "100%");
-			$("#fond_projet.actif").css("background-color", bgColor);
+			$("#fond_project.actif").css("top", 0);
+			$("#fond_project.actif").css("left", 0);
+			$("#fond_project.actif").css("marginLeft", 0);
+			$("#fond_project.actif").css("height", "100%");
+			$("#fond_project.actif").css("width", "100%");
+			$("#fond_project.actif").css("background-color", bgColor);
 			$('html,body').delay(300).animate({scrollTop: 0},'10');
 		  }
 		  if(rubOpen == true) {
@@ -224,24 +224,24 @@ $(function() {
 		  vTop = parseInt(vTop) - windowScroll;
 		  mLeft = $(this).css("marginLeft");
 		  bgColor = $(this).find(".fond").css("background-color");
-		  $("#fond_projet").css("top", vTop+"px");
-		  $("#fond_projet").css("marginLeft", mLeft);
-		  $("#fond_projet").css("left", "50%");
-		  $("#fond_projet").css("height", "380px");
-		  $("#fond_projet").css("background-color", bgColor);
+		  $("#fond_project").css("top", vTop+"px");
+		  $("#fond_project").css("marginLeft", mLeft);
+		  $("#fond_project").css("left", "50%");
+		  $("#fond_project").css("height", "380px");
+		  $("#fond_project").css("background-color", bgColor);
 		});
 	  
 		$(".back").click(function(){
 		  $('#blocks-container').css('marginTop', '280px');
-		  $("#projet").removeClass("visible");
+		  $("#project").removeClass("visible");
 		  $("#project-menu").removeClass("visible");
-		  $("#fond_projet").removeClass("actif");
-		  $("#fond_projet").css("top", vTop2);
-		  $("#fond_projet").css("left", "50%");
-		  $("#fond_projet").css("marginLeft", mLeft);
-		  $("#fond_projet").css("height", "380px");
-		  $("#fond_projet").css("width", "300px");
-		  $("#fond_projet").css("background-color", bgColor);
+		  $("#fond_project").removeClass("actif");
+		  $("#fond_project").css("top", vTop2);
+		  $("#fond_project").css("left", "50%");
+		  $("#fond_project").css("marginLeft", mLeft);
+		  $("#fond_project").css("height", "380px");
+		  $("#fond_project").css("width", "300px");
+		  $("#fond_project").css("background-color", bgColor);
 		  $('html,body').delay(320).animate({scrollTop: parseInt(vTop2)-100},'10');
 		});
 	  

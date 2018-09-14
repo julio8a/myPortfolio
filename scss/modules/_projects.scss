@@ -1,4 +1,4 @@
-#fond_projet {
+#fond_project {
 	width:0px;
 	height:0px;
 	position:absolute;
@@ -18,10 +18,11 @@
 	}
 }
 
-#projet {
+#project {
+	text-align:center;
 	// Light theme text adjustments
 	.center.light {
-		p, h1, {
+		p, h1 {
 			color: #323232;
 		}
 		h1 {
@@ -47,7 +48,6 @@
 		opacity:0;
 		font-weight:normal;
 		-webkit-font-smoothing:antialiased;
-		text-align:center;
 		font-size:4.3rem;
 		color:$white;
 		margin:0 auto 50px auto;
@@ -63,7 +63,6 @@
 		opacity:0;
 		font-weight:normal;
 		-webkit-font-smoothing:antialiased;
-		text-align:center;
 		font-size: 1.3rem;
 		color:$white;
 		text-decoration-color: $white;
@@ -148,7 +147,6 @@
 			font-weight:normal;
 			-webkit-font-smoothing:antialiased;
 			text-transform:uppercase;
-			text-align:center;
 			font-size:.9rem;
 			line-height:20px;
 			color:$white;
@@ -167,7 +165,6 @@
 			padding-bottom:50px;
 			width:960px;
 			margin:0 auto;
-			text-align:center;
 			position:relative;
 			display:block;
 			img {
@@ -190,7 +187,6 @@
 		width:720px;
 		height:405px;
 		margin:0 auto 50px auto;
-		text-align:center;
 		position:relative;
 		display:block;
 		background:#323232;
@@ -214,7 +210,6 @@
 		h2 {
 			font-weight:normal;
 			-webkit-font-smoothing:antialiased;
-			text-align:center;
 			font-size:2.1rem;
 			color:$white;
 			margin:0px auto 0px auto;
