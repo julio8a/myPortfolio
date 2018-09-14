@@ -69,7 +69,7 @@
                 "name": "Contact"
             },
             {
-                "URL":"http://blog.julio8a.com",
+                "URL":"https://blog.julio8a.com",
                 "className": "",
                 "active": "",
                 "name": "Blog"
@@ -157,17 +157,17 @@
             },
             {
                 "name":"Facebook",
-                "URL": "http://www.facebook.com/julio8a00",
+                "URL": "https://www.facebook.com/julio8a00",
                 "className": "facebook"
             },
             {
                 "name":"LinkedIn",
-                "URL": "http://www.linkedin.com/in/julioochoa",
+                "URL": "https://www.linkedin.com/in/julioochoa",
                 "className": "linkedin"
             },
             {
                 "name":"Dribble",
-                "URL": "http://dribbble.com/julio8a00",
+                "URL": "https://dribbble.com/julio8a00",
                 "className": "dribble"
             },
             {
@@ -177,7 +177,7 @@
             },
             {
                 "name":"Blog",
-                "URL": "http://blog.julio8a.com",
+                "URL": "https://blog.julio8a.com",
                 "className": "blog"
             }
         ]}
