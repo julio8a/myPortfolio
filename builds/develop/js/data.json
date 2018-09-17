@@ -52,7 +52,7 @@
         { "navigation" : [
             {
                 "URL":"#",
-                "className": "work",
+                "className": "work home",
                 "active": "current",
                 "name": "Work"
             },

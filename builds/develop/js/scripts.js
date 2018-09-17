@@ -231,7 +231,7 @@ $(function() {
 		  $("#fond_project").css("background-color", bgColor);
 		});
 	  
-		$(".back").click(function(){
+		$(".home").click(function(){
 		  $('#blocks-container').css('marginTop', '280px');
 		  $("#project").removeClass("visible");
 		  $("#project-menu").removeClass("visible");
