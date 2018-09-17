@@ -74,6 +74,12 @@ nav {
 		@include rounded(100px);
 		color: $color-main;
 		border-color: $color-main;
+		&:hover {
+			background-color: lighten($color-main, 60%)
+		}
+		&:active {
+			background-color: lighten($color-main, 55%)
+		}
 	}
 	@include break(738px) {
 		a {
