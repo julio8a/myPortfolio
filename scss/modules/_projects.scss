@@ -25,8 +25,10 @@
 		p, h1 {
 			color: #323232;
 		}
-		h1 {
-			margin-top: 400px;
+		&.no-devices {
+			h1 {
+				margin-top: 400px;
+			}
 		}
 		a {
 			color: $color-main;
@@ -369,6 +371,7 @@
 		height: 30px;
 		@include rounded(50px);
 		background: $white;
+		border: 1px solid #323232;
 		opacity:0.3;
 		position:relative;
 		z-index:10000001;
