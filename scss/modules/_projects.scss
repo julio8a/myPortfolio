@@ -19,8 +19,9 @@
 }
 
 #project {
-	text-align:center;
+	//////////////////////////////
 	// Light theme text adjustments
+	//////////////////////////////
 	.center.light {
 		p, h1 {
 			color: #323232;
@@ -32,6 +33,11 @@
 		}
 		a {
 			color: $color-main;
+		}
+		h2 {
+			text-align: left;
+			width: 600px;
+			margin: 20px auto;
 		}
 	}
 	position:absolute;
@@ -45,6 +51,9 @@
 	overflow:hidden;
 	.screenshot {
 		position: absolute;
+	}
+	.intro {
+		text-align:center;
 	}
 	h1 {
 		opacity:0;
