@@ -23,7 +23,7 @@
 	// Light theme text adjustments
 	//////////////////////////////
 	.center.light {
-		p, h1 {
+		p, ol, h1 {
 			color: #323232;
 		}
 		&.no-devices {
@@ -70,11 +70,13 @@
 	  transition: all 0.3s ease-out;
 		transition-delay: 0s;
 	}
-	p {
+	li {
+		margin: 10px 0;
+	}
+	p, ol {
 		@include break(738px) {
 			width: 90%;
 		}
-		opacity:0;
 		font-weight:normal;
 		-webkit-font-smoothing:antialiased;
 		font-size: 1.3rem;
