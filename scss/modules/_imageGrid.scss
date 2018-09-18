@@ -11,7 +11,7 @@
 %block {
 	&.light {
 		.project-title {
-			color: #323232;
+			color: $dark-gray;
 		}
 		.circle {
 			filter: invert(90%);

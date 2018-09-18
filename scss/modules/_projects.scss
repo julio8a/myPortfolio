@@ -23,8 +23,8 @@
 	// Light theme text adjustments
 	//////////////////////////////
 	.center.light {
-		p, ol, h1 {
-			color: #323232;
+		p, ol, li, h1 {
+			color: $dark-gray;
 		}
 		&.no-devices {
 			h1 {
@@ -73,7 +73,7 @@
 	li {
 		margin: 10px 0;
 	}
-	p, ol {
+	p, ol, ul {
 		@include break(738px) {
 			width: 90%;
 		}
@@ -204,7 +204,7 @@
 		margin:0 auto 50px auto;
 		position:relative;
 		display:block;
-		background:#323232;
+		background:$dark-gray;
 		img {
 		  box-shadow: none;
 			position:relative;
@@ -384,7 +384,7 @@
 		height: 30px;
 		@include rounded(50px);
 		background: $white;
-		border: 1px solid #323232;
+		border: 1px solid $dark-gray;
 		opacity:0.3;
 		position:relative;
 		z-index:10000001;
@@ -416,7 +416,22 @@
 .popup-text {
 	padding: 10px 20px;
 	top: -42px;
-	background: #323232;
+	background: $dark-gray;
 	color: $white;
 	position: absolute;
+}
+
+.url {
+	text-align: center;
+	p {
+		margin-bottom: 20px !important;
+	}
+	svg {
+		width: 48px;
+		height: 48px;
+		fill: $dark-gray;
+		&:hover {
+			fill: $black;
+		}
+	}
 }
