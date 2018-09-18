@@ -52,7 +52,7 @@
         { "navigation" : [
             {
                 "URL":"#",
-                "className": "work",
+                "className": "work home",
                 "active": "current",
                 "name": "Work"
             },
@@ -80,73 +80,85 @@
                 "number":"9",
                 "projectName":"Operations Dashboard for ArcGIS",
                 "role":"Web SaaS App",
-                "imageURL":"dashboard/images/thumb.jpg"
+                "imageURL":"dashboard/images/thumb.jpg",
+                "theme":""
             },  
             {
                 "number":"3",
                 "projectName":"Urban Observatory App",
                 "role":"Interactive App",
-                "imageURL":"urb-ob-ui/images/thumb.jpg"
+                "imageURL":"urb-ob-ui/images/thumb.jpg",
+                "theme":""
             },  
             {
                 "number":"5",
                 "projectName":"Inca Train – Office App",
                 "role":"Native App",
-                "imageURL":"inca/images/thumb.jpg"
+                "imageURL":"inca/images/thumb.jpg",
+                "theme":""
             },  
             {
                 "number":"1",
                 "projectName":"Zip Tapestry",
                 "role":"Web & Moble App",
-                "imageURL":"zip-tapestry/images/thumb.jpg"
+                "imageURL":"zip-tapestry/images/thumb.jpg",
+                "theme":""
             },  
             {
                 "number":"2",
                 "projectName":"Urban Observatory",
                 "role":"Website",
-                "imageURL":"urb-ob-site/images/thumb.jpg"
+                "imageURL":"urb-ob-site/images/thumb.jpg",
+                "theme":""
             },            
             {
                 "number":"4",
                 "projectName":"Florida Environmental Public Health App",
                 "role":"Web SaaS App",
-                "imageURL":"public-health/images/thumb.jpg"
+                "imageURL":"public-health/images/thumb.jpg",
+                "theme":""
             },            
             {
                 "number":"6",
                 "projectName":"Save Me App",
                 "role":"Native App",
-                "imageURL":"save-me/images/thumb.jpg"
+                "imageURL":"save-me/images/thumb.jpg",
+                "theme":""
             },            
             {
                 "number":"7",
                 "projectName":"Esr Industries Template",
                 "role":"Web and Mobile Site",
-                "imageURL":"industries/images/thumb.jpg"
+                "imageURL":"industries/images/thumb.jpg",
+                "theme":""
             },            
             {
                 "number":"8",
                 "projectName":"Workforce for ArcGIS",
                 "role":"Web SaaS App",
-                "imageURL":"workforce/images/thumb.jpg"
+                "imageURL":"workforce/images/thumb.jpg",
+                "theme":""
             },            
             {
                 "number":"10",
                 "projectName":"Web App Builder Concept",
                 "role":"Web SaaS App",
-                "imageURL":"web-app-builder/images/thumb.jpg"
+                "imageURL":"web-app-builder/images/thumb.jpg",
+                "theme":""
             },            
             {
                 "number":"11",
                 "projectName":"My Esri",
                 "role":"Website",
-                "imageURL":"my-esri/images/thumb.jpg"
+                "imageURL":"my-esri/images/thumb.jpg",
+                "theme":""
             },            
             {
                 "number":"12",
                 "projectName":"City Engine",
                 "role":"Landing Pages",
-                "imageURL":"city-engine/images/thumb.jpg"
+                "imageURL":"city-engine/images/thumb.jpg",
+                "theme":""
             }
         ]},
         { "socialMedia" : [

@@ -8,7 +8,7 @@
   <meta name="OWNER" content="julio8a00@gmail.com">
   <meta name="AUTHOR" content="Julio Ochoa">
   <meta name="viewport" content="width=device-width, initial-scale=0.8">
-  <title>Julio Ochoa Web Portfolio and Web Design Services</title>
+  <title>Julio Ochoa Web Portfolio and Design Services</title>
   <link href="css/styles.css" rel="stylesheet" type="text/css" />
   <link rel="shortcut icon" href="http://julio8a.com/favicon.ico" type="image/x-icon">
 </head>
@@ -101,7 +101,7 @@
   <div id="header">
     <nav>
       <div class="wrapper">
-        <div id="logo">
+        <div id="logo" class="home">
           <h1>Julio Ochoa</h1>
           <img src="images/logo.png" />
         </div>
@@ -127,7 +127,7 @@
   <div id="blocks-container">
     <script id="blockTemplate" type="text/template">
     {{#data}}{{#projectBlock}}
-    <div class="block block{{number}}">
+    <div class="block block{{number}} {{theme}}">
       <div class="content">
         <div class="circle"></div>
         <div class="project-title">
@@ -161,19 +161,18 @@
     </footer>
 
 
-    <div id="fond_projet"></div>
+    <div id="fond_project"></div>
 
-    <div id="projet">
+    <div id="project">
       <div class="banner"></div>
       <div class="center">
         <div class="desktop"></div>
       </div>
-
     </div>
 
     <div id="project-menu">
       <div class="center">
-        <div class="back">
+        <div class="back home">
           <img src="images/grid.png" width="16" height="70" />
           <div>Back</div>
         </div>

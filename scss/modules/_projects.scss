@@ -1,4 +1,4 @@
-#fond_projet {
+#fond_project {
 	width:0px;
 	height:0px;
 	position:absolute;
@@ -18,7 +18,30 @@
 	}
 }
 
-#projet {
+#project {
+	//////////////////////////////
+	// Light theme text adjustments
+	//////////////////////////////
+	.center.light {
+		p, ol, li, h1 {
+			color: $dark-gray;
+		}
+		&.no-devices {
+			h1 {
+				margin-top: 400px;
+			}
+		}
+		a {
+			color: $color-main;
+		}
+		h2 {
+			text-align: left;
+			width: 600px;
+			margin: 20px auto;
+			border-top: 1px solid rgba(0, 0, 0, .2);
+			padding-top: 60px;
+		}
+	}
 	position:absolute;
 	z-index:0;
 	opacity:0;
@@ -31,11 +54,14 @@
 	.screenshot {
 		position: absolute;
 	}
+	.intro {
+		text-align:center;
+		margin-bottom: 30px;
+	}
 	h1 {
 		opacity:0;
 		font-weight:normal;
 		-webkit-font-smoothing:antialiased;
-		text-align:center;
 		font-size:4.3rem;
 		color:$white;
 		margin:0 auto 50px auto;
@@ -44,17 +70,16 @@
 	  transition: all 0.3s ease-out;
 		transition-delay: 0s;
 	}
-	p {
+	li {
+		margin: 10px 0;
+	}
+	p, ol, ul {
 		@include break(738px) {
 			width: 90%;
 		}
-		opacity:0;
 		font-weight:normal;
 		-webkit-font-smoothing:antialiased;
-		text-align:center;
-		font-size: 1rem;
-		line-height:20px;
-		letter-spacing:1px;
+		font-size: 1.3rem;
 		color:$white;
 		text-decoration-color: $white;
 		width:600px;
@@ -131,14 +156,12 @@
 		display:table;
 		margin:0 auto;
 		opacity:0;
-		margin-bottom:30px;
 	  transition: all 0.3s ease-out;
 		transition-delay: 0s;
 		p {
 			font-weight:normal;
 			-webkit-font-smoothing:antialiased;
 			text-transform:uppercase;
-			text-align:center;
 			font-size:.9rem;
 			line-height:20px;
 			color:$white;
@@ -157,14 +180,13 @@
 			padding-bottom:50px;
 			width:960px;
 			margin:0 auto;
-			text-align:center;
 			position:relative;
 			display:block;
 			img {
 				@include break(1109px) {
 					width: 98%;
 				}
-				box-shadow:  0px 5px 5px 0px rgba(0, 0, 0, 0.20);
+				box-shadow: 0 5px 25px 0 rgba(0,0,0,0.1);
 				position:relative;
 				opacity:1;
 			}
@@ -180,10 +202,9 @@
 		width:720px;
 		height:405px;
 		margin:0 auto 50px auto;
-		text-align:center;
 		position:relative;
 		display:block;
-		background:#323232;
+		background:$dark-gray;
 		img {
 		  box-shadow: none;
 			position:relative;
@@ -204,7 +225,6 @@
 		h2 {
 			font-weight:normal;
 			-webkit-font-smoothing:antialiased;
-			text-align:center;
 			font-size:2.1rem;
 			color:$white;
 			margin:0px auto 0px auto;
@@ -281,7 +301,7 @@
 
 #project-menu {
 	width:100%;
-	height:70px;
+	height:60px;
 	background:#111;
 	position:fixed;
 	bottom:-70px;
@@ -326,7 +346,7 @@
 	cursor:pointer;
   transition: all 0.4s ease-out;
 	img {
-		margin-top:2px;
+		margin-top:-4px;
 		float:left;
 		position:relative;
 		z-index:10000001;
@@ -340,7 +360,7 @@
 			font-weight: 800;
 			font-size: 1.1rem;
 		}
-		margin-top:32px;
+		margin-top:25px;
 		float:left;
 		margin-left:15px;
 	}
@@ -354,31 +374,32 @@
 		display: none;
 	}
 	float:left;
-	width:70px;
+	width:60px;
 	height:48px;
 	border-left: $border-heavy;
-	padding-top:22px;
+	padding-top:17px;
 	cursor:pointer;
 	.shape {
 		width: 30px;
 		height: 30px;
 		@include rounded(50px);
 		background: $white;
+		border: 1px solid $dark-gray;
 		opacity:0.3;
 		position:relative;
 		z-index:10000001;
 	  transition: all 0.4s ease-out;
-		margin-left: 20px;
+		margin-left: 14px;
 	}
 	.fond {
-		width:70px;
+		width:60px;
 		height:70px;
 		top:70px;
 		position:absolute;
 		transition: all 0.2s ease-out;
 	}
 	&.current {
-		width:70px;
+		width:60px;
 		.shape {
 			opacity:1;
 		}
@@ -395,7 +416,22 @@
 .popup-text {
 	padding: 10px 20px;
 	top: -42px;
-	background: #323232;
+	background: $dark-gray;
 	color: $white;
 	position: absolute;
+}
+
+.url {
+	text-align: center;
+	p {
+		margin-bottom: 20px !important;
+	}
+	svg {
+		width: 48px;
+		height: 48px;
+		fill: $dark-gray;
+		&:hover {
+			fill: $black;
+		}
+	}
 }
