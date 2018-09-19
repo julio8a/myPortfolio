@@ -82,6 +82,13 @@
                 "role":"Branding, Identiry & Symbology",
                 "imageURL":"product-logos/images/thumb.jpg",
                 "theme":"light"
+            },
+            {
+                "number":"13",
+                "projectName":"Calcite-ui-icons",
+                "role":"SVG icon library",
+                "imageURL":"calcite-ui-icons/images/thumb.jpg",
+                "theme":"light"
             },  
             {
                 "number":"9",
