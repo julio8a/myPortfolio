@@ -77,6 +77,13 @@
         ]},
         { "projectBlock" : [
             {
+                "number":"14",
+                "projectName":"Esri Product Logos",
+                "role":"Branding, Identiry & Symbology",
+                "imageURL":"product-logos/images/thumb.jpg",
+                "theme":"light"
+            },  
+            {
                 "number":"9",
                 "projectName":"Operations Dashboard for ArcGIS",
                 "role":"Web SaaS App",
