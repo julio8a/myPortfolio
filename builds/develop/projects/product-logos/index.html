@@ -15,10 +15,10 @@
     <div class="center light no-devices">
         <div class="intro">
             <h1>Esri Product Logos</h1>
-            <p>A collection of UI SVG icons created by Esri for mapping applications.</p>
+            <p>Esri builds the leading mapping and spatial analytics software for desktop, software as a service (SaaS), and enterprise applications. Esri ArcGIS products are designed to deliver location intelligence and meet digital transformation needs for organizations of all sizes. Here you can explore Esri software, apps, content, solutions, and developer tools.</p>
             <p class="lien">
                 <a href="https://www.esri.com/en-us/arcgis/products/index" target="_blank">
-                    Esri Product Logos
+                    Esri's Products
                 </a>
             </p>
             <div class="infos">
@@ -32,28 +32,67 @@
 
         <h2>The problem</h2>
         <ol>
-            <li>Symbology and iconography were inconsistent across the platform, causing confusion with actions or visual aids</li>
-            <li>There was no centralized location to find icons</li> 
-            <li>No single location of record for existing icons. Therefore, multiple icons of the same concept were created. For example, two trash can icons for delete in different styles</li>
-            <li>Because at times multiple icons were created there were conflicting icon concepts. Moreover, time spent creating inconsistent concepts and opportunity cost to solve other problems. Resulting in higher costs</li>
-            <li>There was no easy way to get updates or new icons. Once the static icon file was downloaded it instantly because stagnant and out of date</li>
-            <li>Method of icon design delivery often consistent of zipped file email</li>
+            <li>Some product owners were requesting a redesign of the product logos, stating they were outdated and had an old look. This spun up the project to revisit the product and create a system</li>
+            <li>There was misusage of the current logos since they only came in the hexagon shape. Some product teams were taking the symbol and using a stand-alone or placing other icons inside hexagons, which created confusion as to what was a product logo</li>
+            <li>There were no guides as to how to use the logos and what variation can be used depending on context</li>
         </ol>
 
-        <h2>The solution</h2>
-        <p>A centralized repository of icons hosted on Github.com. Moreover, the repository is public facing, meaning our distributors, partners, and customers can leverage Esri's custom-built iconography. Therefore, Esri will set the standard of GIS and mapping icons, which can be adopted by everyone. Additionally, the repository can be sourced vis NPM, so that whenever there is a new release of icons users will be notified of updates, deletion or additions to the library. This will ensure that everyone leveraging this icons system is always up to date with the latest. Creating consistency across the platform. </p>
-        <ul>
-            <li>Icons come in two styles: outline and filled (bold)</li>
-            <li>Icons available in 3 sizes (16, 24, and 32)</li>
-            <li>All icons come with search tags to ensure users are using the appropriate concept</li>
-            <li>There are also SVG sprites with all icons</li>
-            <li>`Spriter` CLI took available for building sprites of only the icons needed</li>
-            <li>Over 300 icon concepts</li>
-        </ul>
-
+        <h2>Process, people, workflow</h2>
+        <p>The approach to re-designing 40+ product logo's is an enormous endeavor. Therefore, the process, people and workflow were built into a program which I designed to move projects fast, efficient and effective through the design and implementation process. I called this, program process program model, which aids in quickly setting a frame around large and small-scale projects to work effectively. To learn the full details of the program process model check out my blog post. The majority of the projects I work on are run through programs. Hence my job title, design program manager. Here is the program process model for this specific project:</p>
         <div id="captures">
             <div class="capture">
                 <img src="projects/product-logos/images/image_1.jpg">
+            </div>
+        </div>
+
+        <h2>Research</h2>
+        <p>This phase of the program involved competitive research, market, and internal customer research. However, internal customer research has the most weight as our internal branding and identity is what should be represented in our products. Therefore, we conducted a survey including CTOs, product managers and product owners across the company. There were 90 participants with 28 completions (31.1% completion rate) and 62 partials. </p>
+        <p>Before the survey, we were unsure of the scope of the product logo work. It could have been a full redesign or just an update, which is why the research phase proved to be so valuable in this project.</p>
+        <p>I won't go into the full details of all the three areas of focus for research on this post. Here is the summary output of what came from competitive research, market research and internal customer research:</p>
+        <h3>Survey Findings:</h3>
+        <ol>
+            <li>Adjust or remove background treatment (affects 3)</li>
+            <li>Groupings of icons by product family</li>
+            <li>Symbols are thought to be a bit too chunky (icon line weight)</li>
+            <li>Hexagon background is asymmetric and causes implementation problems</li>
+            <li>Too much overlapping color usage</li>
+            <li>Be clear on differences between desktop/mobile use cases</li>
+            <li>Stakeholders would like to see svg assets in a downloadable location</li>
+            <li>If we provide a location it needs to also have clear usage guidelines</li>
+        </ol> 
+        <p>Overall suggestion: focus on the symbol treatment. Minimize background details.</p>
+        
+        
+        <h3>Current usage context findings:</h3>
+        <ol>
+            <li>Inconsistent size and legibility (needs 8)</li>
+            <li>Usage both with/without a container, need standalone glyphs</li>
+            <li>Sometimes icons are being used as part of an apps splash screens</li>
+            <li>Need proper messaging of usage guidelines that can be easily understood</li>
+            <li>Having a stand alone glyph that can reduce down to one color has been extremely useful as a secondary expression of the logo.</li>
+            <li>Needs to fit in: Circle, Square, and various Squircles.</li>
+            <li>Needs to work at 16px-1024px</li>
+        </ol>
+
+        <h2>The solution</h2>
+        <p>Esri's logo design system brings clarity and focus to ensure our products are impactful and clear. This system was developed to provide specification and usage guidelines to product and marketing teams. The logo system provides robust variations to fit different contextual and situational needs.</p>
+        <h3>The foundation</h3>
+        <p>First, the container (hexagon). Second, the symbol, representing the product. The container has one variable attribute, the color, which is related to and representative of the product. The symbol and color are two items that are dependent on the product and its story. Below is the relationship between the container and the product symbol. The container is a representation of ArcGIS.</p>
+        <div id="captures">
+            <div class="capture">
+                <img src="projects/product-logos/images/image_5.jpg">
+            </div>
+        </div>
+
+        <div id="captures"></div>
+            <div class="capture">
+                <img src="projects/product-logos/images/image_2.jpg">
+            </div>
+            <div class="capture">
+                <img src="projects/product-logos/images/image_3.jpg">
+            </div>
+            <div class="capture">
+                <img src="projects/product-logos/images/image_4.jpg">
             </div>
         </div>
 

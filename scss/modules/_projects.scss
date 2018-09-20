@@ -19,12 +19,18 @@
 }
 
 #project {
+	p, li {
+		line-height: 30px;
+	}
 	//////////////////////////////
 	// Light theme text adjustments
 	//////////////////////////////
 	.center.light {
-		p, ol, li, h1 {
+		p, ol, li, h1, h3 {
 			color: $dark-gray;
+		}
+		img {
+			box-shadow: none;
 		}
 		&.no-devices {
 			h1 {
@@ -73,10 +79,11 @@
 	li {
 		margin: 10px 0;
 	}
-	p, ol, ul {
+	p, ol, ul, h3 {
 		@include break(738px) {
 			width: 90%;
 		}
+		letter-spacing: 0px;
 		font-weight:normal;
 		-webkit-font-smoothing:antialiased;
 		font-size: 1.3rem;
@@ -103,6 +110,10 @@
 		&.lienbis {
 			margin:0px auto 0px auto;
 		}
+	}
+	h3 {
+		font-weight: 600;
+		margin-bottom: 20px;
 	}
 	&.banner {
 		position:absolute;
