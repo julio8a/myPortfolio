@@ -77,6 +77,13 @@
         ]},
         { "projectBlock" : [
             {
+                "number":"15",
+                "projectName":"Programs Dashboard",
+                "role":"Process, Workflow and Information Distribution",
+                "imageURL":"programs-dashboard/images/thumb.jpg",
+                "theme":"light"
+            },
+            {
                 "number":"14",
                 "projectName":"Esri Product Logos",
                 "role":"Branding, Identiry & Symbology",

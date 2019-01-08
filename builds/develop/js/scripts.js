@@ -168,6 +168,7 @@ $(function() {
 		  if ($(this).hasClass("block12")) { $("#project").load("projects/city-engine/index.html", function(){ currentProject = 12; openproject() } ); } ;
 		  if ($(this).hasClass("block13")) { $("#project").load("projects/calcite-ui-icons/index.html", function(){ currentProject = 13; openproject() } ); } ;
 		  if ($(this).hasClass("block14")) { $("#project").load("projects/product-logos/index.html", function(){ currentProject = 14; openproject() } ); } ;
+		  if ($(this).hasClass("block15")) { $("#project").load("projects/programs-dashboard/index.html", function(){ currentProject = 15; openproject() } ); } ;
 		});
 	  
 		$(".icon").click(function(){
@@ -188,6 +189,7 @@ $(function() {
 		  if ($(this).hasClass("icon12")) { $("#project").load("../projects/city-engine/index.html", function(){ currentProject = 12; vTop2 = "1260px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon13")) { $("#project").load("../projects/calcite-ui-icons/index.html", function(){ currentProject = 13; vTop2 = "1260px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon14")) { $("#project").load("../projects/product-logos/index.html", function(){ currentProject = 14; vTop2 = "1260px"; openproject() } ); } ;
+		  if ($(this).hasClass("icon15")) { $("#project").load("../projects/programs-dashboard/index.html", function(){ currentProject = 15; vTop2 = "1260px"; openproject() } ); } ;
 	  
 		});
 	  
