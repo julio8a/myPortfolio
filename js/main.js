@@ -215,18 +215,25 @@ $(function() {
 		  $("#fond_project").css("background-color", bgColor);
 		});
 	  
-		$(".home").click(function(){
-		  $('#blocks-container').css('marginTop', '280px');
-		  $("#project").removeClass("visible");
-		  $("#project-menu").removeClass("visible");
-		  $("#fond_project").removeClass("actif");
-		  $("#fond_project").css("top", vTop2);
-		  $("#fond_project").css("left", "50%");
-		  $("#fond_project").css("marginLeft", mLeft);
-		  $("#fond_project").css("height", "380px");
-		  $("#fond_project").css("width", "300px");
-		  $("#fond_project").css("background-color", bgColor);
-		  $('html,body').delay(320).animate({scrollTop: parseInt(vTop2)-100},'10');
+		function home() {
+			$('#blocks-container').css('marginTop', '280px');
+			$("#project").removeClass("visible");
+			$("#project-menu").removeClass("visible");
+			$("#fond_project").removeClass("actif");
+			$("#fond_project").css("top", vTop2);
+			$("#fond_project").css("left", "50%");
+			$("#fond_project").css("marginLeft", mLeft);
+			$("#fond_project").css("height", "380px");
+			$("#fond_project").css("width", "300px");
+			$("#fond_project").css("background-color", bgColor);
+			$('html,body').delay(320).animate({scrollTop: parseInt(vTop2)-100},'10');
+		}
+		
+		$(".home").click(home);
+		$(document).on('keydown', function (e) {
+			if ( e.keyCode === 27 ) { // ESC
+				home();
+			}
 		});
 	  
 		var windowW = $(window).width();
