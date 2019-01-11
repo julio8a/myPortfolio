@@ -51,7 +51,8 @@ module.exports = function(grunt) {
                 'urb-ob-ui/images/*.{png,jpg,gif}',
                 'web-app-builder/images/*.{png,jpg,gif}',
                 'workforce/images/*.{png,jpg,gif}',
-                'zip-tapestry/images/*.{png,jpg,gif}'
+                'zip-tapestry/images/*.{png,jpg,gif}',
+                'calcite-ui-icons/images/*.{png,jpg,gif}'
               ],
               dest: 'builds/develop/projects/'
            }]
