@@ -18,18 +18,23 @@ body {
 }
 
 a {
-	text-decoration:none;
+	color: $white;
+	text-decoration: none;
+	border-bottom: $border-white;
+	transition: all 0.3s ease-out;
+	font-size: 1.4rem;
+	&:hover {
+		border-bottom: 1px solid rgba(0, 0, 0, 0) !important;
+	}
 }
 
 p {
 	margin:0 0 15px 0;
 	padding:0;
-	a {
-		color:$white;
-		&:hover {
-			border-bottom: $border-white;
-		}
-	}
+}
+
+h2 {
+	font-size: 1.8rem;
 }
 
 h3 {
