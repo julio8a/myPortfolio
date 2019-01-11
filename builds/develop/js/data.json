@@ -77,6 +77,13 @@
         ]},
         { "projectBlock" : [
             {
+                "number":"13",
+                "projectName":"Calcite-ui-icons",
+                "role":"SVG icon library",
+                "imageURL":"calcite-ui-icons/images/thumb.jpg",
+                "theme":"light"
+            },  
+            {
                 "number":"9",
                 "projectName":"Operations Dashboard for ArcGIS",
                 "role":"Web SaaS App",
