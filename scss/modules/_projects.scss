@@ -41,7 +41,11 @@
 			border-top: 1px solid rgba(0, 0, 0, .2);
 			padding-top: 60px;
 		}
+		img {
+			box-shadow: none;
+		}
 	}
+
 	position:absolute;
 	z-index:0;
 	opacity:0;
