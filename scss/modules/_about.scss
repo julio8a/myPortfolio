@@ -26,7 +26,10 @@
 		letter-spacing: 0.6px
 	}
 	a {
+		color: $color-main;
 		font-size: 1rem;
+		text-decoration: none;
+		border-bottom: $border-blue;
 	}
 }
 
@@ -53,10 +56,6 @@
 	font-size: 1rem;
 	line-height:20px;
 	letter-spacing:1px;
-	a {
-	  color: #007ac2;
-		text-decoration: underline;
-	}
 }
 
 #services {
