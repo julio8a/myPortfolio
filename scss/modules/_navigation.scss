@@ -13,7 +13,7 @@
 	height:50px;
 	z-index:100;
 	position:fixed;
-	border-top: $border-light;
+	// border-top: $border-light;
 	//border-bottom: $border-light;
 	background: $white;
 	transition: top .5s ease-out;
@@ -68,13 +68,14 @@ nav {
 		font-size: 1.13rem;
 		border: 1px solid transparent;
 		&:hover {
-			color: $color-main
+			color: $color-main;
 		}
 	}
 	.current {
 		@include rounded(100px);
 		color: $color-main;
 		border-color: $color-main;
+		border-bottom: 1px solid $color-main !important;
 		&:hover {
 			background-color: lighten($color-main, 60%)
 		}
