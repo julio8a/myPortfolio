@@ -77,6 +77,13 @@
         ]},
         { "projectBlock" : [
             {
+                "number":"15",
+                "projectName":"Programs Dashboard",
+                "role":"Executive Dashboard",
+                "imageURL":"programs-dashboard/images/thumb.jpg",
+                "theme":"light"
+            },  
+            {
                 "number":"13",
                 "projectName":"Calcite-ui-icons",
                 "role":"SVG icon library",
