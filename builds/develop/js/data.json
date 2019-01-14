@@ -12,7 +12,7 @@
         ]},
         { "services": [
             {"service":"Experience Design & Strategy"},
-            {"service":"Brainstorm Workshop Faciliatation"},
+            {"service":"Brainstorm Workshop Facilitation"},
             {"service":"Workflow Diagramming"},
             {"service":"Information Architecture"},
             {"service":"Wireframing & Prototypes"},
@@ -107,7 +107,7 @@
             {
                 "number":"1",
                 "projectName":"Zip Tapestry",
-                "role":"Web & Moble App",
+                "role":"Web & Mobile App",
                 "imageURL":"zip-tapestry/images/thumb.jpg",
                 "theme":""
             },  
