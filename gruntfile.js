@@ -52,7 +52,8 @@ module.exports = function(grunt) {
                 'web-app-builder/images/*.{png,jpg,gif}',
                 'workforce/images/*.{png,jpg,gif}',
                 'zip-tapestry/images/*.{png,jpg,gif}',
-                'calcite-ui-icons/images/*.{png,jpg,gif}'
+                'calcite-ui-icons/images/*.{png,jpg,gif}',
+                'product-logos/images/*.{png,jpg,gif}'
               ],
               dest: '0_production/projects/'
            }]
