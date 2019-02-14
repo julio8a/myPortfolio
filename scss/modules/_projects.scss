@@ -19,6 +19,21 @@
 }
 
 #project {
+	h2, h3 {
+		text-align: left;
+		width: 600px;
+		margin: 20px auto;
+		color: $white;
+	}
+	h2 {
+		padding-top: 60px;
+	}
+
+	.no-devices {
+		h1 {
+			margin-top: 400px;
+		}
+	}
 	//////////////////////////////
 	// Light theme text adjustments
 	//////////////////////////////
@@ -26,22 +41,18 @@
 		p, ol, li, h1 {
 			color: $dark-gray;
 		}
-		&.no-devices {
-			h1 {
-				margin-top: 400px;
-			}
-		}
 		a {
 			color: $color-main;
+			border-bottom: $border-blue;
 		}
-		h2 {
-			text-align: left;
-			width: 600px;
-			margin: 20px auto;
-			border-top: 1px solid rgba(0, 0, 0, .2);
-			padding-top: 60px;
+		h2, h3 {
+			color: $black;
+		}
+		img {
+			box-shadow: none;
 		}
 	}
+
 	position:absolute;
 	z-index:0;
 	opacity:0;
@@ -72,6 +83,7 @@
 	}
 	li {
 		margin: 10px 0;
+		line-height: 30px;
 	}
 	p, ol, ul {
 		@include break(738px) {
@@ -89,16 +101,6 @@
 		&.lien {
 			opacity:0;
 			margin:-20px auto 40px auto;
-			a {
-				opacity:0.8;
-				border-bottom: $border-black;
-				transition: all 0.3s ease-out;
-				font-size: 1.4rem;
-				&:hover {
-					opacity:1;
-					border-bottom: $border-white;
-				}
-			}
 		}
 		&.lienbis {
 			margin:0px auto 0px auto;
