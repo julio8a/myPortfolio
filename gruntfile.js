@@ -8,7 +8,7 @@ module.exports = function(grunt) {
             ],
           dest: 'builds/develop/js/scripts.js'
         }
-      }, //concat
+      }, // combine all JS files into one
 
       uglify: {
         dist: {
@@ -67,7 +67,7 @@ module.exports = function(grunt) {
             livereload: true
           }
         }
-      },
+      }, // Live load
   
       watch: {
         options: {
@@ -78,6 +78,7 @@ module.exports = function(grunt) {
           files: [
               'builds/develop/*.html',
               'builds/develop/js/*.json',
+              'builds/develop/projects/*',
               'js/**/*.js',
               'scss/**/*.scss'],
           tasks: ['concat', 'uglify', 'sass']
