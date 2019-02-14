@@ -77,6 +77,13 @@
         ]},
         { "projectBlock" : [
             {
+                "number":"14",
+                "projectName":"Esri Product Logos",
+                "role":"Branding, Identiry & Symbology",
+                "imageURL":"product-logos/images/thumb.jpg",
+                "theme":"light"
+            },
+            {
                 "number":"13",
                 "projectName":"Calcite-ui-icons",
                 "role":"SVG icon library",
@@ -158,6 +165,13 @@
                 "projectName":"My Esri",
                 "role":"Website",
                 "imageURL":"my-esri/images/thumb.jpg",
+                "theme":""
+            },
+            {
+                "number":"12",
+                "projectName":"City Engine",
+                "role":"Website",
+                "imageURL":"city-engine/images/thumb.jpg",
                 "theme":""
             }
         ]},
