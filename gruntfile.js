@@ -6,14 +6,14 @@ module.exports = function(grunt) {
           src: [
                  'js/*.js'
             ],
-          dest: 'builds/develop/js/scripts.js'
+          dest: '0_production/js/scripts.js'
         }
-      }, //concat
+      }, // combine all JS files into one
 
       uglify: {
         dist: {
            files: {
-              'builds/develop/js/scripts.min.js': 'builds/develop/js/scripts.js',
+              '0_production/js/scripts.min.js': '0_production/js/scripts.js',
            }
         }
      }, // compress JS
@@ -26,7 +26,7 @@ module.exports = function(grunt) {
           },
           files : [{
             src: 'scss/styles.scss',
-            dest: 'builds/develop/css/styles.css'
+            dest: '0_production/css/styles.css'
           }]
         }
       }, //sass
@@ -38,7 +38,7 @@ module.exports = function(grunt) {
             },
             files: [{
               expand: true,
-              cwd: 'builds/develop/projects/',
+              cwd: '0_production/projects/',
               src: [
                 'city-engine/images/*.{png,jpg,gif}',
                 'dashboard/images/*.{png,jpg,gif}',
@@ -54,7 +54,7 @@ module.exports = function(grunt) {
                 'zip-tapestry/images/*.{png,jpg,gif}',
                 'calcite-ui-icons/images/*.{png,jpg,gif}'
               ],
-              dest: 'builds/develop/projects/'
+              dest: '0_production/projects/'
            }]
         } // Compress images
     },
@@ -64,11 +64,11 @@ module.exports = function(grunt) {
           options: {
             hostname: 'localhost',
             port: 3000,
-            base: 'builds/develop/',
+            base: '0_production/',
             livereload: true
           }
         }
-      },
+      }, // Live load
   
       watch: {
         options: {
@@ -77,8 +77,9 @@ module.exports = function(grunt) {
         },
         scripts: {
           files: [
-              'builds/develop/*.html',
-              'builds/develop/js/*.json',
+              '0_production/*.html',
+              '0_production/js/*.json',
+              '0_production/projects/*',
               'js/**/*.js',
               'scss/**/*.scss'],
           tasks: ['concat', 'uglify', 'sass']
