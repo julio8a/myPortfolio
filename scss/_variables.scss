@@ -25,7 +25,8 @@ $webApps: #4d5a6a;
 $myEsri: #404040;
 $cityEngine: #2d5c80;
 $calciteUiIcons: #ffffff;
-$programsDashboard: $dark-gray;
+$programsDashboard: $darkest-gray;
+$productLogos: #ffffff;
 
 // Social Colors
 $twitter: #00aced;
@@ -46,6 +47,7 @@ $border-blue: 1px solid $color-main;
 
 $project-themes: (
     15: $programsDashboard,
+    14: $productLogos,
     13: $calciteUiIcons,
     9: $dashboard,
     3: $urbOb2,
