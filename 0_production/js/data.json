@@ -166,6 +166,13 @@
                 "role":"Website",
                 "imageURL":"my-esri/images/thumb.jpg",
                 "theme":""
+            },
+            {
+                "number":"12",
+                "projectName":"City Engine",
+                "role":"Website",
+                "imageURL":"city-engine/images/thumb.jpg",
+                "theme":""
             }
         ]},
         { "socialMedia" : [

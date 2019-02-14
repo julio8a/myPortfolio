@@ -80,7 +80,7 @@ module.exports = function(grunt) {
           files: [
               '0_production/*.html',
               '0_production/js/*.json',
-              '0_production/projects/*',
+              '0_production/projects/**/*',
               'js/**/*.js',
               'scss/**/*.scss'],
           tasks: ['concat', 'uglify', 'sass']
