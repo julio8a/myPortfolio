@@ -6,14 +6,14 @@ module.exports = function(grunt) {
           src: [
                  'js/*.js'
             ],
-          dest: '0_production/js/scripts.js'
+          dest: 'docs/js/scripts.js'
         }
       }, // combine all JS files into one
 
       uglify: {
         dist: {
            files: {
-              '0_production/js/scripts.min.js': '0_production/js/scripts.js',
+              'docs/js/scripts.min.js': 'docs/js/scripts.js',
            }
         }
      }, // compress JS
@@ -26,7 +26,7 @@ module.exports = function(grunt) {
           },
           files : [{
             src: 'scss/styles.scss',
-            dest: '0_production/css/styles.css'
+            dest: 'docs/css/styles.css'
           }]
         }
       }, //sass
@@ -38,7 +38,7 @@ module.exports = function(grunt) {
             },
             files: [{
               expand: true,
-              cwd: '0_production/projects/',
+              cwd: 'docs/projects/',
               src: [
                 'city-engine/images/*.{png,jpg,gif}',
                 'dashboard/images/*.{png,jpg,gif}',
@@ -55,7 +55,7 @@ module.exports = function(grunt) {
                 'calcite-ui-icons/images/*.{png,jpg,gif}',
                 'product-logos/images/*.{png,jpg,gif}'
               ],
-              dest: '0_production/projects/'
+              dest: 'docs/projects/'
            }]
         } // Compress images
     },
@@ -65,7 +65,7 @@ module.exports = function(grunt) {
           options: {
             hostname: 'localhost',
             port: 3000,
-            base: '0_production/',
+            base: 'docs/',
             livereload: true
           }
         }
@@ -78,9 +78,9 @@ module.exports = function(grunt) {
         },
         scripts: {
           files: [
-              '0_production/*.html',
-              '0_production/js/*.json',
-              '0_production/projects/**/*',
+              'docs/*.html',
+              'docs/js/*.json',
+              'docs/projects/**/*',
               'js/**/*.js',
               'scss/**/*.scss'],
           tasks: ['concat', 'uglify', 'sass']
