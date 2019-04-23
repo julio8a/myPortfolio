@@ -1,0 +1,5 @@
+[19-Sep-2017 00:16:46 America/Denver] PHP Notice:  Undefined index: name in /home3/julioeig/public_html/old_portfolio/contact.php on line 12
+[19-Sep-2017 00:16:46 America/Denver] PHP Notice:  Undefined index: email in /home3/julioeig/public_html/old_portfolio/contact.php on line 13
+[19-Sep-2017 00:16:46 America/Denver] PHP Notice:  Undefined index: website in /home3/julioeig/public_html/old_portfolio/contact.php on line 14
+[19-Sep-2017 00:16:46 America/Denver] PHP Notice:  Undefined index: subject in /home3/julioeig/public_html/old_portfolio/contact.php on line 18
+[19-Sep-2017 00:16:46 America/Denver] PHP Notice:  Undefined index: message in /home3/julioeig/public_html/old_portfolio/contact.php on line 28

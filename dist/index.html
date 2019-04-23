@@ -1,0 +1,214 @@
+<!doctype html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="TITLE" content="julio8a">
+  <meta name="DESCRIPTION" content="Julio Ochoa, Coachella valley Web Design , What is Web Design , Coachella, California, LA Web Design, Los Angeles, Web Design, Web Designer, Graphics Design, Coachella Web Design, user experience, user interface, experience design, strategy, marketing, advertising">
+  <meta name="KEYWORDS" content="what is web design julio8a , Julio Ochoa, Web Designer, Webservices, la web design, Graphic Design, Web Design, strategy, marketing, advertising, user experience, user interface.">
+  <meta name="OWNER" content="julio8a00@gmail.com">
+  <meta name="AUTHOR" content="Julio Ochoa">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <title>Julio Ochoa Web Portfolio and Design Services</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="http://julio8a.com/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <!-- ABOUT SECTION -->
+  <div id="about" class="debut">
+    <div class="center">
+
+      <!-- ABOUT ME -->
+      <div id="aboutMe">
+        <script id="aboutTemplate" type="text/template">
+        {{#data}}{{#aboutMe}}
+        <h3>{{title}}</h3>
+        <a class="resume" target="_blank" href="{{cvURL}}">{{cvTitle}}</a>
+        <p>{{para1}}</p>
+        <p>{{para2}}</p>
+        <p>{{para3}}
+          <a href="#" class="contact">Contact me</a>
+        </p>
+      {{/aboutMe}}{{/data}}
+      </script>
+      </div>
+
+      <!-- SERVICES -->
+      <div id="services">
+        <h3>Services</h3>
+        <ul>
+          <script id="servicesTemplate" type="text/template">
+          {{#data}}{{#services}}
+            <li>{{service}}</li>
+          {{/services}}{{/data}}
+          </script>
+        </ul>
+      </div>
+
+      <!-- EXPERIENCE -->
+      <div id="experience">
+        <h3>Experience </h3>
+        <small>Short List</small>
+        <script id="experienceTemplate" type="text/template">
+        {{#data}}{{#experience}}
+          <p>{{dateCompany}}
+            <br />
+            <span class="job-title">{{jobTitle}}</span>
+          </p>
+        {{/experience}}{{/data}}
+        </script>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <div id="contact" class="debut">
+    <div class="center">
+      <div id="contactleft">
+        <h3>Contact me</h3>
+        <!-- Start HTML form -->
+        <form name="form" method="POST" id="third" action="https://formspree.io/j@julio8a.com" class="niceform">
+          <!-- Name -->
+          <legend>Name
+            <legend>
+              <input id="name" name="name" type="name" class="validate['required','length[3,-1]','nodigit']" size="30" />
+
+              <!-- Email -->
+              <legend>Email</legend>
+              <input id="email" name="email" type="email" class="validate['required','length[5,-1]','email']" size="30" />
+
+              <!-- Subject -->
+              <legend>Subject</legend>
+              <input id="subject" name="subject" type="subject" class="validate['required']" size="30" />
+      </div>
+      <div id="contactright">
+        <!-- Message -->
+        <legend>Message</legend>
+        <textarea id="message" name="message" class="validate['required']" rows="10" cols="30"></textarea>
+        <br />
+        <input type="submit" class="envoyer" value="Send the message" />
+
+        <!-- Niceforms: mouse over effect -->
+        <!-- Do not remove the line below -->
+        <div id="stylesheetTest"></div>
+        </form>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <!-- HEADER / NAVIGATION -->
+  <div id="header">
+    <nav>
+      <div class="wrapper">
+        <div id="logo" class="home">
+          <h1>Julio Ochoa</h1>
+          <img src="images/logo.png" />
+        </div>
+        <ul>
+        <script id="navigationTemplate" type="text/template">
+        {{#data}}{{#navigation}}
+          <li><a href="{{URL}}" class="{{className}} {{active}}">{{name}}</a></li>
+        {{/navigation}}{{/data}}
+        </script>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div id="intro-container">
+    <div id="intro">
+      <span class="name">Julio Ochoa</span>
+      <br />
+      <span class="position-title">Design - Program Manager / Product Owner</span>
+    </div>
+  </div>
+
+  <div id="blocks-container">
+    <script id="blockTemplate" type="text/template">
+    {{#data}}{{#projectBlock}}
+    <div class="block block{{number}} {{theme}}">
+      <div class="content">
+        <div class="circle"></div>
+        <div class="project-title">
+          <h2>{{projectName}}</h2>
+          <span class="role">{{role}}</span>
+        </div>
+        <div class="img-container">
+          <img src="projects/{{imageURL}}" />
+        </div>
+      </div>
+      <div class="fond"></div>
+    </div>
+    {{/projectBlock}}{{/data}}
+    </script>
+
+    <footer>
+      <div class="center">
+        <script id="socialTemplate" type="text/template">
+        {{#data}}{{#socialMedia}}
+        <a href="{{URL}}" target="_blank">
+          <div class="caseB">
+            <span>{{name}}</span>
+            <div class="fond {{className}}"></div>
+          </div>
+        </a>
+        {{/socialMedia}}{{/data}}
+        </script>
+        <div class="ligne"></div>
+        <div class="copyright">© 2018 All rights reserved.</div>
+      </div>
+    </footer>
+
+
+    <div id="fond_project"></div>
+
+    <div id="project">
+      <div class="banner"></div>
+      <div class="center">
+        <div class="desktop"></div>
+      </div>
+    </div>
+
+    <div id="project-menu">
+      <div class="center">
+        <div class="back home">
+          <img src="images/grid.png" width="16" height="70" />
+          <div>Back</div>
+        </div>
+        <script id="iconTemplate" type="text/template">
+        {{#data}}{{#projectBlock}}
+        <div class="icon icon{{number}}">
+          <div class="shape" alt="{{projectName}}"></div>
+          <div class="fond"></div>
+        </div>
+        {{/projectBlock}}{{/data}}
+        </script>
+      </div>
+    </div>
+
+
+    <script>
+      var rubOpen = false;
+      var contactOpen = false;
+      var aboutOpen = false;
+    </script>
+    <script src="js/scripts.min.js"></script>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110062040-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110062040-1');
+    </script>
+
+</body>
+
+</html>
