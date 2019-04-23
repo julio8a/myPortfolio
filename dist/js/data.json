@@ -77,17 +77,24 @@
         ]},
         { "projectBlock" : [
             {
-                "number":"14",
-                "projectName":"Esri Product Logos",
-                "role":"Branding, Identiry & Symbology",
-                "imageURL":"product-logos/images/thumb.jpg",
-                "theme":"light"
-            },
+                "number":"15",
+                "projectName":"Programs Dashboard",
+                "role":"Executive Dashboard",
+                "imageURL":"programs-dashboard/images/thumb.jpg",
+                "theme":""
+            },  
             {
                 "number":"13",
                 "projectName":"Calcite-ui-icons",
                 "role":"SVG icon library",
                 "imageURL":"calcite-ui-icons/images/thumb.jpg",
+                "theme":"light"
+            },  
+            {
+                "number":"14",
+                "projectName":"Esri Product Logos",
+                "role":"Branding, Identiry & Symbology",
+                "imageURL":"product-logos/images/thumb.jpg",
                 "theme":"light"
             },  
             {
