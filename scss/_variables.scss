@@ -24,9 +24,9 @@ $dashboard: #f3b20a;
 $webApps: #4d5a6a;
 $myEsri: #404040;
 $cityEngine: #2d5c80;
-$calciteUiIcons: #ffffff;
-$programsDashboard: $darkest-gray;
-$productLogos: #ffffff;
+$calciteUiIcons: $white;
+$calciteComponents: $white;
+$productLogos: $white;
 
 // Social Colors
 $twitter: #00aced;
@@ -46,7 +46,7 @@ $border-black: 1px solid $black;
 $border-blue: 1px solid $color-main;
 
 $project-themes: (
-    15: $programsDashboard,
+    16: $calciteComponents,
     14: $productLogos,
     13: $calciteUiIcons,
     9: $dashboard,
