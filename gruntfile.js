@@ -53,8 +53,9 @@ module.exports = function(grunt) {
                 'workforce/images/*.{png,jpg,gif}',
                 'zip-tapestry/images/*.{png,jpg,gif}',
                 'calcite-ui-icons/images/*.{png,jpg,gif}',
-                'product-logos/images/*.{png,jpg,gif}',
-                'programs-dashboard/images/*.{png,jpg,gif}'
+                'esri-product-logos/images/*.{png,jpg,gif}',
+                'programs-dashboard/images/*.{png,jpg,gif}',
+                'calcite-components/images/*.{png,jpg,gif}'
               ],
               dest: 'dist/projects/'
            }]

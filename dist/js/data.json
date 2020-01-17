@@ -77,11 +77,11 @@
         ]},
         { "projectBlock" : [
             {
-                "number":"15",
-                "projectName":"Programs Dashboard",
-                "role":"Executive Dashboard",
-                "imageURL":"programs-dashboard/images/thumb.jpg",
-                "theme":""
+                "number":"16",
+                "projectName":"Calcite Components",
+                "role":"Web Components",
+                "imageURL":"calcite-components/images/thumb.jpg",
+                "theme":"light"
             },  
             {
                 "number":"13",
@@ -94,7 +94,7 @@
                 "number":"14",
                 "projectName":"Esri Product Logos",
                 "role":"Branding, Identiry & Symbology",
-                "imageURL":"product-logos/images/thumb.jpg",
+                "imageURL":"esri-product-logos/images/thumb.jpg",
                 "theme":"light"
             },  
             {
