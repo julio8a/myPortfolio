@@ -15,18 +15,15 @@ $white: #fff;
 $tapestry: $dark-gray;
 $urbOb1: #e00000;
 $urbOb2: #1a1a1a;
-$publicHealth: #00709c;
+$publicHealth: $color-main;
 $inca: #359600;
-$saveMe: #DD8330;
 $industries: #00598c;
 $workforce: #db3300;
 $dashboard: #f3b20a;
-$webApps: #4d5a6a;
 $myEsri: #404040;
-$cityEngine: #2d5c80;
 $calciteUiIcons: $white;
 $calciteComponents: $white;
-$productLogos: $white;
+$esriProductLogos: $darkest-gray;
 
 // Social Colors
 $twitter: #00aced;
@@ -47,7 +44,7 @@ $border-blue: 1px solid $color-main;
 
 $project-themes: (
     16: $calciteComponents,
-    14: $productLogos,
+    14: $esriProductLogos,
     13: $calciteUiIcons,
     9: $dashboard,
     3: $urbOb2,
@@ -55,12 +52,9 @@ $project-themes: (
     1: $tapestry,
     2: $urbOb1,
     4: $publicHealth,
-    6: $saveMe,
     7: $industries,
     8: $workforce,
-    10: $webApps,
     11: $myEsri,
-    12: $cityEngine
 );
 
 $social-colors: (

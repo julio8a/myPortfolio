@@ -93,9 +93,9 @@
             {
                 "number":"14",
                 "projectName":"Esri Product Logos",
-                "role":"Branding, Identiry & Symbology",
+                "role":"Branding, Identity & Symbology",
                 "imageURL":"esri-product-logos/images/thumb.jpg",
-                "theme":"light"
+                "theme":""
             },  
             {
                 "number":"9",
@@ -140,13 +140,6 @@
                 "theme":""
             },            
             {
-                "number":"6",
-                "projectName":"Save Me App",
-                "role":"Native App",
-                "imageURL":"save-me/images/thumb.jpg",
-                "theme":""
-            },            
-            {
                 "number":"7",
                 "projectName":"Esr Industries Template",
                 "role":"Web and Mobile Site",
@@ -161,24 +154,10 @@
                 "theme":""
             },            
             {
-                "number":"10",
-                "projectName":"Web App Builder Concept",
-                "role":"Web SaaS App",
-                "imageURL":"web-app-builder/images/thumb.jpg",
-                "theme":""
-            },            
-            {
                 "number":"11",
                 "projectName":"My Esri",
                 "role":"Website",
                 "imageURL":"my-esri/images/thumb.jpg",
-                "theme":""
-            },
-            {
-                "number":"12",
-                "projectName":"City Engine",
-                "role":"Website",
-                "imageURL":"city-engine/images/thumb.jpg",
                 "theme":""
             }
         ]},

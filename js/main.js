@@ -143,13 +143,10 @@ $(function() {
 		  if ($(this).hasClass("block3")) { $("#project").load("projects/urb-ob-ui/index.html", function(){ currentProject = 3; openproject() } ); } ;
 		  if ($(this).hasClass("block4")) { $("#project").load("projects/public-health/index.html", function(){ currentProject = 4; openproject() } ); } ;
 		  if ($(this).hasClass("block5")) { $("#project").load("projects/inca/index.html", function(){ currentProject = 5;openproject() } ); } ;
-		  if ($(this).hasClass("block6")) { $("#project").load("projects/save-me/index.html", function(){ currentProject = 6; openproject() } ); } ;
 		  if ($(this).hasClass("block7")) { $("#project").load("projects/industries/index.html", function(){ currentProject = 7; openproject() } ); } ;
 		  if ($(this).hasClass("block8")) { $("#project").load("projects/workforce/index.html", function(){ currentProject = 8; openproject() } ); } ;
 		  if ($(this).hasClass("block9")) { $("#project").load("projects/dashboard/index.html", function(){ currentProject = 9; openproject() } ); } ;
-		  if ($(this).hasClass("block10")) { $("#project").load("projects/web-app-builder/index.html", function(){ currentProject = 10; openproject() } ); } ;
 		  if ($(this).hasClass("block11")) { $("#project").load("projects/my-esri/index.html", function(){ currentProject = 11; openproject() } ); } ;
-		  if ($(this).hasClass("block12")) { $("#project").load("projects/city-engine/index.html", function(){ currentProject = 12; openproject() } ); } ;
 		  if ($(this).hasClass("block13")) { $("#project").load("projects/calcite-ui-icons/index.html", function(){ currentProject = 13; openproject() } ); } ;
 		  //if ($(this).hasClass("block15")) { $("#project").load("projects/programs-dashboard/index.html", function(){ currentProject = 15; openproject() } ); } ;
 		  if ($(this).hasClass("block14")) { $("#project").load("projects/esri-product-logos/index.html", function(){ currentProject = 14; openproject() } ); } ;
@@ -165,13 +162,10 @@ $(function() {
 		  if ($(this).hasClass("icon3")) { $("#project").load("../projects/urb-ob-ui/index.html", function(){ currentProject = 3; vTop2 = "400px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon4")) { $("#project").load("../projects/public-health/index.html", function(){ currentProject = 4; vTop2 = "830px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon5")) { $("#project").load("../projects/inca/index.html", function(){ currentProject = 5; vtop2 = "830px"; openproject() } ); } ;
-		  if ($(this).hasClass("icon6")) { $("#project").load("../projects/save-me/index.html", function(){ currentProject = 6; vtop2 = "830px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon7")) { $("#project").load("../projects/industries/index.html", function(){ currentProject = 7; vTop2 = "1260px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon8")) { $("#project").load("../projects/workforce/index.html", function(){ currentProject = 8; vTop2 = "1260px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon9")) { $("#project").load("../projects/dashboard/index.html", function(){ currentProject = 9; vTop2 = "1260px"; openproject() } ); } ;
-		  if ($(this).hasClass("icon10")) { $("#project").load("../projects/web-app-builder/index.html", function(){ currentProject = 10; vTop2 = "1260px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon11")) { $("#project").load("../projects/my-esri/index.html", function(){ currentProject = 11; vTop2 = "1260px"; openproject() } ); } ;
-		  if ($(this).hasClass("icon12")) { $("#project").load("../projects/city-engine/index.html", function(){ currentProject = 12; vTop2 = "1260px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon13")) { $("#project").load("../projects/calcite-ui-icons/index.html", function(){ currentProject = 13; vTop2 = "1260px"; openproject() } ); } ;
 		  //if ($(this).hasClass("icon15")) { $("#project").load("../projects/programs-dashboard/index.html", function(){ currentProject = 15; vTop2 = "1260px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon14")) { $("#project").load("../projects/esri-product-logos/index.html", function(){ currentProject = 14; vTop2 = "1260px"; openproject() } ); } ;
