@@ -6,14 +6,14 @@ module.exports = function(grunt) {
           src: [
                  'js/*.js'
             ],
-          dest: 'docs/js/scripts.js'
+          dest: 'dist/js/scripts.js'
         }
       }, // combine all JS files into one
 
       uglify: {
         dist: {
            files: {
-              'docs/js/scripts.min.js': 'docs/js/scripts.js',
+              'dist/js/scripts.min.js': 'dist/js/scripts.js',
            }
         }
      }, // compress JS
@@ -26,7 +26,7 @@ module.exports = function(grunt) {
           },
           files : [{
             src: 'scss/styles.scss',
-            dest: 'docs/css/styles.css'
+            dest: 'dist/css/styles.css'
           }]
         }
       }, //sass
@@ -38,7 +38,7 @@ module.exports = function(grunt) {
             },
             files: [{
               expand: true,
-              cwd: 'docs/projects/',
+              cwd: 'dist/projects/',
               src: [
                 'city-engine/images/*.{png,jpg,gif}',
                 'dashboard/images/*.{png,jpg,gif}',
@@ -57,7 +57,7 @@ module.exports = function(grunt) {
                 'programs-dashboard/images/*.{png,jpg,gif}',
                 'calcite-components/images/*.{png,jpg,gif}'
               ],
-              dest: 'docs/projects/'
+              dest: 'dist/projects/'
            }]
         } // Compress images
     },
@@ -67,7 +67,7 @@ module.exports = function(grunt) {
           options: {
             hostname: 'localhost',
             port: 3000,
-            base: 'docs/',
+            base: 'dist/',
             livereload: true
           }
         }
@@ -80,9 +80,9 @@ module.exports = function(grunt) {
         },
         scripts: {
           files: [
-              'docs/*.html',
-              'docs/js/*.json',
-              'docs/projects/**/*',
+              'dist/*.html',
+              'dist/js/*.json',
+              'dist/projects/**/*',
               'js/**/*.js',
               'scss/**/*.scss'],
           tasks: ['concat', 'uglify', 'sass']
